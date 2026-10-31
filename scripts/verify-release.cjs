@@ -1,6 +1,6 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
-const root=path.resolve(__dirname,'../site');
+const root=path.resolve(__dirname,'../site'),hashes=require('./preserved-public-hashes.json'),crypto=require('node:crypto');
 const home=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const demos=fs.readFileSync(path.join(root,'demos.html'),'utf8');
 let checks=0;
@@ -18,7 +18,7 @@ check('Every local HTML stylesheet, script, image and public source link resolve
 check('Demo interfaces remain explicitly noindex and have a working home link',()=>{assert(demos.includes('content="noindex,nofollow"'));assert(demos.includes('href="/#services"'));});
 check('Existing Hermes legal pages and AdSense verification file are preserved byte-for-byte',()=>{
  for(const f of ['hermes/index.html','hermes/privacy.html','hermes/terms.html','ads.txt','tissue-workshop-privacy.html'])
-  assert(fs.readFileSync(path.join(root,f)).equals(fs.readFileSync(path.resolve(__dirname,'..',f))),f);
+  assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,f))).digest('hex'),hashes[f],f);
 });
 check('Source-backed restaurant downloads and photo/logo licences are present',()=>{for(const f of ['data/dining/fehd-records.json','data/dining/osm-enrichment.json','data/dining/catalogue.json','assets/yoga-photos/provenance.json','assets/integration-logos/sources.json'])assert(fs.existsSync(path.join(root,f)),f);});
 check('Calendar control is icon-only, labelled and sized for touch',()=>{
