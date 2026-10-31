@@ -20,8 +20,8 @@ proposal chrome, and adds public metadata without changing the working demo data
 - Removed the studio/process explanation section and its footer anchor.
 - Free assessment and custom project quotes retained.
 - Public homepage indexed; interactive demo page remains noindex.
-- Contact opens a user-reviewed email to the existing public `info@flow2.xyz`.
-  A real WhatsApp number has not yet been supplied; no placeholder number is used.
+- Contact opens a user-reviewed WhatsApp draft to the owner-confirmed
+  `+852 6311 1207`, with the existing public `info@flow2.xyz` as email fallback.
 - Existing Hermes overview, privacy/terms, tissue-workshop privacy and `ads.txt`
   are preserved byte-for-byte.
 

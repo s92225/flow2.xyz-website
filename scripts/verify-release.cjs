@@ -27,8 +27,8 @@ check('Calendar control is icon-only, labelled and sized for touch',()=>{
  assert(css.includes('.st-calendar-icon{width:44px;height:44px'));
  assert(!js.includes("<span>${role==='user'?'預約課堂'"));
 });
-check('Contact uses a verified address instead of a fake WhatsApp number',()=>{
- const js=fs.readFileSync(path.join(root,'assets/simple.js'),'utf8');assert(js.includes('mailto:info@flow2.xyz?subject='));assert(!js.includes('85200000000'));
+check('Contact uses the owner-confirmed WhatsApp number with an email fallback',()=>{
+ const js=fs.readFileSync(path.join(root,'assets/simple.js'),'utf8');assert(js.includes('https://wa.me/85263111207?text='));assert(js.includes('mailto:info@flow2.xyz'));assert(!js.includes('85200000000'));
 });
 console.log(JSON.stringify({passed:checks,failed:0}));
 
