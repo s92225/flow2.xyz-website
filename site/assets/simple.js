@@ -9,7 +9,7 @@ const text = value => Array.isArray(value) ? value[lang === 'zh' ? 0 : 1] : valu
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const copy = {
   skip:pair('跳到內容','Skip to content'), proposal:pair('← 提案總覽','← All concepts'), prototype:pair('Simple V5 · 本機互動原型，未部署','Simple V5 · Local prototype, not deployed'), previous:pair('上一版 ↗','Previous ↗'),
-  'nav.services':pair('互動示範','Services'),'nav.work':pair('成效','Impact'),'nav.pricing':pair('收費','Pricing'),
+  'nav.services':pair('Showcase','Showcase'),'nav.work':pair('成效','Impact'),'nav.pricing':pair('收費','Pricing'),
   'contact.short':pair('預約諮詢 <span aria-hidden="true">↗</span>','Let’s talk <span aria-hidden="true">↗</span>'),
   'contact.full':pair('諮詢自動化方案 <span aria-hidden="true">↗</span>','Talk through a workflow <span aria-hidden="true">↗</span>'),
   'hero.first':pair('仲用緊人手去管理<wbr><span class="hero-question-tail">你盤生意?</span>','Still running it manually?'),
@@ -17,7 +17,7 @@ const copy = {
   'hero.try':pair('了解運作方式 <span aria-hidden="true">↓</span>','See it in action <span aria-hidden="true">↓</span>'),
   'demo.title':pair('一份資料，接好下一步。','One input. The next steps, connected.'),'demo.caption':pair('概念示範 · 非客戶系統','Illustrative demo · Not a client system'),
   replay:pair('再播一次','Replay'), 'tools.lead':pair('沿用您熟悉的工具。','Keep the tools you know.'),'tools.note':pair('接駁按項目確認，並非合作或認證聲明。','Integrations are scoped per project, not partnership or certification claims.'),
-  'services.title':pair('親自操作，<br>體驗自動化。','Explore the possibilities.<br>Try them yourself.'),'services.body':pair('','Four services. Shown, not just described.'),
+  'services.title':pair('Showcase','Showcase'),'services.body':pair('','Four services. Shown, not just described.'),
   'work.title':pair('把重複工作，<br>換成更多時間。','Less repetition.<br>More time for what matters.'),'work.note':pair('根據原網站六個案例整理；畫面為流程示意，並非客戶系統截圖。名稱及細節的公開使用仍待確認。','Adapted from the six existing website cases. These are rebuilt workflow illustrations, not client screenshots. Public use of names and details is still to be confirmed.'),
   'studio.title':pair('理解營運，<br>才能做好自動化。','Operations first.<br>Automation second.'),'studio.body':pair('結合市場推廣與電商營運經驗，先了解您的工作方式，再找出值得自動化的環節。','Built on marketing and ecommerce operating experience. We map how work happens before deciding what to automate.'),
   'pricing.title':pair('由一條流程開始。','Start with one workflow.'),'pricing.body':pair('明確界定範圍，再設計合適方案。','Define the scope. Then connect the work.'),'pricing.custom':pair('流程製作、AI／業務系統及團隊培訓，均按項目需求報價。','Workflow builds, AI / business systems and team training are quoted per project.'),'pricing.note':pair('先確認需求、交付範圍及支援安排，再提供項目報價；第三方訂閱、API／AI 用量、WhatsApp、hosting 及平台費，除非另有說明，並不包括在內。','Project quotes follow an agreed scope, requirements and support arrangement. Third-party subscriptions, APIs, AI usage, WhatsApp, hosting and platform costs are excluded unless stated.'),

@@ -15,6 +15,9 @@ proposal chrome, and adds public metadata without changing the working demo data
 
 ## Approved final changes
 
+- Showcase section and navigation use the same name in both languages.
+- Each showcase has a filled, full-width, descriptive 48 px CTA; its illustration
+  and action share one semantic link instead of duplicate keyboard stops.
 - Icon-only, labelled 44 × 44 px calendar toggle; compact/month views retained.
 - Removed the redundant booking label from the User App's header only.
 - Removed the studio/process explanation section and its footer anchor.
@@ -35,7 +38,7 @@ The public impact calculator is explicitly a worked estimate, not client results
 
 ## Verification
 
-148 local functional checks, 8 release checks, 24 animation combinations / 336
+154 local functional checks, 9 release checks, 24 animation combinations / 336
 tracks, 8 prototype HTML reference checks. The release was also checked in the
 browser for the calendar icon, header, bilingual pricing, retired section and
 contact draft URL. No real message was sent during verification.

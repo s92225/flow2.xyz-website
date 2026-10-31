@@ -12,10 +12,19 @@
     ['dining','餐廳知識庫 Chatbot','Restaurant knowledge assistant','用對話尋找餐廳，每個建議都有資料來源。','Find a restaurant in conversation, with traceable sources.','03'],
     ['email','客戶研究與外展','Research & outreach','設定目標客群，研究、撰寫及模擬寄送外展電郵。','Define an audience. Research, draft and simulate outreach.','04']
   ];
+  const actions={
+    roster:['試用排班系統','Try staff scheduling'],
+    yoga:['試用瑜伽預約','Try yoga booking'],
+    dining:['開啟餐廳助手','Open restaurant assistant'],
+    email:['試用外展工作台','Try outreach workspace']
+  };
   let observer;
   window.FlowDemoCards={render(container,locale){
     observer?.disconnect();const en=locale==='en';
-    container.innerHTML=cards.map(([id,zh,english,body,engBody,index])=>`<article class="demo-entry" data-demo-entry><div class="demo-entry-head"><span class="demo-number">${index}</span><h3>${en?english:zh}</h3><p>${en?engBody:body}</p></div><a class="demo-art-link" href="demos.html?v=13&demo=${id}" aria-label="${en?'Try '+english+' (Chinese interface)':'試用'+zh}"><svg class="demo-entry-art" viewBox="0 0 460 260" aria-hidden="true">${art[id]}</svg></a><div class="demo-entry-foot"><span class="demo-kind">${en?'Interactive demo · 中文':'互動示範'}</span><a href="demos.html?v=13&demo=${id}" class="demo-entry-cta">${en?'Try demo':'立即試用'} <span aria-hidden="true">↗</span></a></div></article>`).join('');
+    container.innerHTML=cards.map(([id,zh,english,body,engBody,index])=>{
+      const action=actions[id][en?1:0];
+      return `<article class="demo-entry" data-demo-entry><div class="demo-entry-head"><span class="demo-number">${index}</span><h3>${en?english:zh}</h3><p>${en?engBody:body}</p></div><a class="demo-launch" href="demos.html?demo=${id}" aria-label="${action} — ${en?english+' (Chinese interface)':zh+'（互動示範）'}"><div class="demo-art-link"><svg class="demo-entry-art" viewBox="0 0 460 260" aria-hidden="true">${art[id]}</svg></div><div class="demo-entry-foot"><span class="demo-entry-cta">${action}<span aria-hidden="true">↗</span></span></div></a></article>`;
+    }).join('');
     observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-in-view');observer.unobserve(entry.target);}}),{threshold:.2});
     container.querySelectorAll('[data-demo-entry]').forEach(el=>observer.observe(el));
   }};

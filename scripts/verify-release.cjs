@@ -30,5 +30,15 @@ check('Calendar control is icon-only, labelled and sized for touch',()=>{
 check('Contact uses the owner-confirmed WhatsApp number with an email fallback',()=>{
  const js=fs.readFileSync(path.join(root,'assets/simple.js'),'utf8');assert(js.includes('https://wa.me/85263111207?text='));assert(js.includes('mailto:info@flow2.xyz'));assert(!js.includes('85200000000'));
 });
+check('Showcase has four descriptive actions, one link per card and visible filled CTAs',()=>{
+ assert(home.includes('data-copy="services.title">Showcase</h2>'));
+ const sandbox={window:{},IntersectionObserver:class{observe(){} disconnect(){}}};
+ require('node:vm').runInNewContext(fs.readFileSync(path.join(root,'assets/demo-cards.js'),'utf8'),sandbox);
+ const container={innerHTML:'',querySelectorAll(){return []}};
+ sandbox.window.FlowDemoCards.render(container,'zh');
+ assert.equal((container.innerHTML.match(/<a /g)||[]).length,4);
+ for(const label of ['試用排班系統','試用瑜伽預約','開啟餐廳助手','試用外展工作台'])assert(container.innerHTML.includes(label));
+ assert(fs.readFileSync(path.join(root,'assets/demo-cards.css'),'utf8').includes('min-height:48px'));
+});
 console.log(JSON.stringify({passed:checks,failed:0}));
 
