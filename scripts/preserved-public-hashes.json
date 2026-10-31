@@ -1,7 +1,8 @@
 {
-  "hermes/index.html": "555a6297977f43a819d214df968f102684729c5eb48f0fc9eac1163f6229574d",
-  "hermes/privacy.html": "285fe4e9faf1a6c81babe021e443ee05c46856182fd3d5b404a59e5b4f10ebe5",
-  "hermes/terms.html": "f591e46184ea84d892f11bddeafd8231668ad41ceaa96dff13cb9d8e7f933762",
-  "ads.txt": "adb8b2c737aa362d461b3738553500f6372d7bbe14fb45568a4853c817b0caf9",
-  "tissue-workshop-privacy.html": "d8a22c1142a3f7112f312fbc7c7aecf707018af4ae7066be71fe02926f43c5f6"
+  "hermes/index.html": "8adc2b7294153e3e3cdc837186930c8f1eff9035b0d9de75627fdb4448cb7d60",
+  "hermes/privacy.html": "1dbd2f47faaca3533bfe2e46e158a4bd1ae322560082b71c8baa0d68bb4ebe36",
+  "hermes/terms.html": "39c852689d93adc77ebc1edd1313d738f50967e1412e2f5f61cf00271d4cf72d",
+  "hermes/style.css": "2e0b2ca698d5028da2021e8d8c4fca70bb82aff2ebdc52bad06ee564cd941e32",
+  "ads.txt": "0f7fbc99f9fc2ebec7c71c8f92510c68f9451210ad24ed49d439fb5510c32646",
+  "tissue-workshop-privacy.html": "e8fe83b53f3c7dfe95ffa9136015b02dd520f8559d88b21bc2a5c5d5af192130"
 }
