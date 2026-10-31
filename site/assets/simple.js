@@ -9,7 +9,7 @@ const text = value => Array.isArray(value) ? value[lang === 'zh' ? 0 : 1] : valu
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const copy = {
   skip:pair('跳到內容','Skip to content'), proposal:pair('← 提案總覽','← All concepts'), prototype:pair('Simple V5 · 本機互動原型，未部署','Simple V5 · Local prototype, not deployed'), previous:pair('上一版 ↗','Previous ↗'),
-  'nav.services':pair('Showcase','Showcase'),'nav.work':pair('成效','Impact'),'nav.pricing':pair('收費','Pricing'),
+  'nav.services':pair('Showcase','Showcase'),'nav.guides':pair('指南','Guides'),'guides.lead':pair('查看系統設計與使用指南 ↗','Read the system guides (Chinese) ↗'),'footer.about':pair('關於 Flow2','About Flow2'),'footer.contactPage':pair('聯絡我們','Contact us'),'footer.privacy':pair('私隱政策','Privacy policy'),'nav.work':pair('成效','Impact'),'nav.pricing':pair('收費','Pricing'),
   'contact.short':pair('預約諮詢 <span aria-hidden="true">↗</span>','Let’s talk <span aria-hidden="true">↗</span>'),
   'contact.full':pair('諮詢自動化方案 <span aria-hidden="true">↗</span>','Talk through a workflow <span aria-hidden="true">↗</span>'),
   'hero.first':pair('仲用緊人手去管理<wbr><span class="hero-question-tail">你盤生意?</span>','Still running it manually?'),

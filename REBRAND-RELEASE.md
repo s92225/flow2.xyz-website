@@ -38,7 +38,7 @@ The public impact calculator is explicitly a worked estimate, not client results
 
 ## Verification
 
-154 local functional checks, 9 release checks, 24 animation combinations / 336
+160 local functional checks, 12 release checks, 24 animation combinations / 336
 tracks, 8 prototype HTML reference checks. The release was also checked in the
 browser for the calendar icon, header, bilingual pricing, retired section and
 contact draft URL. No real message was sent during verification.
@@ -51,3 +51,28 @@ contact draft URL. No real message was sent during verification.
   `zoomicc-website-2olabqewj-s92225s-projects.vercel.app`
 
 Rollback is an explicit release operation, not part of the static build.
+
+## Content/readiness update — 2026-10-31
+
+The owner requested remediation after an AdSense email. The account's Sites view
+identified **low-value content**; ads.txt was already authorized. This is not
+represented as an ads.txt-only problem, and content updates do not guarantee
+AdSense approval.
+
+- Added four original, implementation-grounded system guides, a guide directory,
+  About, Contact and a website-specific Privacy page. No invented customer cases,
+  author credentials, traffic or outcomes were added.
+- Kept the approved minimal homepage, adding only a guide entry and information
+  links. Existing cards, prices and FAQs are also prerendered in initial HTML,
+  with the same visible content enhanced by the existing browser scripts.
+- Added the matching publisher verification meta tag without loading advertising
+  JavaScript. No automatic ads, analytics, consent claims or payment settings
+  were enabled.
+- Expanded the sitemap to the nine canonical public content URLs. The interactive
+  app remains noindex and explicitly a browser-local demonstration.
+- Existing Hermes/tissue privacy pages and ads.txt remain byte-identical to their
+  preserved source hashes. Private email/account evidence is not published.
+
+The new authored content and local build helpers live in the owner's existing
+`rebrand-preview/content/` and `rebrand-preview/scripts/` workspace. All generated
+HTML and CSS needed to serve the site are committed under `site/`.
