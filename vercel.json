@@ -1,11 +1,47 @@
 {
   "cleanUrls": true,
-  "buildCommand": "node scripts/build-partials.js",
-  "outputDirectory": ".",
-  "rewrites": [
+  "buildCommand": "node scripts/verify-release.cjs",
+  "outputDirectory": "site",
+  "redirects": [
     {
-      "source": "/",
-      "destination": "/index-hero-scroll-prototype.html"
+      "source": "/simple",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index-hero-scroll-prototype",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/pricing",
+      "destination": "/#pricing",
+      "permanent": true
+    },
+    {
+      "source": "/automation-blueprints",
+      "destination": "/#services",
+      "permanent": true
+    },
+    {
+      "source": "/case-study-:slug",
+      "destination": "/#work",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
     }
   ]
 }

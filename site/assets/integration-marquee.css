@@ -1,0 +1,84 @@
+/* Explicitly requested, low-velocity marketing marquee. Only the track transforms.
+   Without JS or with reduced motion every original logo remains visible. */
+.integration-line > .integration-marquee {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  font-size: 18px;
+  letter-spacing: -.025em;
+  min-width: 0;
+}
+.brand-window { flex: 1; min-width: 0; }
+.brand-track { display: flex; width: 100%; }
+.brand-set {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px 44px;
+}
+.brand-item { display: flex; align-items: center; gap: 11px; white-space: nowrap; line-height: 1.2; font-weight: 650; }
+.brand-item img { display: block; object-fit: contain; flex: none; width: 32px; height: 34px; }
+.brand-item img.brand-wide { width: 44px; height: 28px; }
+.brand-toggle {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--white);
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-size: 15px;
+  letter-spacing: 0;
+}
+.brand-toggle[hidden] { display: none; }
+.integration-marquee.is-enhanced .brand-window {
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+}
+.integration-marquee.is-enhanced .brand-track {
+  width: max-content;
+  animation: brandMarquee 42s linear infinite;
+}
+.integration-marquee.is-enhanced .brand-set {
+  flex: none;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 64px;
+  padding: 12px 64px 12px 0;
+}
+.integration-marquee.is-local-paused .brand-track,
+.integration-marquee.is-offscreen .brand-track,
+.integration-marquee:focus-within .brand-track,
+.is-paused .brand-track,
+.is-hidden .brand-track { animation-play-state: paused; }
+@media (hover: hover) and (pointer: fine) {
+  .integration-marquee:hover .brand-track { animation-play-state: paused; }
+  .brand-toggle:hover { color: var(--ink); border-color: var(--ink); }
+}
+@keyframes brandMarquee { to { transform: translateX(-50%); } }
+@media (max-width: 600px) {
+  .integration-line > .integration-marquee { font-size: 16px; gap: 8px; }
+  .integration-marquee.is-enhanced .brand-set { gap: 40px; padding-right: 40px; }
+  .brand-item { gap: 9px; }
+  .brand-item img { width: 28px; height: 30px; }
+  .brand-item img.brand-wide { width: 38px; height: 26px; }
+  .brand-set { gap: 22px 28px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .integration-marquee.is-enhanced .brand-window { overflow: visible; mask-image: none; -webkit-mask-image: none; }
+  .integration-marquee.is-enhanced .brand-track { width: 100%; animation: none; transform: none; }
+  .integration-marquee.is-enhanced .brand-set { flex: 1; flex-wrap: wrap; justify-content: center; gap: 24px 36px; padding: 12px 0; }
+  .integration-marquee .brand-set[aria-hidden="true"],
+  .integration-marquee .brand-toggle { display: none; }
+}

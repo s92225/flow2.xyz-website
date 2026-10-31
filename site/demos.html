@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Flow2 互動示範：WhatsApp 零售排班、瑜伽學員與管理員 App／網頁版、五區餐廳助手與客戶研究及外展。">
+  <title>Flow2 — 互動示範</title>
+  <link rel="stylesheet" href="assets/demo-apps.css?v=3">
+  <script src="assets/demo-engine.js?v=2" defer></script>
+  <link rel="stylesheet" href="assets/lab-v2.css?v=7">
+  <link rel="stylesheet" href="assets/lab-polish.css?v=8">
+  <script src="assets/lab-polish-rules.js?v=18" defer></script>
+  <script src="assets/lab-engine-v2.js?v=7" defer></script>
+  <script src="assets/restaurant-data-v2.js?v=11" defer></script>
+  <script src="assets/roster-calendar.js?v=18" defer></script>
+  <link rel="stylesheet" href="assets/roster-browser.css?v=18">
+  <script src="assets/lab-roster-v2.js?v=18" defer></script>
+  <script src="assets/yoga-studio-engine.js?v=16" defer></script>
+  <link rel="stylesheet" href="assets/yoga-studio.css?v=16">
+  <link rel="stylesheet" href="assets/yoga-calendar.css?v=20">
+  <script src="assets/yoga-calendar.js?v=19" defer></script>
+  <script src="assets/yoga-studio-view.js?v=20" defer></script>
+  <script src="assets/dining-knowledge.js?v=11" defer></script>
+  <link rel="stylesheet" href="assets/dining-open-data.css?v=12">
+  <script src="assets/lab-dining-v2.js?v=17" defer></script>
+  <link rel="stylesheet" href="assets/reach-dashboard.css?v=9">
+  <script src="assets/reach-dashboard-data.js?v=9" defer></script>
+  <script src="assets/lab-charts.js?v=13" defer></script>
+  <script src="assets/reach-analytics.js?v=13" defer></script>
+  <script src="assets/reach-analytics-view.js?v=18" defer></script>
+  <link rel="stylesheet" href="assets/lab-v13.css?v=13">
+  <link rel="stylesheet" href="assets/dining-focus.css?v=17">
+  <script src="assets/lab-outreach-v2.js?v=13" defer></script>
+  <script src="assets/lab-shell-v2.js?v=16" defer></script>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#workspace">跳至主要內容</a>
+  <header class="demo-header">
+    <a class="demo-wordmark" href="/#services" aria-label="返回 Flow2 網站">flow<sup>2</sup></a>
+    <span class="header-divider" aria-hidden="true"></span><span class="header-label">互動示範</span>
+    <a class="back-site" href="/#services">返回網站 <span aria-hidden="true">↗</span></a>
+  </header>
+  <nav class="app-switcher" aria-label="選擇示範系統" id="demo-navigation"></nav>
+  <main id="workspace" class="workspace" tabindex="-1">
+    <div class="workspace-heading"><div><p class="eyebrow" id="demo-brand"></p><h1 id="demo-title">互動示範</h1><p class="intro" id="demo-intro"></p></div><div class="workspace-tools"><details class="local-info"><summary>本機試用 <span aria-hidden="true">ⓘ</span></summary><p id="demo-disclosure"></p></details><button class="button subtle" id="reset-demo" type="button">重設示範</button></div></div>
+    <p class="notice" id="demo-notice" role="status" aria-live="polite" hidden></p>
+    <div id="app-root"></div>
+    <noscript><p>此本機示範需要 JavaScript 才能排班、預約、搜尋及建立草稿。不會接駁真實服務。</p></noscript>
+  </main>
+  <footer class="demo-footer"><span>Flow2 / Interactive Lab</span><span>操作記錄僅儲存於此瀏覽器，不會寫入外部服務。</span></footer>
+  <dialog id="restaurant-dialog" aria-labelledby="restaurant-title"><div class="dialog-toolbar"><span>餐廳知識庫</span><button class="icon-button" type="button" data-close-restaurant aria-label="關閉餐廳資料">×</button></div><div id="restaurant-detail"></div></dialog>
+</body>
+</html>

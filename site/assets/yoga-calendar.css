@@ -1,0 +1,61 @@
+/* Anchor the search icon to the input, not the label's implicit static position. */
+.st-demo .st-search>svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:18px;height:18px;margin:0;pointer-events:none}
+.st-date-area{scroll-margin-top:20px}
+.st-web-content{container-type:inline-size}
+.st-schedule-layout.is-month{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(310px,1fr);gap:24px;align-items:start}
+.st-schedule-layout.is-month .st-schedule-agenda{max-height:660px;overflow:auto;overscroll-behavior:contain;padding-right:5px;min-width:0}
+.st-schedule-layout.is-month .st-list-heading{margin-top:4px;min-height:44px;align-items:center}
+.st-schedule-layout.is-month .st-list-heading h3{font-size:15px}
+.st-schedule-layout.is-month .st-class-row{flex-wrap:wrap;gap:10px;padding:18px 0}
+.st-schedule-layout.is-month .st-class-time{width:43px}
+.st-schedule-layout.is-month .st-class-thumb{width:48px;height:56px}
+.st-schedule-layout.is-month .st-class-identity{flex-basis:calc(100% - 111px)}
+.st-schedule-layout.is-month .st-class-seats{margin-left:101px;flex:1;min-width:0;text-align:left;flex-direction:row;align-items:center;gap:8px}
+.st-schedule-layout.is-month .st-class-seats strong{font-size:13px}
+.st-schedule-layout.is-month .st-class-seats>span{margin-top:0;font-size:11px}
+.st-schedule-layout.is-month .st-row-action{margin-left:0;min-width:84px}
+.st-calendar-controls{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:4px 0 10px;min-height:44px}
+.st-calendar-controls>span{font-size:13px;color:var(--st-muted)}
+.st-calendar-controls .st-btn{font-size:12px;gap:8px}
+.st-month-calendar{border:1px solid var(--st-line);border-radius:8px;padding:16px;margin-bottom:24px;background:#fff}
+.st-month-calendar[hidden]{display:none}
+.st-month-heading{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.st-month-heading h3{font-size:19px;font-weight:550;letter-spacing:-.025em}
+.st-month-heading>button{width:44px;height:44px;flex-shrink:0;padding:0;font-size:24px;color:var(--st-ink);border:1px solid var(--st-control);border-radius:6px;background:#fff}
+.st-month-meta{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:5px 0 10px}
+.st-month-meta>span{font-size:12px;color:var(--st-muted)}
+.st-month-meta .st-btn{font-size:12px}
+.st-month-grid{width:100%;table-layout:fixed;border-spacing:5px;border-collapse:separate}
+.st-month-grid th{height:30px;font-size:12px;font-weight:400;color:var(--st-muted);text-align:center}
+.st-month-grid td{padding:0;vertical-align:top}
+.st-month-day{display:flex;flex-direction:column;align-items:flex-start;width:100%;min-height:64px;padding:10px 9px;background:#f7f8f5;color:var(--st-ink);border:1px solid transparent;border-radius:6px;text-align:left;overflow:hidden}
+.st-month-day.has-classes{background:#eef3e9}
+.st-month-day[aria-pressed=true]{border-color:var(--st-accent);background:#e1eadb}
+.st-month-day[aria-current=date] .st-day-number{text-decoration:underline;text-underline-offset:4px}
+.st-day-number{font-size:17px;font-weight:550;line-height:1.4}
+.st-day-summary{font-size:11px;color:var(--st-muted);min-height:18px;margin-top:3px;white-space:nowrap}
+.st-month-help{font-size:12px;color:var(--st-muted);margin:12px 5px 0!important;line-height:1.8}
+.st-phone .st-calendar-controls>span,.st-phone .st-calendar-controls .st-btn{font-size:12px}
+.st-phone .st-month-calendar{margin-inline:-18px;padding:12px 0;border-inline:0;border-radius:0}
+.st-phone .st-month-heading,.st-phone .st-month-meta{padding-inline:18px}
+.st-phone .st-month-heading h3{font-size:17px}
+.st-phone .st-month-meta{margin-bottom:4px}
+.st-phone .st-month-meta>span,.st-phone .st-month-meta .st-btn{font-size:11px}
+.st-phone .st-month-grid{border-spacing:0}
+.st-phone .st-month-grid td{padding:2px 0}
+.st-phone .st-month-day{min-height:58px;align-items:center;padding:6px 0;border-radius:5px}
+.st-phone .st-day-number{font-size:16px}
+.st-phone .st-day-summary{font-size:11px;min-height:17px;margin-top:2px}
+.st-phone .st-month-help{margin:12px 18px 0!important;font-size:11px}
+.st-phone .st-schedule-layout.is-month{display:block}
+.st-phone .st-schedule-layout.is-month .st-schedule-agenda{max-height:none;overflow:visible;padding-right:0}
+@media(max-width:1000px){.st-month-day{min-height:64px;padding:8px 6px}}
+@media(max-width:900px){.st-schedule-layout.is-month{display:block}.st-schedule-layout.is-month .st-schedule-agenda{max-height:none;overflow:visible;padding-right:0}}
+@container(max-width:760px){.st-schedule-layout.is-month{display:block}.st-schedule-layout.is-month .st-schedule-agenda{max-height:none;overflow:visible;padding-right:0}}
+@media(max-width:600px){.st-month-calendar{margin-inline:-16px;border-inline:0;border-radius:0;padding:12px 0}.st-month-heading,.st-month-meta{padding-inline:16px}.st-month-heading h3{font-size:17px}.st-month-grid{border-spacing:0}.st-month-grid td{padding:2px 0}.st-month-day{min-height:58px;align-items:center;padding:6px 0;border-radius:5px}.st-day-number{font-size:16px}.st-day-summary{font-size:11px;min-height:17px;margin-top:2px}.st-month-meta>span,.st-month-meta .st-btn{font-size:11px}.st-month-help{margin:12px 16px 0!important;font-size:11px}.st-phone .st-month-calendar{margin-inline:-15px}.st-phone .st-month-heading,.st-phone .st-month-meta{padding-inline:15px}.st-calendar-controls>span,.st-calendar-controls .st-btn{font-size:12px}}
+
+/* Icon-only calendar control: transparent chrome, full accessible touch target. */
+.st-calendar-controls .st-calendar-icon{width:44px;height:44px;min-width:44px;padding:0;border:0;background:transparent;color:var(--st-ink);display:inline-flex;align-items:center;justify-content:center;border-radius:6px}
+.st-calendar-controls .st-calendar-icon svg{width:21px;height:21px}
+@media(hover:hover){.st-calendar-controls .st-calendar-icon:hover{background:var(--st-ground)}}
+.st-calendar-controls .st-calendar-icon[aria-expanded=true]{color:var(--st-accent)}

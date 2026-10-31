@@ -1,0 +1,1 @@
+[out:json][timeout:90];(nwr["amenity"="restaurant"](22.29,114.163,22.308,114.184);nwr["amenity"="restaurant"](22.277,114.149,22.289,114.166);nwr["amenity"="restaurant"](22.274,114.178,22.286,114.193);nwr["amenity"="restaurant"](22.312,114.162,22.329,114.179);nwr["amenity"="restaurant"](22.301,114.214,22.321,114.237););out center meta;

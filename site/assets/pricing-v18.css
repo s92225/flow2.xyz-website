@@ -1,0 +1,9 @@
+/* Free assessment; subsequent work is quoted against an agreed project scope. */
+.pricing-grid .price-card{display:flex;flex-direction:column}
+.pricing-grid .plan-for{min-height:45px}
+.pricing-grid .price{min-height:52px;display:flex;align-items:baseline}
+.pricing-grid .price-quote{font-size:32px;line-height:1.5;letter-spacing:-.04em;margin-bottom:0}
+.pricing-grid .plan-billing{font-size:12px;color:var(--muted);line-height:1.8;margin:4px 0 0}
+.pricing-grid .price-card .pill{margin-top:auto}
+@media(max-width:1000px){.pricing-grid .price-quote{font-size:27px}}
+@media(max-width:700px){.pricing-grid .price-quote{font-size:30px}.pricing-grid .plan-for{min-height:0}}

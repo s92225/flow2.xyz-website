@@ -1,0 +1,2916 @@
+{
+  "source": "https://www.openstreetmap.org/copyright",
+  "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "snapshotAt": "2026-10-30T16:21:11Z",
+  "importedAt": "2026-10-31",
+  "elements": [
+    {
+      "type": "node",
+      "id": 4149643552,
+      "lat": 22.2973849,
+      "lon": 114.1692823,
+      "timestamp": "2023-05-07T14:06:22Z",
+      "version": 4,
+      "tags": {
+        "addr:city": "尖沙咀 Tsim Sha Tsui",
+        "addr:housenumber": "30",
+        "addr:street": "廣東道 Canton Road",
+        "amenity": "restaurant",
+        "brand": "鼎泰豐 Din Tai Fung",
+        "brand:en": "Din Tai Fung",
+        "brand:wikidata": "Q699142",
+        "brand:wikipedia": "zh:鼎泰豐",
+        "brand:zh": "鼎泰豐",
+        "brand:zh-Hans": "鼎泰丰",
+        "brand:zh-Hant": "鼎泰豐",
+        "cuisine": "taiwanese",
+        "name": "鼎泰豐 Din Tai Fung",
+        "name:en": "Din Tai Fung",
+        "name:zh": "鼎泰豐",
+        "name:zh-Hans": "鼎泰丰",
+        "name:zh-Hant": "鼎泰豐",
+        "website": "https://dintaifung.com.hk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6778574618,
+      "lat": 22.2966633,
+      "lon": 114.1762921,
+      "timestamp": "2020-11-25T21:20:52Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "62",
+        "addr:street": "麼地道 Mody Road",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "diet:vegan": "yes",
+        "email": "reachus@vegconcepts.com",
+        "internet_access": "wlan",
+        "name": "Woodlands",
+        "opening_hours": "Mo-Su 11:30-15:30, 18:30-22:30",
+        "phone": "+852-23693718",
+        "website": "https://www.woodlandshk.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7257866551,
+      "lat": 22.2971937,
+      "lon": 114.1719503,
+      "timestamp": "2024-05-15T12:43:20Z",
+      "version": 3,
+      "tags": {
+        "addr:door": "2702",
+        "addr:housename": "國際廣場 iSQUARE",
+        "addr:housename:en": "iSQUARE",
+        "addr:housename:zh": "國際廣場",
+        "addr:housenumber": "63",
+        "addr:street": "彌敦道 Nathan Road",
+        "addr:street:en": "Nathan Road",
+        "addr:street:wikidata": "Q2188138",
+        "addr:street:zh": "彌敦道",
+        "addr:unit": "iTower",
+        "addr:unit:en": "iTower",
+        "amenity": "restaurant",
+        "branch": "尖沙咀 Tsim Sha Tsui",
+        "branch:en": "Tsim Sha Tsui",
+        "branch:zh": "尖沙咀",
+        "brand": "名家 Myung Ga",
+        "brand:en": "Myung Ga",
+        "brand:ko": "명가",
+        "brand:ko-Hani": "名家",
+        "brand:ko-Latn": "Myungga",
+        "brand:origin:country": "HK",
+        "brand:start_date": "1996",
+        "brand:zh": "名家",
+        "contact:phone": "+852-2369-1177",
+        "contact:website": "http://www.myungga.com.hk/en/reservation/",
+        "cuisine": "korean",
+        "cuisine:origin": "korean",
+        "cuisine:origin:country": "KR",
+        "dinner": "Mo-Su 18:00-22:30; PH unknown",
+        "indoor": "yes",
+        "level": "17",
+        "level:ref": "27",
+        "lunch": "Mo-Su 12:00-15:00; PH unknown",
+        "name": "名家韓國餐廳 Myung Ga Korean Restaurant",
+        "name:en": "Myung Ga Korean Restaurant",
+        "name:zh": "名家韓國餐廳",
+        "nohousenumber": "shared",
+        "opening_hours": "Mo-Su 12:00-15:00, 18:00-23:00; PH unknown",
+        "phone": "+852-23691177",
+        "reservation": "yes",
+        "service_times": "Mo-Su 12:00-15:00, 18:00-22:30; PH unknown",
+        "url": "http://isquare.hk/#/pages/dining!shopno=2702",
+        "website": "http://www.myungga.com.hk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11397442569,
+      "lat": 22.2972328,
+      "lon": 114.171951,
+      "timestamp": "2025-09-30T11:08:28Z",
+      "version": 4,
+      "tags": {
+        "addr:door": "2502",
+        "addr:housename": "iSQUARE",
+        "addr:housename:en": "iSQUARE",
+        "addr:housename:zh": "iSQUARE",
+        "addr:housenumber": "63",
+        "addr:street": "彌敦道 Nathan Road",
+        "addr:street:en": "Nathan Road",
+        "addr:street:wikidata": "Q2188138",
+        "addr:street:zh": "彌敦道",
+        "addr:unit": "iTower",
+        "addr:unit:en": "iTower",
+        "amenity": "restaurant",
+        "branch": "尖沙咀iSQUARE Tsim Sha Tsui iSQUARE",
+        "branch:en": "Tsim Sha Tsui iSQUARE",
+        "branch:zh": "尖沙咀iSQUARE",
+        "brand": "彩薈軒 Joyous Gate",
+        "brand:en": "Joyous Gate",
+        "brand:zh": "彩薈軒",
+        "contact:email": "is@choifookent.com",
+        "contact:url": "https://www.choifookent.com/contactus",
+        "cuisine": "cantonese",
+        "indoor": "yes",
+        "level": "15",
+        "level:ref": "25",
+        "name": "彩薈軒 Joyous Gate",
+        "name:en": "Joyous Gate",
+        "name:zh": "彩薈軒",
+        "network": "彩福 Choi Fook",
+        "network:en": "Choi Fook",
+        "network:website": "https://www.choifookent.com/",
+        "network:zh": "彩福",
+        "no:email": "yes",
+        "no:website": "yes",
+        "nohousenumber": "shared",
+        "opening_hours": "10:00-16:00,18:00-23:00",
+        "operator": "彩福婚宴集團 Choi Fook Wedding Banquet Group",
+        "operator:en": "Choi Fook Wedding Banquet Group",
+        "operator:website": "https://www.choifookent.com/",
+        "operator:zh": "彩福婚宴集團",
+        "owner": "彩福皇宴有限公司 Choi Fook Royal Banquet Limited",
+        "owner:en": "Choi Fook Royal Banquet Limited",
+        "owner:website": "https://www.choifookent.com/",
+        "owner:zh": "彩福皇宴有限公司",
+        "phone": "+852-27661010",
+        "reservation": "recommended",
+        "reservation:url": "isj_banquet@choifookent.com",
+        "url": "http://isquare.hk/#/pages/dining!shopno=2502"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6937454527,
+      "lat": 22.2972213,
+      "lon": 114.1718455,
+      "timestamp": "2024-05-15T12:43:20Z",
+      "version": 4,
+      "tags": {
+        "addr:door": "2601",
+        "addr:housename": "iSQUARE",
+        "addr:housename:en": "iSQUARE",
+        "addr:housename:zh": "iSQUARE",
+        "addr:housenumber": "63",
+        "addr:street": "彌敦道 Nathan Road",
+        "addr:street:en": "Nathan Road",
+        "addr:street:wikidata": "Q2188138",
+        "addr:street:zh": "彌敦道",
+        "addr:unit": "iTower",
+        "addr:unit:en": "iTower",
+        "amenity": "restaurant",
+        "branch": "尖沙咀iSQUARE Tsim Sha Tsui iSQUARE",
+        "branch:en": "Tsim Sha Tsui iSQUARE",
+        "branch:zh": "尖沙咀iSQUARE",
+        "brand": "彩福皇宴 Choi Fook Royal Banquet",
+        "brand:en": "Choi Fook Royal Banquet",
+        "brand:zh": "彩福皇宴",
+        "contact:email": "is@choifookent.com",
+        "contact:url": "https://www.choifookent.com/contactus",
+        "cuisine": "cantonese",
+        "indoor": "yes",
+        "level": "16",
+        "level:ref": "26",
+        "name": "彩福皇宴 Choi Fook Royal Banquet",
+        "name:en": "Choi Fook Royal Banquet",
+        "name:zh": "彩福皇宴",
+        "network": "彩福 Choi Fook",
+        "network:en": "Choi Fook",
+        "network:website": "https://www.choifookent.com/",
+        "network:zh": "彩福",
+        "no:email": "yes",
+        "no:website": "yes",
+        "nohousenumber": "shared",
+        "opening_hours": "11:00-16:00,18:00-23:00",
+        "operator": "彩福婚宴集團 Choi Fook Wedding Banquet Group",
+        "operator:en": "Choi Fook Wedding Banquet Group",
+        "operator:website": "https://www.choifookent.com/",
+        "operator:zh": "彩福婚宴集團",
+        "owner": "彩福皇宴有限公司 Choi Fook Royal Banquet Limited",
+        "owner:en": "Choi Fook Royal Banquet Limited",
+        "owner:website": "https://www.choifookent.com/",
+        "owner:zh": "彩福皇宴有限公司",
+        "phone": "+852-27663060",
+        "reservation": "recommended",
+        "reservation:url": "isr_banquet@choifookent.com",
+        "url": "http://isquare.hk/#/pages/dining!shopno=2601"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5477098932,
+      "lat": 22.2986347,
+      "lon": 114.1744858,
+      "timestamp": "2022-10-25T20:47:26Z",
+      "version": 2,
+      "tags": {
+        "addr:floor": "6",
+        "addr:housenumber": "10",
+        "addr:street": "寶勒巷 Prat Avenue",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "level": "6",
+        "name": "印度菜館及酒吧 India restaurant and bar",
+        "name:en": "India restaurant and bar",
+        "name:zh": "印度菜館及酒吧"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10128973461,
+      "lat": 22.2986994,
+      "lon": 114.1744608,
+      "timestamp": "2022-10-25T20:49:43Z",
+      "version": 1,
+      "tags": {
+        "addr:floor": "7",
+        "addr:housenumber": "10",
+        "addr:street": "寶勒巷 Prat Avenue",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/Ikkijapanesefood/",
+        "contact:instagram": "https://www.instagram.com/ikki_japanese/",
+        "cuisine": "japanese",
+        "name": "一喜日本料理 Ikki Japanese Restaurant",
+        "name:en": "Ikki Japanese Restaurant",
+        "name:zh": "一喜日本料理",
+        "phone": "+852 2788 4779"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10102882153,
+      "lat": 22.2995516,
+      "lon": 114.1743613,
+      "timestamp": "2026-08-02T12:46:59Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "厚福街 Hau Fook Street",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/grindie.hk/",
+        "contact:instagram": "https://www.instagram.com/grindie.hk/",
+        "cuisine": "dessert",
+        "name": "研香 Grindie",
+        "name:en": "Grindie",
+        "name:zh": "研香",
+        "opening_hours": "Mo-Su 13:00-23:0",
+        "website": "https://grindie.hk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12949715099,
+      "lat": 22.2983093,
+      "lon": 114.1739249,
+      "timestamp": "2025-06-24T15:13:30Z",
+      "version": 2,
+      "tags": {
+        "addr:city": "Hong Kong",
+        "addr:district": "尖沙咀 Tsim Sha Tsui",
+        "addr:housenumber": "31",
+        "addr:street": "加拿分道 Carnarvon Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "ramen",
+        "level": "0",
+        "name": "Sun Thai Restaurant",
+        "outdoor_seating": "no",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10096313690,
+      "lat": 22.3009356,
+      "lon": 114.1761312,
+      "timestamp": "2025-07-01T08:53:32Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "81",
+        "addr:street": "漆咸道南 Chatham Road South",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/103422998663025/",
+        "contact:instagram": "https://www.instagram.com/poke.go_hk/",
+        "cuisine": "hawaiian",
+        "name": "Poke Go",
+        "website": "https://pokegohk.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4377439994,
+      "lat": 22.3029732,
+      "lon": 114.1719606,
+      "timestamp": "2025-05-31T07:03:52Z",
+      "version": 8,
+      "tags": {
+        "addr:housenumber": "184",
+        "addr:street": "彌敦道 Nathan Road",
+        "amenity": "restaurant",
+        "cuisine": "malaysian",
+        "name": "雞少雞飯 Young Chick",
+        "name:en": "Young Chick",
+        "name:zh": "雞少雞飯"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6064705493,
+      "lat": 22.3009842,
+      "lon": 114.1745942,
+      "timestamp": "2025-06-18T11:25:28Z",
+      "version": 4,
+      "tags": {
+        "addr:city": "Kowloon",
+        "addr:district": "尖沙咀 Tsim Sha Tsui",
+        "addr:housenumber": "55",
+        "addr:province": "Hong Kong",
+        "addr:street": "金巴利道 Kimberley Road",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "diet:meat": "yes",
+        "name": "SAMSAM 三三骨肉 삼삼뼈국",
+        "name:en": "SAMSAM",
+        "name:ko": "삼삼뼈국",
+        "name:yue": "三三骨肉",
+        "name:zh": "三三骨肉"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10102932918,
+      "lat": 22.2994813,
+      "lon": 114.1740878,
+      "timestamp": "2026-08-02T12:20:52Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "5-6",
+        "addr:street": "厚福街 Hau Fook Street",
+        "addr:unit": "6",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "春城銅鍋米線 Tong Guo Mixian",
+        "name:en": "Tong Guo Mixian",
+        "name:zh": "春城銅鍋米線"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11083592142,
+      "lat": 22.2968784,
+      "lon": 114.1737538,
+      "timestamp": "2026-03-20T16:18:22Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "棉登徑 Minden Avenue",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "level": "0",
+        "name": "Alice Pizza",
+        "opening_hours": "Su-Th 11:00-21:30; Fr,Sa,PH 11:00-22:30",
+        "phone": "+852 6905 9415",
+        "website": "https://alicepizza.hk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4405710295,
+      "lat": 22.2972905,
+      "lon": 114.1714884,
+      "timestamp": "2023-05-09T05:47:01Z",
+      "version": 5,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:street": "樂道 Lock Road",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "level": "0",
+        "name": "麥奀雲吞麵世家 Mak’s Noodle",
+        "name:en": "Mak's Noodle",
+        "name:zh": "麥奀雲吞麵世家"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835822121,
+      "lat": 22.2963473,
+      "lon": 114.1725236,
+      "timestamp": "2023-10-08T23:44:37Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "36-44",
+        "addr:street": "彌敦道 Nathan Road",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "name": "蘭芳園 茶餐廳",
+        "name:en": "Lan Fong Yuen",
+        "name:zh": "蘭芳園 茶餐廳",
+        "opening_hours": "Mo-Su 10:30-21:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4849863692,
+      "lat": 22.2966014,
+      "lon": 114.1712767,
+      "timestamp": "2024-04-04T08:15:25Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "12A",
+        "addr:street": "北京道 Peking Road",
+        "amenity": "restaurant",
+        "level": "19",
+        "name": "方叔叔 Uncle Fong",
+        "name:en": "Uncle Fong",
+        "name:zh": "方叔叔重慶老火鍋"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10880215918,
+      "lat": 22.297514,
+      "lon": 114.171473,
+      "timestamp": "2023-05-09T05:47:01Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "21A",
+        "addr:street": "樂道 Lock Road",
+        "amenity": "restaurant",
+        "name": "品味料理 V&B Cuisine",
+        "name:en": "V&B Cuisine",
+        "name:zh": "品味料理"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12949740055,
+      "lat": 22.2953212,
+      "lon": 114.1734182,
+      "timestamp": "2026-06-12T03:08:18Z",
+      "version": 3,
+      "tags": {
+        "addr:housename": "H Zentre",
+        "addr:housename:en": "H Zentre",
+        "addr:housenumber": "15",
+        "addr:street": "中間道 Middle Road",
+        "addr:street:en": "Middle Road",
+        "addr:street:wikidata": "Q6841573",
+        "addr:street:zh": "中間道",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "level": "17",
+        "level:ref": "17",
+        "name": "Aqua",
+        "no:addr:housename:zh": "yes",
+        "noname:zh": "yes",
+        "opening_hours": "Mo-Fr 12:00-15:00,18:00-00:00; Sa,Su 11:00-16:00,18:00-00:00",
+        "outdoor_seating": "yes",
+        "payment:visa": "yes",
+        "website": "https://aqua.com.hk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5660581324,
+      "lat": 22.2994267,
+      "lon": 114.1738675,
+      "timestamp": "2026-08-02T12:20:52Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "2A",
+        "addr:street": "厚福街 Hau Fook Street",
+        "amenity": "restaurant",
+        "name": "丼燃食堂 Donyin Diner",
+        "name:en": "Donyin Diner",
+        "name:zh": "丼燃食堂"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6346245185,
+      "lat": 22.2995385,
+      "lon": 114.1743092,
+      "timestamp": "2026-08-02T12:46:59Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "5-6",
+        "addr:street": "厚福街 Hau Fook Street",
+        "amenity": "restaurant",
+        "name": "三多美食"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13531388301,
+      "lat": 22.3026054,
+      "lon": 114.1725612,
+      "timestamp": "2026-02-07T05:59:39Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "山林道 Hillwood Road",
+        "amenity": "restaurant",
+        "diet:vegan": "yes",
+        "internet_access": "wlan",
+        "name": "Cafe Zi",
+        "opening_hours": "Mo-Su 12:00-21:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13934909702,
+      "lat": 22.2944961,
+      "lon": 114.1741377,
+      "timestamp": "2026-06-13T06:44:18Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:street": "梳士巴利道 Salisbury Road",
+        "amenity": "restaurant",
+        "name": "Yung's Bistro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4207227078,
+      "lat": 22.283,
+      "lon": 114.15463,
+      "timestamp": "2022-10-18T14:47:38Z",
+      "version": 8,
+      "tags": {
+        "addr:country": "HK",
+        "addr:housenumber": "77",
+        "addr:street": "威靈頓街 Wellington Street",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "level": "0",
+        "name": "麥奀雲吞麵世家 Mak's Noodle",
+        "name:en": "Mak's Noodle",
+        "name:zh": "麥奀雲吞麵世家",
+        "opening_hours": "Mo-Su,PH 11:30-21:00",
+        "phone": "+852 28543810",
+        "ref:openrice": "1998",
+        "website": "https://www.maksnoodle.com/",
+        "wikidata": "Q6738531",
+        "wikimedia_commons": "File:HK 中環 Central 威靈頓街 75-77 Wellington Street 通善壇 Tung Sin Tan October 2021 SS2 08.jpg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7291554277,
+      "lat": 22.2853341,
+      "lon": 114.1542466,
+      "timestamp": "2024-09-29T00:35:45Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "37",
+        "addr:street": "永吉街 Wing Kut Street",
+        "alt_name:zh": "麥奀記",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "level": "0",
+        "name": "忠記麵家",
+        "name:zh": "忠記麵家",
+        "wikimedia_commons": "Category:Chung Kee Noodle Expert"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5172769822,
+      "lat": 22.2816537,
+      "lon": 114.1548707,
+      "timestamp": "2025-10-13T16:52:25Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "73",
+        "addr:street": "雲咸街 Wyndham Street",
+        "addr:unit": "UG1",
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza;italian",
+        "level": "0",
+        "name": "Di Vino"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4191084989,
+      "lat": 22.2815326,
+      "lon": 114.1529527,
+      "timestamp": "2023-10-16T19:57:16Z",
+      "version": 5,
+      "tags": {
+        "addr:housenumber": "14",
+        "addr:street": "些利街 Shelley Street",
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza",
+        "email": "info@motorino.com.hk",
+        "internet_access": "wlan",
+        "name": "Motorino Pizzeria",
+        "opening_hours": "Mo-Su 12:00-24:00",
+        "phone": "+8528016881",
+        "website": "https://www.motorinopizza.com/hong_kong"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6490345191,
+      "lat": 22.282976,
+      "lon": 114.1525246,
+      "timestamp": "2022-10-27T07:26:57Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "1-5",
+        "addr:street": "伊利近街 Elgin Street",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "level": "1",
+        "name": "Belon",
+        "opening_hours": "Mo-Su 18:00-22:00",
+        "phone": "+852 2152 2872",
+        "stars": "1",
+        "website": "https://belonsoho.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4220477491,
+      "lat": 22.2824714,
+      "lon": 114.1527032,
+      "timestamp": "2021-08-03T10:11:51Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "48",
+        "addr:street": "卑利街 Peel Street",
+        "amenity": "restaurant",
+        "cuisine": "french;fine_dining;steak_house",
+        "name": "La Vache!",
+        "opening_hours": "Mo-Fr 18:00-02:30; Sa 18:00-24:00; Su 18:00-02:30",
+        "phone": "+85228800248",
+        "website": "https://lavache.com.hk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4148659708,
+      "lat": 22.28172,
+      "lon": 114.153618,
+      "timestamp": "2019-03-30T23:34:54Z",
+      "version": 4,
+      "tags": {
+        "addr:city": "Central",
+        "addr:housenumber": "7",
+        "addr:street": "奧卑利街 Old Bailey Street",
+        "amenity": "restaurant",
+        "cuisine": "sichuan",
+        "level": "0",
+        "name": "Chilli Fagara",
+        "ref:openrice": "454563",
+        "website": "https://www.chillifagara.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5712853163,
+      "lat": 22.281997,
+      "lon": 114.1537,
+      "timestamp": "2019-03-30T23:30:56Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "22",
+        "addr:street": "荷李活道 Hollywood Road",
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "level": "0",
+        "name": "Burger Circus",
+        "opening_hours": "Su-Th 11:00-23:00; Fr-Sa 11:00-03:00",
+        "ref:openrice": "436353",
+        "website": "https://burgercircus.com.hk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1233568747,
+      "lat": 22.282631,
+      "lon": 114.15348,
+      "timestamp": "2018-06-20T14:13:54Z",
+      "version": 5,
+      "tags": {
+        "addr:housenumber": "39",
+        "addr:street": "擺花街 Lyndhurst Terrace",
+        "amenity": "restaurant",
+        "cuisine": "lebanese",
+        "level": "0",
+        "name": "Beyrouth Bistro",
+        "ref:openrice": "484567"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7234578512,
+      "lat": 22.280855,
+      "lon": 114.1554996,
+      "timestamp": "2022-06-05T12:43:23Z",
+      "version": 4,
+      "tags": {
+        "addr:full": "7/F, California Tower, 30-32 D'Aguilar Street, Lan Kwai Fong, Central",
+        "addr:full:en": "7/F, California Tower, 30-32 D'Aguilar Street, Lan Kwai Fong, Central",
+        "addr:housename": "California Tower",
+        "addr:housename:en": "California Tower",
+        "addr:housename:zh": "加州大廈",
+        "addr:housenumber": "30-32",
+        "addr:street": "德己立街 D'Aguilar Street",
+        "addr:street:en": "D'Aguilar Street",
+        "addr:street:zh": "德己立街",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "contact:email": "info@porterhousehk.com",
+        "contact:facebook": "https://www.facebook.com/porterhouselkf/",
+        "contact:phone": "+852 2522 6366",
+        "cuisine": "steak",
+        "cuisine:origin": "western",
+        "cuisine:product": "steak",
+        "level": "7",
+        "name": "Porterhouse",
+        "name:en": "Porterhouse",
+        "opening_hours": "Mo-Fr 12:00-14:30, Mo-Fr 17:30-22:30, Sa-Su 11:30-15:30, Sa-Su 17:30-22:00, PH unknown",
+        "opening_hours:bar": "Su-Th 17:00-11:30, Fr-Sa 17:00-01:30, \"PH unknown\"",
+        "opening_hours:brunch": "Sa-Su 11:30-15:30, \"PH unknown\"",
+        "opening_hours:dinner": "Mo-Sa 17:30-22:30, Su 17:30-22:00, \"PH unknown\"",
+        "opening_hours:lunch": "Mo-Fr 12:00-14:30, \"PH unknown\"",
+        "opening_hours:restaurant": "Mo-Fr 12:00-14:30, 17:30-22:30; Sa-Su 11:30-15:30, 17:30-22:00: \"PH unknown\"",
+        "reservation": "yes",
+        "reservation:url": "https://porterhousehk.com/en/contact-us/",
+        "restaurant": "steak_house",
+        "website": "https://porterhousehk.com/",
+        "website:en": "https://porterhousehk.com/en/",
+        "website:zh": "https://porterhousehk.com/zh/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13387881547,
+      "lat": 22.2802999,
+      "lon": 114.1512116,
+      "timestamp": "2025-12-19T03:40:44Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "31-37",
+        "addr:street": "摩羅廟街 Mosque Street",
+        "addr:unit": "3",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "花心廚房 Jennifer's Kitchen",
+        "name:en": "Jennifer's Kitchen",
+        "name:zh": "花心廚房",
+        "phone": "+852 6192 6667",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6490345192,
+      "lat": 22.2831594,
+      "lon": 114.1551977,
+      "timestamp": "2023-10-18T17:10:15Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "80",
+        "addr:street": "皇后大道中 Queen's Road Central",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "level": "25",
+        "name": "Arbor",
+        "phone": "+852 3185 8388",
+        "stars": "1",
+        "website": "https://www.arbor-hk.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6205676557,
+      "lat": 22.281765,
+      "lon": 114.15388,
+      "timestamp": "2019-01-13T15:41:07Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "荷李活道 Hollywood Road",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "法國巴黎小館 Café Claudel",
+        "name:en": "Cafe Claudel",
+        "name:fr": "Café Claudel",
+        "name:zh": "法國巴黎小館",
+        "phone": "+852 24111310",
+        "ref:openrice": "575500",
+        "website": "https://cafeclaudel.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1188582095,
+      "timestamp": "2024-04-02T16:19:20Z",
+      "version": 4,
+      "center": {
+        "lat": 22.2806217,
+        "lon": 114.1587981
+      },
+      "tags": {
+        "addr:floor": "3",
+        "addr:housenumber": "9",
+        "addr:street": "皇后大道中 Queen's Road Central",
+        "addr:street:en": "Queen's Road Central",
+        "addr:street:zh": "皇后大道中",
+        "addr:unit": "嘉軒廣場 The Galleria",
+        "addr:unit:en": "The Galleria",
+        "addr:unit:zh": "嘉軒廣場",
+        "amenity": "restaurant",
+        "building:colour": "#BBAA99",
+        "building:levels": "4",
+        "building:material": "concrete",
+        "building:min_level": "3",
+        "building:part": "yes",
+        "cuisine": "steak_house",
+        "height": "15 m",
+        "level": "3",
+        "level:ref": "3",
+        "name": "Lawry's The Prime Rib",
+        "name:en": "Lawry's The Prime Rib",
+        "opening_hours": "Mo-Fr 11:30-15:00,18:00-23:00; Sa,Su,PH 11:00-15:00,18:00-23:00",
+        "phone": "+852 2907 2218",
+        "roof:colour": "#B0D0C0",
+        "roof:height": "2 m",
+        "roof:levels": "1",
+        "roof:shape": "cone",
+        "website": "https://www.lawrys.com.hk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10125919216,
+      "lat": 22.2812543,
+      "lon": 114.1555315,
+      "timestamp": "2023-01-01T04:15:52Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:street": "德己立街 D'Aguilar Street",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Grill",
+        "name:th": "ขุนทอง",
+        "opening_hours": "Mo-Su,PH 11:30-05:30",
+        "phone": "+852 2530 1022",
+        "wikimedia_commons": "File:HK 中環 Central 蘭桂坊 Lan Kwai Fong 德己立街 D'Aguilar Street Wo On Lane shop Grill Thai Skewer Takeaway Food May 2022 SS2 08.jpg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5892708886,
+      "lat": 22.2848837,
+      "lon": 114.1503584,
+      "timestamp": "2022-10-19T15:39:14Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "302",
+        "addr:street": "皇后大道中 Queen's Road Central",
+        "amenity": "restaurant",
+        "cuisine": "singaporean",
+        "name": "Lee Laksa",
+        "website": "https://www.leelaksa.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6086782085,
+      "lat": 22.2814931,
+      "lon": 114.1525022,
+      "timestamp": "2025-10-31T09:15:56Z",
+      "version": 5,
+      "tags": {
+        "addr:housenumber": "47B",
+        "addr:street": "伊利近街 Elgin Street",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "龍虎豹 Lung Fu Pao",
+        "name:en": "Lung Fu Pao",
+        "name:zh": "龍虎豹",
+        "opening_hours": "Mo-Sa 17:00-00:00",
+        "phone": "+852 3460 4609",
+        "website": "https://www.lungfupaohk.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10690645592,
+      "lat": 22.283954,
+      "lon": 114.1558925,
+      "timestamp": "2023-02-24T12:36:03Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "域多利皇后街 Queen Victoria Street",
+        "amenity": "restaurant",
+        "cuisine": "taiwanese",
+        "name": "一起食堂"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13387881545,
+      "lat": 22.2803977,
+      "lon": 114.1512449,
+      "timestamp": "2025-12-19T03:40:44Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "26",
+        "addr:street": "摩羅廟街 Mosque Street",
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop",
+        "name": "Double Black",
+        "opening_hours": "Mo-Fr 08:30-17:30; Sa-Su,PH 08:00-18:00",
+        "phone": "+852 9684 6998"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11820459402,
+      "lat": 22.2819211,
+      "lon": 114.1552998,
+      "timestamp": "2024-04-16T02:53:46Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "56-58",
+        "addr:street": "威靈頓街 Wellington Street",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "田浦食肉 Jeonpo Meat Shop",
+        "name:en": "Jeonpo Meat Shop",
+        "name:ko": "전포식욕",
+        "name:zh": "田浦食肉",
+        "ref:openrice": "809920"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5346316322,
+      "lat": 22.283104,
+      "lon": 114.154547,
+      "timestamp": "2026-03-20T15:59:04Z",
+      "version": 5,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:street": "閣麟街 Cochrane Street",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "level": "0",
+        "name": "Alice Pizza",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa,PH 11:00-23:00",
+        "phone": "+852 6685 9642",
+        "website": "https://alicepizza.hk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4262547789,
+      "lat": 22.2849286,
+      "lon": 114.1511565,
+      "timestamp": "2024-03-22T11:33:12Z",
+      "version": 5,
+      "tags": {
+        "addr:housenumber": "82",
+        "addr:street": "蘇杭街 Jervois Street",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "name": "車仔麵世家",
+        "ref:openrice": "32195"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4235924590,
+      "lat": 22.2831558,
+      "lon": 114.1557617,
+      "timestamp": "2025-04-28T15:55:28Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:street": "砵典乍街 Pottinger Street",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "level": "0",
+        "name": "三多麵食",
+        "ref:openrice": "3003"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5498471493,
+      "lat": 22.28328,
+      "lon": 114.15442,
+      "timestamp": "2018-06-19T00:02:04Z",
+      "version": 2,
+      "tags": {
+        "addr:housename": "Khuan Ying Commercial Building 群英商業大廈",
+        "addr:housenumber": "85",
+        "addr:street": "威靈頓街 Wellington Street",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "name": "筷子記 Chopsticks Kee",
+        "name:en": "Chopsticks Kee",
+        "name:zh": "筷子記",
+        "opening_hours": "Mo - Su 09:00 - 22:00",
+        "ref:openrice": "16064"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10199163128,
+      "lat": 22.2833644,
+      "lon": 114.1543445,
+      "timestamp": "2022-11-18T09:43:14Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "91",
+        "addr:street": "威靈頓街 Wellington Street",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "name": "橋香園",
+        "ref:openrice": "18507"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6149386285,
+      "lat": 22.281952,
+      "lon": 114.15227,
+      "timestamp": "2023-10-18T00:01:34Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "31",
+        "addr:street": "伊利近街 Elgin Street",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Hotal Colombo",
+        "website": "https://hotalcolombo.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5500079821,
+      "lat": 22.2811667,
+      "lon": 114.1557162,
+      "timestamp": "2024-10-26T03:53:16Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "德己立街 D'Aguilar Street",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "name": "十八座狗仔粉",
+        "name:zh": "十八座狗仔粉"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4870427292,
+      "lat": 22.2853006,
+      "lon": 114.155803,
+      "timestamp": "2025-05-02T13:12:40Z",
+      "version": 7,
+      "tags": {
+        "addr:housenumber": "50",
+        "addr:street": "干諾道中 Connaught Road Central",
+        "addr:unit": "B",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "level": "0",
+        "name": "紅館 RaRe Restaurant",
+        "name:en": "RaRe Restaurant",
+        "name:zh": "紅館",
+        "opening_hours": "Mo-Sa 11:30-22:00",
+        "phone": "+852 2333 0186"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6433997606,
+      "lat": 22.2835637,
+      "lon": 114.1544287,
+      "timestamp": "2026-04-25T08:29:04Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "82",
+        "addr:street": "士丹利街 Stanley Street",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "name": "車水堂車仔麵 CU Noodle",
+        "name:en": "CU Noodle",
+        "name:zh": "車水堂車仔麵"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4783876921,
+      "lat": 22.281161,
+      "lon": 114.1554872,
+      "timestamp": "2022-06-05T12:43:23Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:street": "德己立街 D'Aguilar Street",
+        "amenity": "restaurant",
+        "name": "十二味 Twelve Flavors",
+        "name:en": "Twelve Flavors",
+        "name:zh": "十二味"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5151216625,
+      "lat": 22.2802385,
+      "lon": 114.1827727,
+      "timestamp": "2025-02-20T01:30:49Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "489",
+        "addr:street": "軒尼詩道 Hennessy Road",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "level": "6",
+        "name": "韓雅林 Han Ah Rum",
+        "name:en": "Han Ah Rum",
+        "name:ko": "한아름",
+        "name:zh": "韓雅林",
+        "name:zh-Hans": "韩雅林",
+        "name:zh-Hant": "韓雅林"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938631687,
+      "lat": 22.2775297,
+      "lon": 114.1850922,
+      "timestamp": "2019-11-02T02:19:48Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "開平道 Hoi Ping Road",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name:en": "Chez moi",
+        "phone": "2881 1929"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2957738559,
+      "lat": 22.279325,
+      "lon": 114.185675,
+      "timestamp": "2019-01-21T17:21:13Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "50",
+        "addr:street": "渣甸街 Jardine's Bazaar",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "level": "0",
+        "name": "Hungry Korean",
+        "ref:openrice": "139823"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14267969934,
+      "lat": 22.2798966,
+      "lon": 114.183478,
+      "timestamp": "2026-10-09T13:30:29Z",
+      "version": 1,
+      "tags": {
+        "addr:city": "灣仔區 Wan Chai District",
+        "addr:district": "Causeway Bay",
+        "addr:housenumber": "500",
+        "addr:province": "香港特別行政區",
+        "addr:street": "軒尼詩道 Hennessy Road",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Cadillac Bar & Grill",
+        "name:en": "Cadillac Bar & Grill",
+        "opening_hours": "Mo-Su 11:30-00:00",
+        "outdoor_seating": "no",
+        "phone": "+852 2521 2322",
+        "website": "https://www.elgrande.com.hk/restaurants/main/hong-kong/cadillac-bar-grill/en/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4858546106,
+      "lat": 22.2795616,
+      "lon": 114.1804081,
+      "timestamp": "2026-10-08T06:00:15Z",
+      "version": 9,
+      "tags": {
+        "addr:housenumber": "408",
+        "addr:street": "駱克道 Lockhart Road",
+        "amenity": "restaurant",
+        "cuisine": "malaysian;thai",
+        "name": "馬泰 Ma Thai",
+        "name:en": "Ma Thai",
+        "name:zh": "馬泰",
+        "name:zh-Hans": "马泰",
+        "name:zh-Hant": "馬泰",
+        "opening_hours": "Mo-Su,PH 11:30-22:30",
+        "phone": "+852 23880218",
+        "wikimedia_commons": "File:HK WC 灣仔 Wan Chai 洛克道 Lockhart Road September 2022 Px3 30.jpg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9329041787,
+      "lat": 22.2811796,
+      "lon": 114.1828314,
+      "timestamp": "2022-11-26T15:57:24Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "483-499",
+        "addr:street": "謝斐道 Jaffe Road",
+        "amenity": "restaurant",
+        "brand": "譚仔雲南米線 TamJai Yunnan Mixian",
+        "brand:wikidata": "Q113365184",
+        "brand:zh": "譚仔雲南米線",
+        "brand:zh-Hans": "谭仔云南米线",
+        "brand:zh-Hant": "譚仔雲南米線",
+        "cuisine": "noodle",
+        "name": "譚仔雲南米線 TamJai Yunnan Mixian",
+        "name:en": "TamJai Yunnan Mixian",
+        "name:zh": "譚仔雲南米線",
+        "name:zh-Hans": "谭仔云南米线",
+        "name:zh-Hant": "譚仔雲南米線"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9329041783,
+      "lat": 22.2811828,
+      "lon": 114.182912,
+      "timestamp": "2021-12-11T07:36:28Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "483-499",
+        "addr:street": "謝斐道 Jaffe Road",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "泰國大城船麵 Ayutthaya",
+        "name:en": "Ayutthaya",
+        "name:zh": "泰國大城船麵",
+        "phone": "+852 2511 1811"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4331683989,
+      "lat": 22.2809489,
+      "lon": 114.182628,
+      "timestamp": "2024-04-08T12:24:26Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "482",
+        "addr:street": "謝斐道 Jaffe Road",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "name": "永年士多 Wing Nin Noodle",
+        "name:en": "Wing Nin Noodle",
+        "name:zh": "永年士多"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4174631893,
+      "lat": 22.2804024,
+      "lon": 114.1827262,
+      "timestamp": "2025-02-20T01:30:49Z",
+      "version": 7,
+      "tags": {
+        "addr:housenumber": "489",
+        "addr:street": "軒尼詩道 Hennessy Road",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "level": "7",
+        "name": "漢和韓國料理",
+        "name:zh": "漢和韓國料理",
+        "name:zh-Hans": "汉和韩国料理",
+        "name:zh-Hant": "漢和韓國料理"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8244642347,
+      "lat": 22.2810387,
+      "lon": 114.1839982,
+      "timestamp": "2025-01-23T12:16:25Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "526",
+        "addr:street": "謝斐道 Jaffe Road",
+        "amenity": "restaurant",
+        "cuisine": "barbecue",
+        "level": "0",
+        "name": "毫無分串"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4858618221,
+      "lat": 22.2807007,
+      "lon": 114.1828226,
+      "timestamp": "2024-10-02T10:03:50Z",
+      "version": 10,
+      "tags": {
+        "addr:housenumber": "487-489",
+        "addr:street": "駱克道 Lockhart Road",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Grill",
+        "name:en": "Grill",
+        "name:th": "ขุนทอง",
+        "opening_hours": "Mo-Su,PH 11:30-05:30",
+        "phone": "+852 2716 6922"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2957738282,
+      "lat": 22.2778784,
+      "lon": 114.1842859,
+      "timestamp": "2024-04-06T09:07:28Z",
+      "version": 5,
+      "tags": {
+        "addr:housenumber": "2-4",
+        "addr:street": "希慎道 Hysan Avenue",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "水門雞飯 Water Gate Chicken Rice",
+        "name:en": "Water Gate Chicken Rice",
+        "name:zh": "水門雞飯",
+        "opening_hours": "Mo-Su 11:30-22:00",
+        "phone": "+852 2866 6038"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2090588063,
+      "lat": 22.2793129,
+      "lon": 114.1826507,
+      "timestamp": "2025-04-25T12:26:25Z",
+      "version": 12,
+      "tags": {
+        "addr:housenumber": "51",
+        "addr:street": "登龍街 Tang Lung Street",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "EVA Tonkatsu",
+        "name:en": "EVA Tonkatsu",
+        "name:ko": "에바돈가츠",
+        "opening_hours": "Mo-Su 11:30-22:00",
+        "phone": "+852 6601 6853",
+        "website": "http://에바돈가츠.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4850145256,
+      "lat": 22.2823917,
+      "lon": 114.1849552,
+      "timestamp": "2025-11-08T06:03:25Z",
+      "version": 8,
+      "tags": {
+        "addr:housenumber": "66-72",
+        "addr:street": "百德新街 Paterson Street",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "level": "0",
+        "name": "赤居食屋 Aka",
+        "name:en": "Aka",
+        "name:zh": "赤居食屋",
+        "ref:openrice": "877996"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8244642342,
+      "lat": 22.2810415,
+      "lon": 114.1840975,
+      "timestamp": "2020-12-20T11:01:33Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "530",
+        "addr:street": "謝斐道 Jaffe Road",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "level": "0",
+        "name": "鬼金棒",
+        "phone": "+852 24813383"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9902966424,
+      "lat": 22.2779353,
+      "lon": 114.1827178,
+      "timestamp": "2025-05-31T13:27:20Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:street": "勿地臣街 Matheson Street",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "level": "0",
+        "name": "何富記麵家"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9902966421,
+      "lat": 22.2778001,
+      "lon": 114.1826762,
+      "timestamp": "2026-08-19T13:19:37Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:street": "勿地臣街 Matheson Street",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "level": "0",
+        "name": "火桶 Hwa Tong",
+        "name:en": "Hwa Tong",
+        "name:zh": "火桶"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6715363687,
+      "lat": 22.2796538,
+      "lon": 114.1791065,
+      "timestamp": "2022-11-07T10:33:24Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "340-344",
+        "addr:street": "謝斐道 Jaffe Road",
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "湖南苑湘菜館"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6759443427,
+      "lat": 22.2796164,
+      "lon": 114.1849343,
+      "timestamp": "2025-02-19T02:30:15Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "31",
+        "addr:street": "渣甸街 Jardine's Bazaar",
+        "amenity": "restaurant",
+        "name": "勤記粉麵 King’s Cafe",
+        "name:en": "King’s Cafe",
+        "name:zh": "勤記粉麵",
+        "name:zh-Hans": "勤记粉面",
+        "name:zh-Hant": "勤記粉麵"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6759443418,
+      "lat": 22.2794562,
+      "lon": 114.185194,
+      "timestamp": "2019-08-30T13:30:50Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "41",
+        "addr:street": "渣甸街 Jardine's Bazaar",
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "連和燒味餐廳"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6759443421,
+      "lat": 22.2795451,
+      "lon": 114.1849878,
+      "timestamp": "2025-02-19T02:30:15Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "35",
+        "addr:street": "渣甸街 Jardine's Bazaar",
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "優點點心專門店 King’s Dimsum",
+        "name:en": "King’s Dimsum",
+        "name:zh": "優點點心專門店",
+        "name:zh-Hans": "优点点心专门店",
+        "name:zh-Hant": "優點點心專門店"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4860723625,
+      "lat": 22.2773199,
+      "lon": 114.1846037,
+      "timestamp": "2024-04-03T01:01:14Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "64",
+        "addr:street": "禮頓道 Leighton Road",
+        "amenity": "restaurant",
+        "name": "十字冰室 Cross Cafe",
+        "name:en": "Cross Cafe",
+        "name:zh": "十字冰室",
+        "ref:openrice": "570114"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2979415890,
+      "lat": 22.279306,
+      "lon": 114.1822628,
+      "timestamp": "2025-02-16T23:06:52Z",
+      "version": 6,
+      "tags": {
+        "addr:housenumber": "36-48",
+        "addr:street": "登龍街 Tang Lung Street",
+        "addr:unit": "B",
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "YKY自家麵",
+        "name:zh": "YKY自家麵",
+        "name:zh-Hans": "YKY自家面",
+        "name:zh-Hant": "YKY自家麵"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6937276426,
+      "lat": 22.2796806,
+      "lon": 114.179982,
+      "timestamp": "2024-03-31T13:21:14Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "391",
+        "addr:street": "駱克道 Lockhart Road",
+        "amenity": "restaurant",
+        "name": "橋底辣蟹 Under Bridge Spicy Crab",
+        "name:en": "Under Bridge Spicy Crab",
+        "name:zh": "橋底辣蟹"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11210124166,
+      "lat": 22.2792159,
+      "lon": 114.1823956,
+      "timestamp": "2025-04-03T12:33:26Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "39",
+        "addr:street": "登龍街 Tang Lung Street",
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "潮興隆"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8658653925,
+      "lat": 22.2787714,
+      "lon": 114.1844102,
+      "timestamp": "2021-04-23T10:03:49Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:street": "蘭芳道 Lan Fong Road",
+        "amenity": "restaurant",
+        "name": "淘館 Too Good",
+        "name:en": "Too Good",
+        "name:zh": "淘館"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2300359472,
+      "lat": 22.28022,
+      "lon": 114.180671,
+      "timestamp": "2024-09-24T08:23:58Z",
+      "version": 8,
+      "tags": {
+        "addr:housenumber": "414-424",
+        "addr:street": "謝斐道 Jaffe Road",
+        "amenity": "restaurant",
+        "check_date:opening_hours": "2024-09-24",
+        "name": "鵝頸橋",
+        "opening_hours": "Mo-Fr 11:30-14:30,17:30-02:00;Sa,Su 17:30-02:00",
+        "opening_hours:signed": "no",
+        "phone": "+852 2553 9718"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2090589274,
+      "lat": 22.2804782,
+      "lon": 114.1821333,
+      "timestamp": "2023-11-05T14:42:12Z",
+      "version": 18,
+      "tags": {
+        "addr:housenumber": "463-483",
+        "addr:street": "駱克道 Lockhart Road",
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "牛奶冰室 Milk Cafe",
+        "name:en": "Milk Cafe",
+        "name:zh": "牛奶冰室",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "+852 2631 2347",
+        "website": "https://www.tasteofasia.com.hk/brand/milk-cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10842706445,
+      "lat": 22.2793328,
+      "lon": 114.1853778,
+      "timestamp": "2023-04-26T13:01:23Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "49",
+        "addr:street": "渣甸街 Jardine's Bazaar",
+        "amenity": "restaurant",
+        "name": "人和荳品廠"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4860696043,
+      "lat": 22.2780399,
+      "lon": 114.1864793,
+      "timestamp": "2022-10-21T16:09:18Z",
+      "version": 5,
+      "tags": {
+        "addr:housenumber": "106-126",
+        "addr:street": "禮頓道 Leighton Road",
+        "addr:unit": "1A-1B",
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "Via Tokyo",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4264548292,
+      "lat": 22.3220634,
+      "lon": 114.1701081,
+      "timestamp": "2024-07-14T04:40:22Z",
+      "version": 7,
+      "tags": {
+        "addr:housenumber": "154",
+        "addr:street": "通菜街 Tung Choi Street",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "農米莊 NMC Noodles",
+        "name:en": "NMC Noodles",
+        "name:zh": "農米莊",
+        "opening_hours": "Mo-Su 07:00-03:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3176514491,
+      "lat": 22.3171862,
+      "lon": 114.1699987,
+      "timestamp": "2017-08-25T16:50:47Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "612",
+        "addr:street": "彌敦道 Nathan Road",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "倫敦大酒樓 London Restaurant",
+        "name:en": "London Restaurant",
+        "name:zh": "倫敦大酒樓"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13959233401,
+      "lat": 22.3172849,
+      "lon": 114.1665905,
+      "timestamp": "2026-06-23T05:20:10Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "322",
+        "addr:street": "渡船街 Ferry Street",
+        "amenity": "restaurant",
+        "cuisine": "local",
+        "internet_access": "wlan",
+        "level": "0",
+        "name": "萬和廚坊",
+        "name:en": "WanHe",
+        "outdoor_seating": "no",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6483811435,
+      "lat": 22.3189631,
+      "lon": 114.1705267,
+      "timestamp": "2019-05-19T12:57:34Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "79",
+        "addr:street": "通菜街 Tung Choi Street",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "上野鐵板燒專門店 Ueno Teppan-yaki Restaurant",
+        "name:en": "Ueno Teppan-yaki Restaurant",
+        "name:zh": "上野鐵板燒專門店"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10140230750,
+      "lat": 22.3165623,
+      "lon": 114.1715722,
+      "timestamp": "2022-10-30T15:46:06Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "3-5",
+        "addr:street": "花園街 Fa Yuen Street",
+        "addr:unit": "12-13",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/KWCatering/",
+        "contact:instagram": "https://www.instagram.com/gloryfandb/",
+        "cuisine": "cantonese",
+        "level": "0",
+        "name": "光榮冰室",
+        "operator": "光榮飲食",
+        "operator:wikidata": "Q100988261"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10103074609,
+      "lat": 22.3171544,
+      "lon": 114.1696064,
+      "timestamp": "2022-10-15T12:38:03Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "613",
+        "addr:street": "彌敦道 Nathan Road",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/reiwa.nathan/",
+        "contact:instagram": "https://www.instagram.com/reiwanathan/",
+        "cuisine": "japanese",
+        "level": "1",
+        "name": "令和鍋物酒場 Reiwa",
+        "name:en": "Reiwa",
+        "name:zh": "令和鍋物酒場",
+        "phone": "+852 2481 1388"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10816048932,
+      "lat": 22.3224612,
+      "lon": 114.1694553,
+      "timestamp": "2024-07-08T11:04:28Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "222",
+        "addr:street": "西洋菜南街 Sai Yeung Choi Street South",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "連和燒味餐廳 Lin Wu Siu Mei Restaurant",
+        "name:en": "Lin Wu Siu Mei Restaurant",
+        "name:zh": "連和燒味餐廳"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10829672469,
+      "lat": 22.3174926,
+      "lon": 114.1689389,
+      "timestamp": "2023-09-14T05:54:06Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "215",
+        "addr:street": "砵蘭街 Portland Street",
+        "amenity": "restaurant",
+        "brand": "譚仔雲南米線 TamJai Yunnan Mixian",
+        "brand:wikidata": "Q113365184",
+        "brand:zh": "譚仔雲南米線",
+        "brand:zh-Hans": "谭仔云南米线",
+        "brand:zh-Hant": "譚仔雲南米線",
+        "cuisine": "noodle",
+        "level": "3",
+        "name": "譚仔雲南米線 TamJai Yunnan Mixian",
+        "name:en": "TamJai Yunnan Mixian",
+        "name:zh": "譚仔雲南米線",
+        "name:zh-Hans": "谭仔云南米线",
+        "name:zh-Hant": "譚仔雲南米線"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4860164685,
+      "lat": 22.321149,
+      "lon": 114.1699357,
+      "timestamp": "2024-07-14T04:40:22Z",
+      "version": 7,
+      "tags": {
+        "addr:housenumber": "22",
+        "addr:street": "旺角道 Mong Kok Road",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "西記粥店 Sei Kee Congee",
+        "name:en": "Sei Kee Congee",
+        "name:zh": "西記粥店"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10103124315,
+      "lat": 22.3202202,
+      "lon": 114.171396,
+      "timestamp": "2022-10-15T13:07:52Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "111",
+        "addr:street": "洗衣街 Sai Yee Street",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/reiwa.mkshop/",
+        "contact:instagram": "https://www.instagram.com/reiwamk2019/",
+        "cuisine": "japanese",
+        "level": "0",
+        "name": "令和居酒屋 Reiwa Izakaya",
+        "name:en": "Reiwa Izakaya",
+        "name:zh": "令和居酒屋",
+        "phone": "+852 2392 2368"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6483811437,
+      "lat": 22.3188384,
+      "lon": 114.1705517,
+      "timestamp": "2022-10-19T11:13:22Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "73",
+        "addr:street": "通菜街 Tung Choi Street",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/issyoukenmen/",
+        "contact:instagram": "https://www.instagram.com/issyoukenmen/",
+        "cuisine": "japanese;noodle",
+        "name": "一生懸麵",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "wikimedia_commons": "File:HK MK 旺角 Mong Kok 通菜街 Tung Choi Street 女人街 shopping zone May 2022 Px3 56.jpg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1280851134,
+      "lat": 22.3200511,
+      "lon": 114.1705337,
+      "timestamp": "2025-03-27T22:57:33Z",
+      "version": 6,
+      "tags": {
+        "addr:housenumber": "106",
+        "addr:street": "通菜街 Tung Choi Street",
+        "amenity": "restaurant",
+        "check_date": "2025-03-28",
+        "cuisine": "chinese",
+        "level": "0",
+        "name": "點點心 Dim Dim Sum",
+        "name:en": "Dim Dim Sum",
+        "name:zh": "點點心",
+        "opening_hours": "Mo-Su 11:00-02:00",
+        "ref:openrice": "610951"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9933800508,
+      "lat": 22.3225894,
+      "lon": 114.1694294,
+      "timestamp": "2024-07-08T11:04:28Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "228",
+        "addr:street": "西洋菜南街 Sai Yeung Choi Street South",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/tokoystreet/",
+        "contact:instagram": "https://www.instagram.com/hksushi_tokyostreet/",
+        "cuisine": "japanese",
+        "name": "東京街日本料理 Tokyo Street",
+        "name:en": "Tokyo Street",
+        "name:zh": "東京街日本料理",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+852 2488 3666"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4426193286,
+      "lat": 22.31875,
+      "lon": 114.17057,
+      "timestamp": "2024-03-22T11:33:14Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "69",
+        "addr:street": "通菜街 Tung Choi Street",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "level": "0",
+        "name": "榮園麵家",
+        "name:en": "Wing Yuen",
+        "opening_hours": "Mo-Su,PH 11:30-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11780667242,
+      "lat": 22.316827,
+      "lon": 114.1708338,
+      "timestamp": "2024-04-05T13:28:53Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "21C",
+        "addr:street": "豉油街 Soy Street",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "fax": "+852 2809 2838",
+        "name": "水門雞飯 Water Gate Chicken Rice",
+        "name:en": "Water Gate Chicken Rice",
+        "name:zh": "水門雞飯",
+        "opening_hours": "Mo-Su 12:00-23:00",
+        "phone": "+852 2809 2918"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10123795921,
+      "lat": 22.3190487,
+      "lon": 114.1707393,
+      "timestamp": "2023-02-03T10:37:06Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "74",
+        "addr:street": "通菜街 Tung Choi Street",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "level": "0",
+        "name": "丸目背脂煮干",
+        "name:en": "Marume",
+        "opening_hours": "Mo-Fr 12:00-16:00,17:30-23:00;Sa,Su,PH 12:00-17:00,17:30-23:00",
+        "phone": "+852 2332 2929"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12038023837,
+      "lat": 22.3192855,
+      "lon": 114.1718981,
+      "timestamp": "2024-07-06T17:46:07Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "88",
+        "addr:street": "洗衣街 Sai Yee Street",
+        "addr:unit": "B",
+        "amenity": "restaurant",
+        "cuisine": "ramen",
+        "name": "一蘭 Ichiran",
+        "name:en": "Ichiran",
+        "name:zh": "一蘭"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12042757300,
+      "lat": 22.3205408,
+      "lon": 114.1701436,
+      "timestamp": "2024-07-09T03:13:03Z",
+      "version": 1,
+      "tags": {
+        "addr:city": "旺角 Mong Kok",
+        "addr:district": "旺角",
+        "addr:housenumber": "123",
+        "addr:street": "通菜街 Tung Choi Street",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "level": "1,2",
+        "name": "GYUDONYA 牛丼家",
+        "name:en": "GYUDONYA",
+        "name:yue-Hant": "牛丼家",
+        "opening_hours": "Mo-Su 07:30-02:00",
+        "website": "https://www.facebook.com/gyudonyahk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2195651220,
+      "lat": 22.3254914,
+      "lon": 114.1692011,
+      "timestamp": "2025-12-02T16:13:38Z",
+      "version": 8,
+      "tags": {
+        "addr:housenumber": "209A-209B",
+        "addr:street": "通菜街 Tung Choi Street",
+        "addr:street:en": "Tung Choi Street",
+        "addr:street:zh": "通菜街",
+        "amenity": "restaurant",
+        "cuisine": "dim_sum;cantonese",
+        "cuisine:origin": "cantonese",
+        "food": "dim_sum",
+        "level": "0",
+        "level:ref": "G",
+        "name": "一點心 One Dim Sum",
+        "name:en": "One Dim Sum",
+        "name:ru": "Уан Дим Сам",
+        "name:zh": "一點心",
+        "opening_hours": "Mo-Fr 11:00-00:30; Sa-Su,PH 10:00-00:30",
+        "phone": "+852 2789 2280",
+        "ref:openrice": "18164"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4714346289,
+      "lat": 22.3240489,
+      "lon": 114.1666349,
+      "timestamp": "2020-07-19T22:31:00Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "60",
+        "addr:street": "荔枝角道 Lai Chi Kok Road",
+        "amenity": "restaurant",
+        "cuisine": "dumplings",
+        "name": "阿純山東餃子 Ah Chun Shandong Dumpling",
+        "name:en": "Ah Chun Shandong Dumpling",
+        "name:zh": "阿純山東餃子",
+        "opening_hours": "Th-Tu 11:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10750624803,
+      "lat": 22.316808,
+      "lon": 114.1675743,
+      "timestamp": "2023-03-21T11:41:14Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "983",
+        "addr:street": "廣東道 Canton Road",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/meanseverything/",
+        "contact:instagram": "https://www.instagram.com/ham6baang6laang6/",
+        "cuisine": "western",
+        "level": "0",
+        "name": "冚棒唥 ham6baang6laang6",
+        "name:en": "ham6baang6laang6",
+        "name:zh": "冚棒唥",
+        "website": "https://www.ham6baang6laang6.com/",
+        "wikimedia_commons": "Category:Ham6baang6laang6, Mong Kok"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4335048294,
+      "lat": 22.320314,
+      "lon": 114.170478,
+      "timestamp": "2023-03-19T13:20:09Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "118-120",
+        "addr:street": "通菜街 Tung Choi Street",
+        "amenity": "restaurant",
+        "name": "銀龍茶餐廳 Ngan Lung Restaurant",
+        "name:en": "Ngan Lung Restaurant",
+        "name:zh": "銀龍茶餐廳"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6483811448,
+      "lat": 22.3190874,
+      "lon": 114.1705036,
+      "timestamp": "2023-02-03T10:37:06Z",
+      "version": 3,
+      "tags": {
+        "addr:housenumber": "85",
+        "addr:street": "通菜街 Tung Choi Street",
+        "amenity": "restaurant",
+        "name": "三人行燒烤店"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4969480522,
+      "lat": 22.326032,
+      "lon": 114.168728,
+      "timestamp": "2018-09-30T12:21:10Z",
+      "version": 2,
+      "tags": {
+        "addr:housenumber": "318",
+        "addr:street": "西洋菜北街 Sai Yeung Choi Street North",
+        "amenity": "restaurant",
+        "name": "蘭苑饎館",
+        "name:zh": "蘭苑饎館",
+        "opening_hours": "Mo-Su 12:00-22:30",
+        "ref:openrice": "1817"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4714346592,
+      "lat": 22.3214133,
+      "lon": 114.1700196,
+      "timestamp": "2024-04-05T13:28:53Z",
+      "version": 5,
+      "tags": {
+        "addr:housenumber": "143",
+        "addr:street": "通菜街 Tung Choi Street",
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "康年餐廳 Hong Lin Restaurant",
+        "name:en": "Hong Lin Restaurant",
+        "name:zh": "康年餐廳",
+        "opening_hours": "Mo-Su 06:30-03:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7561519085,
+      "lat": 22.3220139,
+      "lon": 114.1639481,
+      "timestamp": "2020-05-27T05:47:42Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "菩提街 Lime Street",
+        "amenity": "restaurant",
+        "name": "英記油渣麵",
+        "name:en": "Ying Kee Noodle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8732568062,
+      "lat": 22.3191332,
+      "lon": 114.170494,
+      "timestamp": "2021-05-15T02:20:28Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "87",
+        "addr:street": "通菜街 Tung Choi Street",
+        "amenity": "restaurant",
+        "name": "慶豐茶餐廳"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9894286187,
+      "lat": 22.3257917,
+      "lon": 114.1655522,
+      "timestamp": "2022-07-18T03:37:53Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "白楊街 Poplar Street",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/1174746585962194/",
+        "name": "晉家門 炭燒工房",
+        "opening_hours": "Tu-Su 13:00-22:00",
+        "phone": "+852 2488 1110"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11472827668,
+      "lat": 22.3166595,
+      "lon": 114.1691381,
+      "timestamp": "2023-12-31T12:39:58Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "177-179",
+        "addr:street": "砵蘭街 Portland Street",
+        "amenity": "restaurant",
+        "name": "佳記餐廳 Kai Kee Restaurant",
+        "name:en": "Kai Kee Restaurant",
+        "name:zh": "佳記餐廳"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4714346593,
+      "lat": 22.3204291,
+      "lon": 114.1713564,
+      "timestamp": "2022-10-15T12:58:50Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "123",
+        "addr:street": "洗衣街 Sai Yee Street",
+        "amenity": "restaurant",
+        "name": "好旺角粥麵專家 Good Hope Noodles",
+        "name:en": "Good Hope Noodles",
+        "name:zh": "好旺角粥麵專家"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5701187766,
+      "lat": 22.3133572,
+      "lon": 114.2221353,
+      "timestamp": "2023-10-18T17:10:40Z",
+      "version": 4,
+      "tags": {
+        "addr:housenumber": "392",
+        "addr:street": "觀塘道 Kwun Tong Road",
+        "amenity": "restaurant",
+        "capacity": "380",
+        "cuisine": "chinese",
+        "email": "mc6@heichinrou.com",
+        "fax": "+852 2954 8088",
+        "level": "6",
+        "name": "聘珍樓 Heichinrou",
+        "name:en": "Heichinrou",
+        "name:zh": "聘珍樓",
+        "opening_hours": "Mo-Fr 11:00-23:00; Sa-Su,PH 10:30-23:00",
+        "phone": "+852 2954 8000",
+        "smoking": "no",
+        "website": "https://www.heichinrou.com/en/location_mc6.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10132200731,
+      "lat": 22.3072145,
+      "lon": 114.2234842,
+      "timestamp": "2022-10-27T09:19:31Z",
+      "version": 1,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "榮業街 Wing Yip Street",
+        "addr:unit": "G",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100057222800345",
+        "contact:instagram": "https://www.instagram.com/sushi93885690/",
+        "cuisine": "sushi;japanese",
+        "level": "0",
+        "name": "千之味刺身壽司專門店 Oi-Shi-Sushi",
+        "name:en": "Oi-Shi-Sushi",
+        "name:zh": "千之味刺身壽司專門店",
+        "opening_hours": "Mo-Su 11:30-22:00",
+        "phone": "+852 2669 4726",
+        "takeaway": "yes",
+        "website": "https://www.oi-shi-sushi.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 219614347,
+      "timestamp": "2026-06-12T03:08:18Z",
+      "version": 6,
+      "center": {
+        "lat": 22.3125115,
+        "lon": 114.219958
+      },
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:street": "鴻圖道 Hung To Road",
+        "addr:street:en": "Hung To Road",
+        "addr:street:wikidata": "Q11173934",
+        "addr:street:zh": "鴻圖道",
+        "amenity": "restaurant",
+        "name": "鴻圖樓 Hung To Cafe",
+        "name:en": "Hung To Cafe",
+        "name:zh": "鴻圖樓",
+        "source": "Kaart Ground Survey 2017"
+      }
+    }
+  ],
+  "associations": [
+    {
+      "fehdLicence": "2261803769",
+      "osm": "node/4149643552",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261804009",
+      "osm": "node/6778574618",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261805589",
+      "osm": "node/7257866551",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261805792",
+      "osm": "node/11397442569",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261806254",
+      "osm": "node/6937454527",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261808782",
+      "osm": "node/5477098932",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261813991",
+      "osm": "node/10128973461",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261816370",
+      "osm": "node/10102882153",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261816936",
+      "osm": "node/12949715099",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261821774",
+      "osm": "node/10096313690",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261822795",
+      "osm": "node/4377439994",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261823503",
+      "osm": "node/6064705493",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261823521",
+      "osm": "node/10102932918",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261824038",
+      "osm": "node/11083592142",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3161806146",
+      "osm": "node/4405710295",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261805330",
+      "osm": "node/4835822121",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261814611",
+      "osm": "node/4849863692",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261816343",
+      "osm": "node/10880215918",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261820814",
+      "osm": "node/12949740055",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261824056",
+      "osm": "node/5660581324",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261824454",
+      "osm": "node/6346245185",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3161807468",
+      "osm": "node/13531388301",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3861825355",
+      "osm": "node/13934909702",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2213035792",
+      "osm": "node/4207227078",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2213067348",
+      "osm": "node/7291554277",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2213185538",
+      "osm": "node/5172769822",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218802955",
+      "osm": "node/4191084989",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218804951",
+      "osm": "node/6490345191",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218807923",
+      "osm": "node/4220477491",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218808670",
+      "osm": "node/4148659708",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218809099",
+      "osm": "node/5712853163",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218809460",
+      "osm": "node/1233568747",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218809594",
+      "osm": "node/7234578512",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218811865",
+      "osm": "node/13387881547",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218812433",
+      "osm": "node/6490345192",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218812628",
+      "osm": "node/6205676557",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218813773",
+      "osm": "way/1188582095",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218814730",
+      "osm": "node/10125919216",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218815195",
+      "osm": "node/5892708886",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218815751",
+      "osm": "node/6086782085",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218817234",
+      "osm": "node/10690645592",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218818042",
+      "osm": "node/13387881545",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218818918",
+      "osm": "node/11820459402",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218819106",
+      "osm": "node/5346316322",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3113134972",
+      "osm": "node/4262547789",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3113141017",
+      "osm": "node/4235924590",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3113165303",
+      "osm": "node/5498471493",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3118800656",
+      "osm": "node/10199163128",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3118805952",
+      "osm": "node/6149386285",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3118810170",
+      "osm": "node/5500079821",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3118811465",
+      "osm": "node/4870427292",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3118811711",
+      "osm": "node/6433997606",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2213202293",
+      "osm": "node/4783876921",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212801622",
+      "osm": "node/5151216625",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212806362",
+      "osm": "node/6938631687",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212809538",
+      "osm": "node/2957738559",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212809714",
+      "osm": "node/14267969934",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212810602",
+      "osm": "node/4858546106",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212811720",
+      "osm": "node/9329041787",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212812334",
+      "osm": "node/9329041783",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212817065",
+      "osm": "node/4331683989",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212817278",
+      "osm": "node/4174631893",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212817676",
+      "osm": "node/8244642347",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212820630",
+      "osm": "node/4858618221",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212821563",
+      "osm": "node/2957738282",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212822229",
+      "osm": "node/2090588063",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212823277",
+      "osm": "node/4850145256",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3112807983",
+      "osm": "node/8244642342",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3112810424",
+      "osm": "node/9902966424",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3812825135",
+      "osm": "node/9902966421",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212810727",
+      "osm": "node/6715363687",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212810949",
+      "osm": "node/6759443427",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212813258",
+      "osm": "node/6759443418",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212813285",
+      "osm": "node/6759443421",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212816044",
+      "osm": "node/4860723625",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212816187",
+      "osm": "node/2979415890",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212817773",
+      "osm": "node/6937276426",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212818183",
+      "osm": "node/11210124166",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212818934",
+      "osm": "node/8658653925",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212822186",
+      "osm": "node/2300359472",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212822335",
+      "osm": "node/2090589274",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212822478",
+      "osm": "node/10842706445",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3112803307",
+      "osm": "node/4860696043",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262063894",
+      "osm": "node/4264548292",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262064727",
+      "osm": "node/3176514491",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262176875",
+      "osm": "node/13959233401",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262807342",
+      "osm": "node/6483811435",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262807722",
+      "osm": "node/10140230750",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262809144",
+      "osm": "node/10103074609",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262809524",
+      "osm": "node/10816048932",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262811099",
+      "osm": "node/10829672469",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262812366",
+      "osm": "node/4860164685",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262813651",
+      "osm": "node/10103124315",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262814247",
+      "osm": "node/6483811437",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262814511",
+      "osm": "node/1280851134",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262815684",
+      "osm": "node/9933800508",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262815815",
+      "osm": "node/4426193286",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262815860",
+      "osm": "node/11780667242",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262816650",
+      "osm": "node/10123795921",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262817592",
+      "osm": "node/12038023837",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262818179",
+      "osm": "node/12042757300",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262818559",
+      "osm": "node/2195651220",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3162191506",
+      "osm": "node/4714346289",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3162805715",
+      "osm": "node/10750624803",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262068783",
+      "osm": "node/4335048294",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262130925",
+      "osm": "node/6483811448",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262217905",
+      "osm": "node/4969480522",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262301118",
+      "osm": "node/4714346592",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262806516",
+      "osm": "node/7561519085",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262807041",
+      "osm": "node/8732568062",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262807120",
+      "osm": "node/9894286187",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262808521",
+      "osm": "node/11472827668",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262808831",
+      "osm": "node/4714346593",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2251801724",
+      "osm": "node/5701187766",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2251806969",
+      "osm": "node/10132200731",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2251060239",
+      "osm": "way/219614347",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    }
+  ]
+}

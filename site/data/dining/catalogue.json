@@ -1,0 +1,6467 @@
+{
+  "metadata": {
+    "version": "open-dining-a8a2c2bf11fe",
+    "importedAt": "2026-10-31",
+    "fehdGeneratedAt": "2026-10-30",
+    "osmSnapshotAt": "2026-10-30T16:21:11Z",
+    "count": 150,
+    "districts": [
+      "尖沙咀",
+      "中環",
+      "銅鑼灣",
+      "旺角",
+      "觀塘"
+    ],
+    "counts": {
+      "尖沙咀": 30,
+      "中環": 30,
+      "銅鑼灣": 30,
+      "旺角": 30,
+      "觀塘": 30
+    },
+    "withOsm": 116,
+    "withCuisine": 79,
+    "classificationsWithheld": 2,
+    "completeDirectory": false,
+    "selection": "Up to 30 licensed records per area, preferring exact-address OSM associations; not a complete directory or ranking. Areas follow FEHD address locality text plus district-code checks, not exact administrative polygons.",
+    "sourceUrls": {
+      "fehd": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "fehdTerms": "https://data.gov.hk/en/terms-and-conditions",
+      "osm": "https://www.openstreetmap.org/copyright",
+      "osmLicense": "https://opendatacommons.org/licenses/odbl/1-0/"
+    },
+    "attribution": "食物環境衞生署 / 香港特別行政區政府 / DATA.GOV.HK；© OpenStreetMap contributors.",
+    "limitations": "FEHD licence snapshot and OSM community tags are not real-time restaurant verification. OSM element edit date is not a field-by-field verification date. No prices, ratings, dietary safety, hours or live availability are asserted."
+  },
+  "restaurants": [
+    {
+      "id": "FEHD-2261803769",
+      "name": "鼎泰豐",
+      "nameEn": "Din Tai Fung",
+      "aliases": [
+        "Din Tai Fung",
+        "鼎泰豐"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀廣東道30號 新港中心三樓 餐廳C及130舖",
+      "addressEn": "SHOP 130 & RESTAURANT C, 3/F, SILVERCORD, 30 CANTON ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261803769",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-07-27"
+      },
+      "cuisine": "台灣菜",
+      "cuisines": [
+        "台灣菜"
+      ],
+      "cuisineRaw": [
+        "taiwanese"
+      ],
+      "osm": [
+        {
+          "id": "node/4149643552",
+          "url": "https://www.openstreetmap.org/node/4149643552",
+          "updatedAt": "2023-05-07T14:06:22Z",
+          "version": 4,
+          "cuisineRaw": "taiwanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261804009",
+      "name": "WOODLANDS",
+      "nameEn": "WOODLANDS",
+      "aliases": [
+        "WOODLANDS"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀麼地道62號永安廣場地下上層16及17號舖",
+      "addressEn": "SHOP NOS. 16 & 17, UG/F, WING ON PLAZA, 62 MODY ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261804009",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-09-29"
+      },
+      "cuisine": "印度菜",
+      "cuisines": [
+        "印度菜"
+      ],
+      "cuisineRaw": [
+        "indian"
+      ],
+      "osm": [
+        {
+          "id": "node/6778574618",
+          "url": "https://www.openstreetmap.org/node/6778574618",
+          "updatedAt": "2020-11-25T21:20:52Z",
+          "version": 4,
+          "cuisineRaw": "indian"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261805589",
+      "name": "名家韓國餐廳",
+      "nameEn": "MYUNG GA KOREAN RESTAURANT",
+      "aliases": [
+        "MYUNG GA KOREAN RESTAURANT",
+        "名家韓國餐廳"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀彌敦道63號國際廣場27樓2702號鋪",
+      "addressEn": "SHOP NO 2702, 27/F, ISQUARE, 63 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261805589",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-05-27"
+      },
+      "cuisine": "韓國菜",
+      "cuisines": [
+        "韓國菜"
+      ],
+      "cuisineRaw": [
+        "korean"
+      ],
+      "osm": [
+        {
+          "id": "node/7257866551",
+          "url": "https://www.openstreetmap.org/node/7257866551",
+          "updatedAt": "2024-05-15T12:43:20Z",
+          "version": 3,
+          "cuisineRaw": "korean"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261805792",
+      "name": "彩薈軒",
+      "nameEn": "Joyous Gate Banquet",
+      "aliases": [
+        "Joyous Gate Banquet",
+        "彩薈軒"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀彌敦道63號國際廣場25樓2502號鋪",
+      "addressEn": "SHOP 2502, 25/F, ISQUARE, 63 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261805792",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-06-23"
+      },
+      "cuisine": "粵菜",
+      "cuisines": [
+        "粵菜"
+      ],
+      "cuisineRaw": [
+        "cantonese"
+      ],
+      "osm": [
+        {
+          "id": "node/11397442569",
+          "url": "https://www.openstreetmap.org/node/11397442569",
+          "updatedAt": "2025-09-30T11:08:28Z",
+          "version": 4,
+          "cuisineRaw": "cantonese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261806254",
+      "name": "彩福皇宴",
+      "nameEn": "Choi Fook Royal Banquet",
+      "aliases": [
+        "Choi Fook Royal Banquet",
+        "彩福皇宴"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀彌敦道63號國際廣場26樓2601-2602號舖",
+      "addressEn": "SHOP 2601-2602, 26/F, ISQUARE, 63 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261806254",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-09-21"
+      },
+      "cuisine": "粵菜",
+      "cuisines": [
+        "粵菜"
+      ],
+      "cuisineRaw": [
+        "cantonese"
+      ],
+      "osm": [
+        {
+          "id": "node/6937454527",
+          "url": "https://www.openstreetmap.org/node/6937454527",
+          "updatedAt": "2024-05-15T12:43:20Z",
+          "version": 4,
+          "cuisineRaw": "cantonese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261808782",
+      "name": "印度菜館",
+      "nameEn": "INDIA RESTAURANT AND BAR",
+      "aliases": [
+        "INDIA RESTAURANT AND BAR",
+        "印度菜館"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀寶勒巷10號寶勒10 6樓",
+      "addressEn": "6/F, 10 PRAT, NO. 10 PRAT AVENUE, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261808782",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-09-24"
+      },
+      "cuisine": "印度菜",
+      "cuisines": [
+        "印度菜"
+      ],
+      "cuisineRaw": [
+        "indian"
+      ],
+      "osm": [
+        {
+          "id": "node/5477098932",
+          "url": "https://www.openstreetmap.org/node/5477098932",
+          "updatedAt": "2022-10-25T20:47:26Z",
+          "version": 2,
+          "cuisineRaw": "indian"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261813991",
+      "name": "一喜日本料理",
+      "nameEn": "一喜日本料理",
+      "aliases": [
+        "一喜日本料理"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀寶勒巷10號 10 PRAT 七樓",
+      "addressEn": "7/F, 10 PRAT, 10 PRAT AVENUE, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261813991",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-01-03"
+      },
+      "cuisine": "日本菜",
+      "cuisines": [
+        "日本菜"
+      ],
+      "cuisineRaw": [
+        "japanese"
+      ],
+      "osm": [
+        {
+          "id": "node/10128973461",
+          "url": "https://www.openstreetmap.org/node/10128973461",
+          "updatedAt": "2022-10-25T20:49:43Z",
+          "version": 1,
+          "cuisineRaw": "japanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261816370",
+      "name": "研香",
+      "nameEn": "Grindie",
+      "aliases": [
+        "Grindie",
+        "研香"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀厚福街7號地下",
+      "addressEn": "G/F, NO. 7 HAU FOOK STREET, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261816370",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2026-12-09"
+      },
+      "cuisine": "甜品",
+      "cuisines": [
+        "甜品"
+      ],
+      "cuisineRaw": [
+        "dessert"
+      ],
+      "osm": [
+        {
+          "id": "node/10102882153",
+          "url": "https://www.openstreetmap.org/node/10102882153",
+          "updatedAt": "2026-08-02T12:46:59Z",
+          "version": 2,
+          "cuisineRaw": "dessert"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261816936",
+      "name": "新泰東南亞餐廳",
+      "nameEn": "SUN THAI RESTAURANT",
+      "aliases": [
+        "SUN THAI RESTAURANT",
+        "新泰東南亞餐廳"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀加拿分道25至31號國際商業信貸銀行大廈 地下1A舖及地庫",
+      "addressEn": "SHOP 1A, G/F., & B/F, BCC BUILDING, 25-31 CARNARVON ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261816936",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-06-10"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [
+        "ramen"
+      ],
+      "osm": [
+        {
+          "id": "node/12949715099",
+          "url": "https://www.openstreetmap.org/node/12949715099",
+          "updatedAt": "2025-06-24T15:13:30Z",
+          "version": 2,
+          "cuisineRaw": "ramen"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": "食環署餐廳名稱與 OSM 的 ramen 分類存在疑點；暫不採用菜式分類，亦不憑名稱推測其他菜式。"
+    },
+    {
+      "id": "FEHD-2261821774",
+      "name": "POKE GO",
+      "nameEn": "POKE GO",
+      "aliases": [
+        "POKE GO"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀漆咸道南81號南海大廈地下F,G,H及I鋪",
+      "addressEn": "SHOP F,G,H & I, G/F, SOUTH SEA APARTMENTS, NO. 81 CHATHAM ROAD SOUTH, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261821774",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-03-13"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [
+        "hawaiian"
+      ],
+      "osm": [
+        {
+          "id": "node/10096313690",
+          "url": "https://www.openstreetmap.org/node/10096313690",
+          "updatedAt": "2025-07-01T08:53:32Z",
+          "version": 4,
+          "cuisineRaw": "hawaiian"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261822795",
+      "name": "雞少雞飯",
+      "nameEn": "雞少雞飯",
+      "aliases": [
+        "雞少雞飯"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀彌敦道184號 THE WAVE 地下",
+      "addressEn": "GROUND FLOOR, THE WAVE, NO. 184 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261822795",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-01-07"
+      },
+      "cuisine": "馬來西亞菜",
+      "cuisines": [
+        "馬來西亞菜"
+      ],
+      "cuisineRaw": [
+        "malaysian"
+      ],
+      "osm": [
+        {
+          "id": "node/4377439994",
+          "url": "https://www.openstreetmap.org/node/4377439994",
+          "updatedAt": "2025-05-31T07:03:52Z",
+          "version": 8,
+          "cuisineRaw": "malaysian"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261823503",
+      "name": "三三骨肉",
+      "nameEn": "Sam Sam",
+      "aliases": [
+        "Sam Sam",
+        "三三骨肉"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀金巴利道 55 號地下 A 舖 A, B, C 和 D舖部份",
+      "addressEn": "PORTIONS A, B, C AND D OF SHOP A, G/F., NO.55 KIMBERLEY ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261823503",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-10-15"
+      },
+      "cuisine": "韓國菜",
+      "cuisines": [
+        "韓國菜"
+      ],
+      "cuisineRaw": [
+        "korean"
+      ],
+      "osm": [
+        {
+          "id": "node/6064705493",
+          "url": "https://www.openstreetmap.org/node/6064705493",
+          "updatedAt": "2025-06-18T11:25:28Z",
+          "version": 4,
+          "cuisineRaw": "korean"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261823521",
+      "name": "春城銅鍋米線",
+      "nameEn": "春城銅鍋米線",
+      "aliases": [
+        "春城銅鍋米線"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀厚福街5-6號多富閣地下6號舖",
+      "addressEn": "SHOP NO.6, G/F, DORFU COURT, 5-6 HAU FOOK STREET, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261823521",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-10-23"
+      },
+      "cuisine": "中式",
+      "cuisines": [
+        "中式"
+      ],
+      "cuisineRaw": [
+        "chinese"
+      ],
+      "osm": [
+        {
+          "id": "node/10102932918",
+          "url": "https://www.openstreetmap.org/node/10102932918",
+          "updatedAt": "2026-08-02T12:20:52Z",
+          "version": 4,
+          "cuisineRaw": "chinese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261824038",
+      "name": "ALICE PIZZA",
+      "nameEn": "ALICE PIZZA",
+      "aliases": [
+        "ALICE PIZZA"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀棉登徑1-3號地下1號鋪",
+      "addressEn": "SHOP 1, G/F, 1-3 MINDEN AVENUE, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261824038",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-06-04"
+      },
+      "cuisine": "薄餅",
+      "cuisines": [
+        "薄餅"
+      ],
+      "cuisineRaw": [
+        "pizza"
+      ],
+      "osm": [
+        {
+          "id": "node/11083592142",
+          "url": "https://www.openstreetmap.org/node/11083592142",
+          "updatedAt": "2026-03-20T16:18:22Z",
+          "version": 2,
+          "cuisineRaw": "pizza"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3161806146",
+      "name": "麥奀雲吞麵世家",
+      "nameEn": "麥奀雲吞麵世家",
+      "aliases": [
+        "麥奀雲吞麵世家"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀樂道19地下",
+      "addressEn": "G/F, 19 LOCK ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "3161806146",
+        "type": "RR",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-03-26"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/4405710295",
+          "url": "https://www.openstreetmap.org/node/4405710295",
+          "updatedAt": "2023-05-09T05:47:01Z",
+          "version": 5,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261805330",
+      "name": "蘭芳園",
+      "nameEn": "Lanfongyuen",
+      "aliases": [
+        "Lanfongyuen",
+        "蘭芳園"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀彌敦道36至44號重慶大厦慶方地庫S09號舖",
+      "addressEn": "SHOP S09, BASEMENT, HEATH, CHUNGKING MANSIONS, 36-44 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261805330",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-03-21"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/4835822121",
+          "url": "https://www.openstreetmap.org/node/4835822121",
+          "updatedAt": "2023-10-08T23:44:37Z",
+          "version": 4,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261814611",
+      "name": "方叔叔重慶老火鍋",
+      "nameEn": "UNCLE FONG HOT POT RESTAURANT",
+      "aliases": [
+        "UNCLE FONG HOT POT RESTAURANT",
+        "方叔叔重慶老火鍋"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀北京道12A號太子集團中心19樓",
+      "addressEn": "19/F, PRINCE TOWER, 12A PEKING ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261814611",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-07-27"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/4849863692",
+          "url": "https://www.openstreetmap.org/node/4849863692",
+          "updatedAt": "2024-04-04T08:15:25Z",
+          "version": 4,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261816343",
+      "name": "品味",
+      "nameEn": "V & B CUISINE",
+      "aliases": [
+        "V & B CUISINE",
+        "品味"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀樂道21A號龍華大廈地下A及B鋪",
+      "addressEn": "SHOP A & B, G/F, LONG WAH BUILDING, 21A LOCK ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261816343",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2026-11-29"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/10880215918",
+          "url": "https://www.openstreetmap.org/node/10880215918",
+          "updatedAt": "2023-05-09T05:47:01Z",
+          "version": 1,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261820814",
+      "name": "Aqua",
+      "nameEn": "Aqua",
+      "aliases": [
+        "Aqua"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀中間道15號H ZENTRE 17樓",
+      "addressEn": "17/F, H ZENTRE, 15 MIDDLE ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261820814",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-06-05"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/12949740055",
+          "url": "https://www.openstreetmap.org/node/12949740055",
+          "updatedAt": "2026-06-12T03:08:18Z",
+          "version": 3,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261824056",
+      "name": "丼燃食堂",
+      "nameEn": "DONYIN DINER",
+      "aliases": [
+        "DONYIN DINER",
+        "丼燃食堂"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀厚福街2A地下",
+      "addressEn": "G/F, 2A HAU FOOK STREET, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261824056",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-06-09"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/5660581324",
+          "url": "https://www.openstreetmap.org/node/5660581324",
+          "updatedAt": "2026-08-02T12:20:52Z",
+          "version": 4,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261824454",
+      "name": "三多美食",
+      "nameEn": "三多美食",
+      "aliases": [
+        "三多美食"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀厚福街5-6號多富閣地下1號舖",
+      "addressEn": "SHOP 1, G/F, DORFU COURT, 5-6 HAU FOOK STREET, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261824454",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2026-11-20"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/6346245185",
+          "url": "https://www.openstreetmap.org/node/6346245185",
+          "updatedAt": "2026-08-02T12:46:59Z",
+          "version": 4,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3161807468",
+      "name": "梔子",
+      "nameEn": "CAFE ZI",
+      "aliases": [
+        "CAFE ZI",
+        "梔子"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀山林道8號高荔商業中心地下A及B鋪",
+      "addressEn": "SHOP A & B, G/F, GLORY CENTRE, 8 HILLWOOD ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "3161807468",
+        "type": "RR",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-02-12"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/13531388301",
+          "url": "https://www.openstreetmap.org/node/13531388301",
+          "updatedAt": "2026-02-07T05:59:39Z",
+          "version": 1,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3861825355",
+      "name": "鏞鏞‧藝嚐館",
+      "nameEn": "Yung's Bistro",
+      "aliases": [
+        "Yung's Bistro",
+        "鏞鏞‧藝嚐館"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀梳士巴利道18號 VICTORIA DOCKSIDE K11 MUSEA  7樓704號舖",
+      "addressEn": "SHOP NO. 704, LEVEL 7, K11 MUSEA, VICTORIA DOCKSIDE, 18 SALISBURY ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "3861825355",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2026-12-08"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/13934909702",
+          "url": "https://www.openstreetmap.org/node/13934909702",
+          "updatedAt": "2026-06-13T06:44:18Z",
+          "version": 1,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261049635",
+      "name": "龍門金閣海鮮酒家",
+      "nameEn": "Jumping Dragon Seafood Restaurant",
+      "aliases": [
+        "Jumping Dragon Seafood Restaurant",
+        "龍門金閣海鮮酒家"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀柯士甸路18B號 地下",
+      "addressEn": "G/F, 18B AUSTIN AVENUE, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261049635",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261049927",
+      "name": "香港喜來登酒店",
+      "nameEn": "SHERATON HK HOTEL",
+      "aliases": [
+        "SHERATON HK HOTEL",
+        "香港喜來登酒店"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀彌敦道20號香港喜來登酒店 3樓(部份),4樓(主部份),18樓及天台",
+      "addressEn": "PORTION OF 3/F, 4/F(MAJOR PORTION), 18/F & ROOF, SHERATON HONG KONG HOTEL, 20 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261049927",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261058059",
+      "name": "興發燒味茶餐廳",
+      "nameEn": "興發燒味茶餐廳",
+      "aliases": [
+        "興發燒味茶餐廳"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀亞士厘道8號 地下及10號地下及閣樓部份",
+      "addressEn": "G/F, NO. 8 & G/F & PORT. OF C/L NO.10, ASHLEY ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261058059",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261058077",
+      "name": "LA TAVERNA",
+      "nameEn": "LA TAVERNA",
+      "aliases": [
+        "LA TAVERNA"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀亞士厘道36-38號 天星大廈地下及地庫(部份)",
+      "addressEn": "G/F & BASEMENT(PTN), ASTORIA BUILDING, 36-38 ASHLEY ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261058077",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261058439",
+      "name": "馬哥孛羅香港酒店",
+      "nameEn": "THE MARCO POLO HONG KONG HOTEL (COFFEE SHOP)",
+      "aliases": [
+        "THE MARCO POLO HONG KONG HOTEL (COFFEE SHOP)",
+        "馬哥孛羅香港酒店"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀廣東道3號1樓部份",
+      "addressEn": "THE HONG KONG HOTEL LIMITED, 1/F PORTION, 3 CANTON ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261058439",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261058448",
+      "name": "馬哥孛羅香港酒店",
+      "nameEn": "The Marco Polo Hong Kong Hotel",
+      "aliases": [
+        "The Marco Polo Hong Kong Hotel",
+        "馬哥孛羅香港酒店"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀廣東道3號 地下(部份)4樓(部份) 5樓及6樓(主要部份) (KML 91及RP OF KML)",
+      "addressEn": "THE HONG KONG HOTEL LTD. G/F (PORTION), 4/F (PORTION),5/F & 6/F (MAJOR PORTION), KML 91 & RP OF KML, 3 CANTON ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261058448",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2261063152",
+      "name": "利苑酒家",
+      "nameEn": "LEI GARDEN RESTAURANT",
+      "aliases": [
+        "LEI GARDEN RESTAURANT",
+        "利苑酒家"
+      ],
+      "district": "尖沙咀",
+      "address": "九龍尖沙咀麼地道63號 好時中心地庫第二層 B59, B220-B221號舖",
+      "addressEn": "2 ND BASEMENT, SHOP NO.B59, B220-B221, HOUSTON CENTRE, 63 MODY ROAD, TSIM SHA TSUI, KOWLOON",
+      "licence": {
+        "number": "2261063152",
+        "type": "RL",
+        "sourceDistrict": "61",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2213035792",
+      "name": "麥奀雲吞麵世家",
+      "nameEn": "MAK' S NOODLE",
+      "aliases": [
+        "MAK' S NOODLE",
+        "麥奀雲吞麵世家"
+      ],
+      "district": "中環",
+      "address": "香港中環 威靈頓街77號地下",
+      "addressEn": "G/F, 77 WELLINGTON STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2213035792",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/4207227078",
+          "url": "https://www.openstreetmap.org/node/4207227078",
+          "updatedAt": "2022-10-18T14:47:38Z",
+          "version": 8,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2213067348",
+      "name": "忠記麵家",
+      "nameEn": "忠記麵家",
+      "aliases": [
+        "忠記麵家"
+      ],
+      "district": "中環",
+      "address": "香港永吉街29-37號地下A舖",
+      "addressEn": "SHOP A, G/F, 29-37 WING KUT STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2213067348",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/7291554277",
+          "url": "https://www.openstreetmap.org/node/7291554277",
+          "updatedAt": "2024-09-29T00:35:45Z",
+          "version": 3,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2213185538",
+      "name": "DIVINO",
+      "nameEn": "DIVINO",
+      "aliases": [
+        "DIVINO"
+      ],
+      "district": "中環",
+      "address": "香港中環雲咸街73號 雲山大廈地下高層1號舖",
+      "addressEn": "SHOP 1, UG/F., WINSOME HOUSE, 73 WYNDHAM STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2213185538",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-02-01"
+      },
+      "cuisine": "意大利菜",
+      "cuisines": [
+        "意大利菜"
+      ],
+      "cuisineRaw": [
+        "italian",
+        "italian_pizza"
+      ],
+      "osm": [
+        {
+          "id": "node/5172769822",
+          "url": "https://www.openstreetmap.org/node/5172769822",
+          "updatedAt": "2025-10-13T16:52:25Z",
+          "version": 3,
+          "cuisineRaw": "italian_pizza;italian"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218802955",
+      "name": "Motorino Pizzeria",
+      "nameEn": "Motorino Pizzeria",
+      "aliases": [
+        "Motorino Pizzeria"
+      ],
+      "district": "中環",
+      "address": "香港中環些利街14號地下",
+      "addressEn": "G/F., 14 SHELLEY STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218802955",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-02-05"
+      },
+      "cuisine": "意大利菜",
+      "cuisines": [
+        "意大利菜"
+      ],
+      "cuisineRaw": [
+        "italian_pizza"
+      ],
+      "osm": [
+        {
+          "id": "node/4191084989",
+          "url": "https://www.openstreetmap.org/node/4191084989",
+          "updatedAt": "2023-10-16T19:57:16Z",
+          "version": 5,
+          "cuisineRaw": "italian_pizza"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218804951",
+      "name": "BELON",
+      "nameEn": "BELON",
+      "aliases": [
+        "BELON"
+      ],
+      "district": "中環",
+      "address": "香港中環伊利近街1-5號地下(部份)及1樓",
+      "addressEn": "G/F (PORTION), 1/F., 1-5 ELGIN STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218804951",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-09-07"
+      },
+      "cuisine": "法國菜",
+      "cuisines": [
+        "法國菜"
+      ],
+      "cuisineRaw": [
+        "french"
+      ],
+      "osm": [
+        {
+          "id": "node/6490345191",
+          "url": "https://www.openstreetmap.org/node/6490345191",
+          "updatedAt": "2022-10-27T07:26:57Z",
+          "version": 2,
+          "cuisineRaw": "french"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218807923",
+      "name": "LA VACHE!",
+      "nameEn": "LA VACHE!",
+      "aliases": [
+        "LA VACHE!"
+      ],
+      "district": "中環",
+      "address": "香港中環卑利街48號嘉利大廈地庫B舖",
+      "addressEn": "SHOP B ON BASEMENT, GARLEY BUILDING, NO. 48 PEEL STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218807923",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-10-27"
+      },
+      "cuisine": "法國菜",
+      "cuisines": [
+        "法國菜",
+        "扒房"
+      ],
+      "cuisineRaw": [
+        "fine_dining",
+        "french",
+        "steak_house"
+      ],
+      "osm": [
+        {
+          "id": "node/4220477491",
+          "url": "https://www.openstreetmap.org/node/4220477491",
+          "updatedAt": "2021-08-03T10:11:51Z",
+          "version": 3,
+          "cuisineRaw": "french;fine_dining;steak_house"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218808670",
+      "name": "Chilli Fagara",
+      "nameEn": "Chilli Fagara",
+      "aliases": [
+        "Chilli Fagara"
+      ],
+      "district": "中環",
+      "address": "香港中環奧卑利街7號地下",
+      "addressEn": "G/F., 7 OLD BAILEY STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218808670",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-05-18"
+      },
+      "cuisine": "四川菜",
+      "cuisines": [
+        "四川菜"
+      ],
+      "cuisineRaw": [
+        "sichuan"
+      ],
+      "osm": [
+        {
+          "id": "node/4148659708",
+          "url": "https://www.openstreetmap.org/node/4148659708",
+          "updatedAt": "2019-03-30T23:34:54Z",
+          "version": 4,
+          "cuisineRaw": "sichuan"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218809099",
+      "name": "Burger Circus",
+      "nameEn": "Burger Circus",
+      "aliases": [
+        "Burger Circus"
+      ],
+      "district": "中環",
+      "address": "香港中環荷李活道22號地下",
+      "addressEn": "G/F., 22 HOLLYWOOD ROAD, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218809099",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-09-13"
+      },
+      "cuisine": "漢堡",
+      "cuisines": [
+        "漢堡"
+      ],
+      "cuisineRaw": [
+        "burger"
+      ],
+      "osm": [
+        {
+          "id": "node/5712853163",
+          "url": "https://www.openstreetmap.org/node/5712853163",
+          "updatedAt": "2019-03-30T23:30:56Z",
+          "version": 2,
+          "cuisineRaw": "burger"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218809460",
+      "name": "Beyrouth Bistro",
+      "nameEn": "Beyrouth Bistro",
+      "aliases": [
+        "Beyrouth Bistro"
+      ],
+      "district": "中環",
+      "address": "香港中環擺花街39號地下A舖",
+      "addressEn": "SHOP A, G/F., LYNDHURST BUILDING, NO. 39 LYNDHURST TERRACE, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218809460",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2026-12-13"
+      },
+      "cuisine": "黎巴嫩菜",
+      "cuisines": [
+        "黎巴嫩菜"
+      ],
+      "cuisineRaw": [
+        "lebanese"
+      ],
+      "osm": [
+        {
+          "id": "node/1233568747",
+          "url": "https://www.openstreetmap.org/node/1233568747",
+          "updatedAt": "2018-06-20T14:13:54Z",
+          "version": 5,
+          "cuisineRaw": "lebanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218809594",
+      "name": "Porterhouse",
+      "nameEn": "Porterhouse",
+      "aliases": [
+        "Porterhouse"
+      ],
+      "district": "中環",
+      "address": "香港中環德己立街30-36號加州大廈24樓",
+      "addressEn": "24/F., CALIFORNIA TOWER, 30-36 D'AGUILAR STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218809594",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-02-01"
+      },
+      "cuisine": "扒房",
+      "cuisines": [
+        "扒房"
+      ],
+      "cuisineRaw": [
+        "steak"
+      ],
+      "osm": [
+        {
+          "id": "node/7234578512",
+          "url": "https://www.openstreetmap.org/node/7234578512",
+          "updatedAt": "2022-06-05T12:43:23Z",
+          "version": 4,
+          "cuisineRaw": "steak"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218811865",
+      "name": "花心廚房",
+      "nameEn": "JENNIFER'S KITCHEN",
+      "aliases": [
+        "JENNIFER'S KITCHEN",
+        "花心廚房"
+      ],
+      "district": "中環",
+      "address": "香港中環摩羅廟街31-37號樂欣大廈地下3號鋪",
+      "addressEn": "SHOP 3, G/F., RYAN MANSION, NO. 31-37 MOSQUE STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218811865",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-03-25"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [
+        "asian"
+      ],
+      "osm": [
+        {
+          "id": "node/13387881547",
+          "url": "https://www.openstreetmap.org/node/13387881547",
+          "updatedAt": "2025-12-19T03:40:44Z",
+          "version": 1,
+          "cuisineRaw": "asian"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218812433",
+      "name": "ARBOR",
+      "nameEn": "ARBOR",
+      "aliases": [
+        "ARBOR"
+      ],
+      "district": "中環",
+      "address": "香港中環皇后大道中80號H QUEEN'S 25樓",
+      "addressEn": "25/F., H QUEEN'S, 80 QUEEN'S ROAD CENTRAL, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218812433",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-10-14"
+      },
+      "cuisine": "法國菜",
+      "cuisines": [
+        "法國菜"
+      ],
+      "cuisineRaw": [
+        "french"
+      ],
+      "osm": [
+        {
+          "id": "node/6490345192",
+          "url": "https://www.openstreetmap.org/node/6490345192",
+          "updatedAt": "2023-10-18T17:10:15Z",
+          "version": 2,
+          "cuisineRaw": "french"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218812628",
+      "name": "CAFE CLAUDEL",
+      "nameEn": "CAFE CLAUDEL",
+      "aliases": [
+        "CAFE CLAUDEL"
+      ],
+      "district": "中環",
+      "address": "香港中環荷李活道10號中區警署總部大樓地下G08至01號舖及 舖前露天座位",
+      "addressEn": "SHOP 01-G08 AND THE OUTSIDE SEATING ACCOMMODATION AT SHOP FRONT, G/F., HEADQUARTERS BLOCK, CENTRAL POLICE STATION, 10 HOLLYWOOD ROAD, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218812628",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2026-11-20"
+      },
+      "cuisine": "法國菜",
+      "cuisines": [
+        "法國菜"
+      ],
+      "cuisineRaw": [
+        "french"
+      ],
+      "osm": [
+        {
+          "id": "node/6205676557",
+          "url": "https://www.openstreetmap.org/node/6205676557",
+          "updatedAt": "2019-01-13T15:41:07Z",
+          "version": 1,
+          "cuisineRaw": "french"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218813773",
+      "name": "Lawry's The Prime Rib",
+      "nameEn": "Lawry's The Prime Rib",
+      "aliases": [
+        "Lawry's The Prime Rib"
+      ],
+      "district": "中環",
+      "address": "香港中環皇后大道中9號 嘉軒廣場3字樓301鋪",
+      "addressEn": "SHOP 301, 3/F., THE GALLERIA, 9 QUEEN'S ROAD CENTRAL, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218813773",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2026-11-12"
+      },
+      "cuisine": "扒房",
+      "cuisines": [
+        "扒房"
+      ],
+      "cuisineRaw": [
+        "steak_house"
+      ],
+      "osm": [
+        {
+          "id": "way/1188582095",
+          "url": "https://www.openstreetmap.org/way/1188582095",
+          "updatedAt": "2024-04-02T16:19:20Z",
+          "version": 4,
+          "cuisineRaw": "steak_house"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218814730",
+      "name": "Grill",
+      "nameEn": "Grill",
+      "aliases": [
+        "Grill"
+      ],
+      "district": "中環",
+      "address": "香港中環德己立街17-19號及和安里1-3號 德和大廈地下1A&1B鋪",
+      "addressEn": "UNIT 1A & 1B, G/F., TAK WOO HOUSE, 17-19 D'AGUILAR STREET & 1-3 WO ON LANE, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218814730",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-06-03"
+      },
+      "cuisine": "泰國菜",
+      "cuisines": [
+        "泰國菜"
+      ],
+      "cuisineRaw": [
+        "thai"
+      ],
+      "osm": [
+        {
+          "id": "node/10125919216",
+          "url": "https://www.openstreetmap.org/node/10125919216",
+          "updatedAt": "2023-01-01T04:15:52Z",
+          "version": 3,
+          "cuisineRaw": "thai"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218815195",
+      "name": "新加坡喇沙‧雞飯",
+      "nameEn": "LEE LAKSA",
+      "aliases": [
+        "LEE LAKSA",
+        "新加坡喇沙‧雞飯"
+      ],
+      "district": "中環",
+      "address": "香港皇后大道中302號北海商業大廈地下",
+      "addressEn": "G/F., CNT COMMERCIAL BUILDING, 302 QUEEN'S ROAD CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218815195",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-01-31"
+      },
+      "cuisine": "新加坡菜",
+      "cuisines": [
+        "新加坡菜"
+      ],
+      "cuisineRaw": [
+        "singaporean"
+      ],
+      "osm": [
+        {
+          "id": "node/5892708886",
+          "url": "https://www.openstreetmap.org/node/5892708886",
+          "updatedAt": "2022-10-19T15:39:14Z",
+          "version": 2,
+          "cuisineRaw": "singaporean"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218815751",
+      "name": "LUNG FU PAO",
+      "nameEn": "LUNG FU PAO",
+      "aliases": [
+        "LUNG FU PAO"
+      ],
+      "district": "中環",
+      "address": "香港中環伊利近街47B號地下",
+      "addressEn": "G/F., 47B ELGIN STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218815751",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-10-10"
+      },
+      "cuisine": "日本菜",
+      "cuisines": [
+        "日本菜"
+      ],
+      "cuisineRaw": [
+        "japanese"
+      ],
+      "osm": [
+        {
+          "id": "node/6086782085",
+          "url": "https://www.openstreetmap.org/node/6086782085",
+          "updatedAt": "2025-10-31T09:15:56Z",
+          "version": 5,
+          "cuisineRaw": "japanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218817234",
+      "name": "一起食堂",
+      "nameEn": "一起食堂",
+      "aliases": [
+        "一起食堂"
+      ],
+      "district": "中環",
+      "address": "香港中環域多利皇后街2號地下",
+      "addressEn": "G/F., NO. 2 QUEEN VICTORIA STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218817234",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2026-11-08"
+      },
+      "cuisine": "台灣菜",
+      "cuisines": [
+        "台灣菜"
+      ],
+      "cuisineRaw": [
+        "taiwanese"
+      ],
+      "osm": [
+        {
+          "id": "node/10690645592",
+          "url": "https://www.openstreetmap.org/node/10690645592",
+          "updatedAt": "2023-02-24T12:36:03Z",
+          "version": 1,
+          "cuisineRaw": "taiwanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218818042",
+      "name": "DOUBLE BLACK",
+      "nameEn": "DOUBLE BLACK",
+      "aliases": [
+        "DOUBLE BLACK"
+      ],
+      "district": "中環",
+      "address": "香港中環摩羅廟街26-28號 建興樓地下A舖",
+      "addressEn": "SHOP A OF G/F., KIN HING HOUSE, 26-28 MOSQUE STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218818042",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-07-30"
+      },
+      "cuisine": "咖啡店",
+      "cuisines": [
+        "咖啡店"
+      ],
+      "cuisineRaw": [
+        "coffee_shop"
+      ],
+      "osm": [
+        {
+          "id": "node/13387881545",
+          "url": "https://www.openstreetmap.org/node/13387881545",
+          "updatedAt": "2025-12-19T03:40:44Z",
+          "version": 1,
+          "cuisineRaw": "coffee_shop"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218818918",
+      "name": "田浦食肉",
+      "nameEn": "田浦食肉",
+      "aliases": [
+        "田浦食肉"
+      ],
+      "district": "中環",
+      "address": "香港中環威靈頓街56-58號 威寧大廈地下",
+      "addressEn": "G/F., WELLINGTON PLAZA, 56-58 WELLINGTON STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218818918",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-08-20"
+      },
+      "cuisine": "韓國菜",
+      "cuisines": [
+        "韓國菜"
+      ],
+      "cuisineRaw": [
+        "korean"
+      ],
+      "osm": [
+        {
+          "id": "node/11820459402",
+          "url": "https://www.openstreetmap.org/node/11820459402",
+          "updatedAt": "2024-04-16T02:53:46Z",
+          "version": 2,
+          "cuisineRaw": "korean"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2218819106",
+      "name": "ALICE PIZZA",
+      "nameEn": "ALICE PIZZA",
+      "aliases": [
+        "ALICE PIZZA"
+      ],
+      "district": "中環",
+      "address": "香港中環閣麟街18號地下及閣樓",
+      "addressEn": "G/F. & C/L, 18 COCHRANE STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2218819106",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2026-12-12"
+      },
+      "cuisine": "薄餅",
+      "cuisines": [
+        "薄餅"
+      ],
+      "cuisineRaw": [
+        "pizza"
+      ],
+      "osm": [
+        {
+          "id": "node/5346316322",
+          "url": "https://www.openstreetmap.org/node/5346316322",
+          "updatedAt": "2026-03-20T15:59:04Z",
+          "version": 5,
+          "cuisineRaw": "pizza"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3113134972",
+      "name": "車仔麵世家",
+      "nameEn": "車仔麵世家",
+      "aliases": [
+        "車仔麵世家"
+      ],
+      "district": "中環",
+      "address": "香港蘇杭街82號地下",
+      "addressEn": "G/F, 82 JERVOIS STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "3113134972",
+        "type": "RR",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-03-11"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/4262547789",
+          "url": "https://www.openstreetmap.org/node/4262547789",
+          "updatedAt": "2024-03-22T11:33:12Z",
+          "version": 5,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3113141017",
+      "name": "三多麵食",
+      "nameEn": "SAM DOR",
+      "aliases": [
+        "SAM DOR",
+        "三多麵食"
+      ],
+      "district": "中環",
+      "address": "香港中環 砵典乍街30號地下",
+      "addressEn": "G/F, 30 POTTINGER STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "3113141017",
+        "type": "RR",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2026-11-16"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/4235924590",
+          "url": "https://www.openstreetmap.org/node/4235924590",
+          "updatedAt": "2025-04-28T15:55:28Z",
+          "version": 4,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3113165303",
+      "name": "筷子記",
+      "nameEn": "Chopsticks Kee",
+      "aliases": [
+        "Chopsticks Kee",
+        "筷子記"
+      ],
+      "district": "中環",
+      "address": "香港中環 威靈頓街85號 群英商業大廈地下",
+      "addressEn": "G/F., KHUAN YING COMMERCIAL BUILDING, 85 WELLINGTON STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "3113165303",
+        "type": "RR",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-11-08"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/5498471493",
+          "url": "https://www.openstreetmap.org/node/5498471493",
+          "updatedAt": "2018-06-19T00:02:04Z",
+          "version": 2,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3118800656",
+      "name": "橋香園",
+      "nameEn": "橋香園",
+      "aliases": [
+        "橋香園"
+      ],
+      "district": "中環",
+      "address": "香港中環威靈頓街91號地下",
+      "addressEn": "G/F, 91 WELLINGTON STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "3118800656",
+        "type": "RR",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2026-12-04"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/10199163128",
+          "url": "https://www.openstreetmap.org/node/10199163128",
+          "updatedAt": "2022-11-18T09:43:14Z",
+          "version": 1,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3118805952",
+      "name": "HOTAL COLOMBO",
+      "nameEn": "HOTAL COLOMBO",
+      "aliases": [
+        "HOTAL COLOMBO"
+      ],
+      "district": "中環",
+      "address": "香港中環伊利近街31號地下",
+      "addressEn": "G/F., 31 ELGIN STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "3118805952",
+        "type": "RR",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-09-13"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [
+        "indian"
+      ],
+      "osm": [
+        {
+          "id": "node/6149386285",
+          "url": "https://www.openstreetmap.org/node/6149386285",
+          "updatedAt": "2023-10-18T00:01:34Z",
+          "version": 4,
+          "cuisineRaw": "indian"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": "OSM 的 indian 分類尚需進一步確認；暫不採用，亦不補入其他未經確認的菜式。"
+    },
+    {
+      "id": "FEHD-3118810170",
+      "name": "十八座狗仔粉",
+      "nameEn": "十八座狗仔粉",
+      "aliases": [
+        "十八座狗仔粉"
+      ],
+      "district": "中環",
+      "address": "香港中環德己立街20號地下",
+      "addressEn": "G/F, NO. 20 D'AGUILAR STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "3118810170",
+        "type": "RR",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-05-12"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/5500079821",
+          "url": "https://www.openstreetmap.org/node/5500079821",
+          "updatedAt": "2024-10-26T03:53:16Z",
+          "version": 4,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3118811465",
+      "name": "紅館",
+      "nameEn": "RARE RESTAURANT",
+      "aliases": [
+        "RARE RESTAURANT",
+        "紅館"
+      ],
+      "district": "中環",
+      "address": "香港中環干諾道中50號 地下B號鋪及鋪前露天座位",
+      "addressEn": "SHOP B AND THE OUTSIDE SEATING ACCOMMODATION AT SHOP FRONT, G/F, 50 CONNAUGHT ROAD CENTRAL, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "3118811465",
+        "type": "RR",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-07-17"
+      },
+      "cuisine": "法國菜",
+      "cuisines": [
+        "法國菜"
+      ],
+      "cuisineRaw": [
+        "french"
+      ],
+      "osm": [
+        {
+          "id": "node/4870427292",
+          "url": "https://www.openstreetmap.org/node/4870427292",
+          "updatedAt": "2025-05-02T13:12:40Z",
+          "version": 7,
+          "cuisineRaw": "french"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3118811711",
+      "name": "車水堂車仔麵",
+      "nameEn": "車水堂車仔麵",
+      "aliases": [
+        "車水堂車仔麵"
+      ],
+      "district": "中環",
+      "address": "香港中環士丹利街82號地下",
+      "addressEn": "G/F, 82 STANLEY STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "3118811711",
+        "type": "RR",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-01-16"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/6433997606",
+          "url": "https://www.openstreetmap.org/node/6433997606",
+          "updatedAt": "2026-04-25T08:29:04Z",
+          "version": 3,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2213202293",
+      "name": "十二味",
+      "nameEn": "TWELVE FLAVORS (CEN)",
+      "aliases": [
+        "TWELVE FLAVORS (CEN)",
+        "十二味"
+      ],
+      "district": "中環",
+      "address": "香港中環 德己立街21號地下及地庫",
+      "addressEn": "G/F. & B/M., 21 D'AGUILAR STREET, CENTRAL, HONG KONG",
+      "licence": {
+        "number": "2213202293",
+        "type": "RL",
+        "sourceDistrict": "18",
+        "expiryAsRecorded": "2027-07-21"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/4783876921",
+          "url": "https://www.openstreetmap.org/node/4783876921",
+          "updatedAt": "2022-06-05T12:43:23Z",
+          "version": 3,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212801622",
+      "name": "韓雅林",
+      "nameEn": "韓雅林",
+      "aliases": [
+        "韓雅林"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣軒尼詩道489號銅鑼灣廣場一期6樓B室",
+      "addressEn": "FLAT B, 6/F., CAUSEWAY BAY PLAZA ONE, 489 HENNESSY ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212801622",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-06-08"
+      },
+      "cuisine": "韓國菜",
+      "cuisines": [
+        "韓國菜"
+      ],
+      "cuisineRaw": [
+        "korean"
+      ],
+      "osm": [
+        {
+          "id": "node/5151216625",
+          "url": "https://www.openstreetmap.org/node/5151216625",
+          "updatedAt": "2025-02-20T01:30:49Z",
+          "version": 3,
+          "cuisineRaw": "korean"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212806362",
+      "name": "Chez Moi",
+      "nameEn": "Chez Moi",
+      "aliases": [
+        "Chez Moi"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣開平道1號11樓",
+      "addressEn": "11TH FLOOR, NO. 1 HOI PING ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212806362",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-05-25"
+      },
+      "cuisine": "法國菜",
+      "cuisines": [
+        "法國菜"
+      ],
+      "cuisineRaw": [
+        "french"
+      ],
+      "osm": [
+        {
+          "id": "node/6938631687",
+          "url": "https://www.openstreetmap.org/node/6938631687",
+          "updatedAt": "2019-11-02T02:19:48Z",
+          "version": 1,
+          "cuisineRaw": "french"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212809538",
+      "name": "HUNGRY KOREAN",
+      "nameEn": "HUNGRY KOREAN",
+      "aliases": [
+        "HUNGRY KOREAN"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣渣甸街50號渣甸中心地下D號舖",
+      "addressEn": "SHOP D, G/F., JARDINE CENTRE, 50 JARDINE'S BAZAAR, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212809538",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-04-09"
+      },
+      "cuisine": "韓國菜",
+      "cuisines": [
+        "韓國菜"
+      ],
+      "cuisineRaw": [
+        "korean"
+      ],
+      "osm": [
+        {
+          "id": "node/2957738559",
+          "url": "https://www.openstreetmap.org/node/2957738559",
+          "updatedAt": "2019-01-21T17:21:13Z",
+          "version": 3,
+          "cuisineRaw": "korean"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212809714",
+      "name": "CADILLAC BAR & GRILL",
+      "nameEn": "CADILLAC BAR & GRILL",
+      "aliases": [
+        "CADILLAC BAR & GRILL"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣軒尼詩道500號希慎廣場7樓718-719號舖",
+      "addressEn": "SHOP 718-719, 7/F., HYSAN PLACE, 500 HENNESSY ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212809714",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-05-27"
+      },
+      "cuisine": "墨西哥菜",
+      "cuisines": [
+        "墨西哥菜"
+      ],
+      "cuisineRaw": [
+        "mexican"
+      ],
+      "osm": [
+        {
+          "id": "node/14267969934",
+          "url": "https://www.openstreetmap.org/node/14267969934",
+          "updatedAt": "2026-10-09T13:30:29Z",
+          "version": 1,
+          "cuisineRaw": "mexican"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212810602",
+      "name": "馬泰",
+      "nameEn": "MA THAI",
+      "aliases": [
+        "MA THAI",
+        "馬泰"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣洛克道408號地下",
+      "addressEn": "G/F., 408 LOCKHART ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212810602",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2026-12-28"
+      },
+      "cuisine": "馬來西亞菜",
+      "cuisines": [
+        "馬來西亞菜",
+        "泰國菜"
+      ],
+      "cuisineRaw": [
+        "malaysian",
+        "thai"
+      ],
+      "osm": [
+        {
+          "id": "node/4858546106",
+          "url": "https://www.openstreetmap.org/node/4858546106",
+          "updatedAt": "2026-10-08T06:00:15Z",
+          "version": 9,
+          "cuisineRaw": "malaysian;thai"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212811720",
+      "name": "譚仔雲南米線",
+      "nameEn": "譚仔雲南米線",
+      "aliases": [
+        "譚仔雲南米線"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣謝斐道483-499號新城大廈地下E及F舖",
+      "addressEn": "SHOP E & F, G/F., CITY MANSION, NO. 483-499 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212811720",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2026-11-17"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/9329041787",
+          "url": "https://www.openstreetmap.org/node/9329041787",
+          "updatedAt": "2022-11-26T15:57:24Z",
+          "version": 2,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212812334",
+      "name": "泰國大城船麵",
+      "nameEn": "泰國大城船麵",
+      "aliases": [
+        "泰國大城船麵"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣謝斐道483-499號新城大廈地下G及H舖",
+      "addressEn": "SHOP NOS. G & H, G/F., CITY MANSION, NOS. 483-499 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212812334",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-04-28"
+      },
+      "cuisine": "泰國菜",
+      "cuisines": [
+        "泰國菜"
+      ],
+      "cuisineRaw": [
+        "thai"
+      ],
+      "osm": [
+        {
+          "id": "node/9329041783",
+          "url": "https://www.openstreetmap.org/node/9329041783",
+          "updatedAt": "2021-12-11T07:36:28Z",
+          "version": 1,
+          "cuisineRaw": "thai"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212817065",
+      "name": "永年士多",
+      "nameEn": "Wing Nin Noodle",
+      "aliases": [
+        "Wing Nin Noodle",
+        "永年士多"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣謝斐道482號 兆安廣場地下7,8及9號舖",
+      "addressEn": "SHOP NOS. 7, 8 & 9, G/F., SIU ON PLAZA, 482 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212817065",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-07-10"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/4331683989",
+          "url": "https://www.openstreetmap.org/node/4331683989",
+          "updatedAt": "2024-04-08T12:24:26Z",
+          "version": 3,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212817278",
+      "name": "漢和韓國料理",
+      "nameEn": "HON WO KOREAN RESTAURANT",
+      "aliases": [
+        "HON WO KOREAN RESTAURANT",
+        "漢和韓國料理"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣軒尼詩道489號銅鑼灣廣場一期7樓",
+      "addressEn": "7/F., CAUSEWAY BAY PLAZA 1, 489 HENNESSY ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212817278",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-09-11"
+      },
+      "cuisine": "韓國菜",
+      "cuisines": [
+        "韓國菜"
+      ],
+      "cuisineRaw": [
+        "korean"
+      ],
+      "osm": [
+        {
+          "id": "node/4174631893",
+          "url": "https://www.openstreetmap.org/node/4174631893",
+          "updatedAt": "2025-02-20T01:30:49Z",
+          "version": 7,
+          "cuisineRaw": "korean"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212817676",
+      "name": "毫無分串",
+      "nameEn": "毫無分串",
+      "aliases": [
+        "毫無分串"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣謝斐道526號地下",
+      "addressEn": "GROUND FLOOR, NO. 526 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212817676",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-01-20"
+      },
+      "cuisine": "燒烤",
+      "cuisines": [
+        "燒烤"
+      ],
+      "cuisineRaw": [
+        "barbecue"
+      ],
+      "osm": [
+        {
+          "id": "node/8244642347",
+          "url": "https://www.openstreetmap.org/node/8244642347",
+          "updatedAt": "2025-01-23T12:16:25Z",
+          "version": 2,
+          "cuisineRaw": "barbecue"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212820630",
+      "name": "Grill",
+      "nameEn": "Grill",
+      "aliases": [
+        "Grill"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣駱克道487-489號駱克駅地下",
+      "addressEn": "G/F., L'HART, NOS. 487-489 LOCKHART ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212820630",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-08-09"
+      },
+      "cuisine": "泰國菜",
+      "cuisines": [
+        "泰國菜"
+      ],
+      "cuisineRaw": [
+        "thai"
+      ],
+      "osm": [
+        {
+          "id": "node/4858618221",
+          "url": "https://www.openstreetmap.org/node/4858618221",
+          "updatedAt": "2024-10-02T10:03:50Z",
+          "version": 10,
+          "cuisineRaw": "thai"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212821563",
+      "name": "水門雞飯",
+      "nameEn": "Water Gate Chicken Rice",
+      "aliases": [
+        "Water Gate Chicken Rice",
+        "水門雞飯"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣希慎道2-4號 蟾宮大廈地下9鋪",
+      "addressEn": "SHOP NO. 9, G/F., EMPIRE COURT, 2-4 HYSAN AVENUE, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212821563",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-04-27"
+      },
+      "cuisine": "泰國菜",
+      "cuisines": [
+        "泰國菜"
+      ],
+      "cuisineRaw": [
+        "thai"
+      ],
+      "osm": [
+        {
+          "id": "node/2957738282",
+          "url": "https://www.openstreetmap.org/node/2957738282",
+          "updatedAt": "2024-04-06T09:07:28Z",
+          "version": 5,
+          "cuisineRaw": "thai"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212822229",
+      "name": "Eva tonkatsu",
+      "nameEn": "Eva tonkatsu",
+      "aliases": [
+        "Eva tonkatsu"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣登龍街41-51號 金龍大廈地下A號舖",
+      "addressEn": "SHOP A, G/F, GOLDEN DRAGON BUILDING, 41-51 TANG LUNG STREET, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212822229",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-10-19"
+      },
+      "cuisine": "韓國菜",
+      "cuisines": [
+        "韓國菜"
+      ],
+      "cuisineRaw": [
+        "korean"
+      ],
+      "osm": [
+        {
+          "id": "node/2090588063",
+          "url": "https://www.openstreetmap.org/node/2090588063",
+          "updatedAt": "2025-04-25T12:26:25Z",
+          "version": 12,
+          "cuisineRaw": "korean"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212823277",
+      "name": "赤居食屋",
+      "nameEn": "AKA JAPANESE RESTAURANT",
+      "aliases": [
+        "AKA JAPANESE RESTAURANT",
+        "赤居食屋"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣名店坊 百德新街66-72號地下A鋪",
+      "addressEn": "SHOP A, G/F, 66-72 PATERSON STREET, FASHION WALK, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212823277",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-01-13"
+      },
+      "cuisine": "日本菜",
+      "cuisines": [
+        "日本菜"
+      ],
+      "cuisineRaw": [
+        "japanese"
+      ],
+      "osm": [
+        {
+          "id": "node/4850145256",
+          "url": "https://www.openstreetmap.org/node/4850145256",
+          "updatedAt": "2025-11-08T06:03:25Z",
+          "version": 8,
+          "cuisineRaw": "japanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3112807983",
+      "name": "鬼金棒",
+      "nameEn": "Kikanbo Ramen",
+      "aliases": [
+        "Kikanbo Ramen",
+        "鬼金棒"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣謝斐道530號地下",
+      "addressEn": "G/F., 530 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "3112807983",
+        "type": "RR",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-04-07"
+      },
+      "cuisine": "日本菜",
+      "cuisines": [
+        "日本菜"
+      ],
+      "cuisineRaw": [
+        "japanese"
+      ],
+      "osm": [
+        {
+          "id": "node/8244642342",
+          "url": "https://www.openstreetmap.org/node/8244642342",
+          "updatedAt": "2020-12-20T11:01:33Z",
+          "version": 1,
+          "cuisineRaw": "japanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3112810424",
+      "name": "何富記麵家",
+      "nameEn": "何富記麵家",
+      "aliases": [
+        "何富記麵家"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣勿地臣街12號地下",
+      "addressEn": "G/F, NO. 12 MATHESON STREET, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "3112810424",
+        "type": "RR",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-09-02"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/9902966424",
+          "url": "https://www.openstreetmap.org/node/9902966424",
+          "updatedAt": "2025-05-31T13:27:20Z",
+          "version": 3,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3812825135",
+      "name": "火桶",
+      "nameEn": "HWA TONG",
+      "aliases": [
+        "HWA TONG",
+        "火桶"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣勿地臣街18號地下",
+      "addressEn": "G/F, 18 MATHESON STREET, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "3812825135",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-02-04"
+      },
+      "cuisine": "韓國菜",
+      "cuisines": [
+        "韓國菜"
+      ],
+      "cuisineRaw": [
+        "korean"
+      ],
+      "osm": [
+        {
+          "id": "node/9902966421",
+          "url": "https://www.openstreetmap.org/node/9902966421",
+          "updatedAt": "2026-08-19T13:19:37Z",
+          "version": 2,
+          "cuisineRaw": "korean"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212810727",
+      "name": "湖南苑湘菜館",
+      "nameEn": "湖南苑湘菜館",
+      "aliases": [
+        "湖南苑湘菜館"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣謝斐道340-344號保如大廈地下E至G舖",
+      "addressEn": "SHOP E-G, G/F., PAUL YEE MANSION, 340-344 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212810727",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-01-18"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/6715363687",
+          "url": "https://www.openstreetmap.org/node/6715363687",
+          "updatedAt": "2022-11-07T10:33:24Z",
+          "version": 2,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212810949",
+      "name": "勤記粉麵",
+      "nameEn": "King's Cafe",
+      "aliases": [
+        "King's Cafe",
+        "勤記粉麵"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣渣甸街31號地下",
+      "addressEn": "G/F., NO. 31 JARDINE'S BAZAAR, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212810949",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-03-15"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/6759443427",
+          "url": "https://www.openstreetmap.org/node/6759443427",
+          "updatedAt": "2025-02-19T02:30:15Z",
+          "version": 2,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212813258",
+      "name": "連和燒味餐廳",
+      "nameEn": "連和燒味餐廳",
+      "aliases": [
+        "連和燒味餐廳"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣渣甸街41號地下",
+      "addressEn": "G/F., 41 JARDINE'S BAZAAR, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212813258",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2026-11-21"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/6759443418",
+          "url": "https://www.openstreetmap.org/node/6759443418",
+          "updatedAt": "2019-08-30T13:30:50Z",
+          "version": 1,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212813285",
+      "name": "優點點心專門店",
+      "nameEn": "King's Dimsum",
+      "aliases": [
+        "King's Dimsum",
+        "優點點心專門店"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣渣甸街35號地下",
+      "addressEn": "G/F., 35 JARDINE'S BAZAAR, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212813285",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2026-12-04"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/6759443421",
+          "url": "https://www.openstreetmap.org/node/6759443421",
+          "updatedAt": "2025-02-19T02:30:15Z",
+          "version": 2,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212816044",
+      "name": "十字冰室",
+      "nameEn": "The Cross Cafe",
+      "aliases": [
+        "The Cross Cafe",
+        "十字冰室"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣禮頓道64號地下",
+      "addressEn": "G/F., NO. 64 LEIGHTON ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212816044",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-11-07"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/4860723625",
+          "url": "https://www.openstreetmap.org/node/4860723625",
+          "updatedAt": "2024-04-03T01:01:14Z",
+          "version": 4,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212816187",
+      "name": "YKY 自家麵",
+      "nameEn": "YKY 自家麵",
+      "aliases": [
+        "YKY 自家麵"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣登龍街36-48號登輝大廈地下B鋪",
+      "addressEn": "SHOP B, G/F., TANG FAI BUILDING, NO. 36-48 TANG LUNG STREET, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212816187",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2026-12-09"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/2979415890",
+          "url": "https://www.openstreetmap.org/node/2979415890",
+          "updatedAt": "2025-02-16T23:06:52Z",
+          "version": 6,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212817773",
+      "name": "橋底辣蟹",
+      "nameEn": "Under Bridge Spicy Crab",
+      "aliases": [
+        "Under Bridge Spicy Crab",
+        "橋底辣蟹"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣駱克道391號 金禧大廈地下(部分)及閣樓",
+      "addressEn": "GROUND FLOOR (PORTION) AND M/F., GOLDEN JUBILEE HOUSE, 391 LOCKHART ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212817773",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-03-09"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/6937276426",
+          "url": "https://www.openstreetmap.org/node/6937276426",
+          "updatedAt": "2024-03-31T13:21:14Z",
+          "version": 3,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212818183",
+      "name": "潮興隆",
+      "nameEn": "潮興隆",
+      "aliases": [
+        "潮興隆"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣登龍街39號地下",
+      "addressEn": "G/F., NO. 39 TANG LUNG STREET, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212818183",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-07-07"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/11210124166",
+          "url": "https://www.openstreetmap.org/node/11210124166",
+          "updatedAt": "2025-04-03T12:33:26Z",
+          "version": 3,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212818934",
+      "name": "淘館",
+      "nameEn": "TOO GOOD",
+      "aliases": [
+        "TOO GOOD",
+        "淘館"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣蘭芳道17號地下",
+      "addressEn": "G/F., NO. 17 LAN FONG ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212818934",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-08-03"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/8658653925",
+          "url": "https://www.openstreetmap.org/node/8658653925",
+          "updatedAt": "2021-04-23T10:03:49Z",
+          "version": 1,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212822186",
+      "name": "鵝頸橋",
+      "nameEn": "鵝頸橋",
+      "aliases": [
+        "鵝頸橋"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣謝斐道414-424號 中望商業中心地下1-2號舖",
+      "addressEn": "SHOP 1-2, G/F, CHINAWEAL CENTRE, 414-424 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212822186",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-10-16"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/2300359472",
+          "url": "https://www.openstreetmap.org/node/2300359472",
+          "updatedAt": "2024-09-24T08:23:58Z",
+          "version": 8,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212822335",
+      "name": "牛奶冰室",
+      "nameEn": "Milk Cafe",
+      "aliases": [
+        "Milk Cafe",
+        "牛奶冰室"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣駱克道463-483號 銅鑼灣廣場二期地下G04舖(A部份)",
+      "addressEn": "SHOP NO. G04 (PORTION A), G/F, CAUSEWAY BAY PLAZA 2, 463-483 LOCKHART ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212822335",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2026-11-27"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/2090589274",
+          "url": "https://www.openstreetmap.org/node/2090589274",
+          "updatedAt": "2023-11-05T14:42:12Z",
+          "version": 18,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2212822478",
+      "name": "人和荳品廠",
+      "nameEn": "人和荳品廠",
+      "aliases": [
+        "人和荳品廠"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣渣甸街49號 地下及閣樓部份",
+      "addressEn": "GROUND FLOOR & PORTION OF COCKLOFT, NO. 49 JARDINE'S BAZAAR, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "2212822478",
+        "type": "RL",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-01-22"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/10842706445",
+          "url": "https://www.openstreetmap.org/node/10842706445",
+          "updatedAt": "2023-04-26T13:01:23Z",
+          "version": 1,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3112803307",
+      "name": "VIA TOKYO",
+      "nameEn": "VIA TOKYO",
+      "aliases": [
+        "VIA TOKYO"
+      ],
+      "district": "銅鑼灣",
+      "address": "香港銅鑼灣禮頓道106-126號禮信大厦地下1A及1B舖",
+      "addressEn": "SHOP 1A & 1B, G/F., LEI SHUN COURT, 106-126 LEIGHTON ROAD, CAUSEWAY BAY, HONG KONG",
+      "licence": {
+        "number": "3112803307",
+        "type": "RR",
+        "sourceDistrict": "12",
+        "expiryAsRecorded": "2027-07-25"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/4860696043",
+          "url": "https://www.openstreetmap.org/node/4860696043",
+          "updatedAt": "2022-10-21T16:09:18Z",
+          "version": 5,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262063894",
+      "name": "農米莊",
+      "nameEn": "農米莊",
+      "aliases": [
+        "農米莊"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角通菜街154號地下",
+      "addressEn": "G/F, 154 TUNG CHOI STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262063894",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": "中式",
+      "cuisines": [
+        "中式"
+      ],
+      "cuisineRaw": [
+        "chinese"
+      ],
+      "osm": [
+        {
+          "id": "node/4264548292",
+          "url": "https://www.openstreetmap.org/node/4264548292",
+          "updatedAt": "2024-07-14T04:40:22Z",
+          "version": 7,
+          "cuisineRaw": "chinese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262064727",
+      "name": "倫敦大酒樓",
+      "nameEn": "倫敦大酒樓",
+      "aliases": [
+        "倫敦大酒樓"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角彌敦道612號地下(部份)及612-618 號好望角大廈3樓至4樓",
+      "addressEn": "G/F OF 612(PORTION), 3/F-4/F OF 612-618 NATHAN ROAD, GOOD HOPE BUILDING, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262064727",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": "中式",
+      "cuisines": [
+        "中式"
+      ],
+      "cuisineRaw": [
+        "chinese"
+      ],
+      "osm": [
+        {
+          "id": "node/3176514491",
+          "url": "https://www.openstreetmap.org/node/3176514491",
+          "updatedAt": "2017-08-25T16:50:47Z",
+          "version": 3,
+          "cuisineRaw": "chinese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262176875",
+      "name": "萬和廚坊",
+      "nameEn": "萬和廚坊",
+      "aliases": [
+        "萬和廚坊"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角渡船街322號順興大廈地下3號舖",
+      "addressEn": "SHOP 3, G/F, SHUN HING BUILDING, 322 FERRY ST, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262176875",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-07-20"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [
+        "local"
+      ],
+      "osm": [
+        {
+          "id": "node/13959233401",
+          "url": "https://www.openstreetmap.org/node/13959233401",
+          "updatedAt": "2026-06-23T05:20:10Z",
+          "version": 1,
+          "cuisineRaw": "local"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262807342",
+      "name": "上野鐵板燒專門店",
+      "nameEn": "UENO TEPPAN YAKI RESTAURANT",
+      "aliases": [
+        "UENO TEPPAN YAKI RESTAURANT",
+        "上野鐵板燒專門店"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角通菜街79號地下",
+      "addressEn": "G/F, 79 TUNG CHOI STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262807342",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-07-22"
+      },
+      "cuisine": "日本菜",
+      "cuisines": [
+        "日本菜"
+      ],
+      "cuisineRaw": [
+        "japanese"
+      ],
+      "osm": [
+        {
+          "id": "node/6483811435",
+          "url": "https://www.openstreetmap.org/node/6483811435",
+          "updatedAt": "2019-05-19T12:57:34Z",
+          "version": 1,
+          "cuisineRaw": "japanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262807722",
+      "name": "光榮冰室",
+      "nameEn": "光榮冰室",
+      "aliases": [
+        "光榮冰室"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角花園街3-5號鴻威大廈地下12-13號舖",
+      "addressEn": "SHOP 12-13, G/F, HUNG WAI BUILDING, 3-5 FA YUEN STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262807722",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-04-14"
+      },
+      "cuisine": "粵菜",
+      "cuisines": [
+        "粵菜"
+      ],
+      "cuisineRaw": [
+        "cantonese"
+      ],
+      "osm": [
+        {
+          "id": "node/10140230750",
+          "url": "https://www.openstreetmap.org/node/10140230750",
+          "updatedAt": "2022-10-30T15:46:06Z",
+          "version": 1,
+          "cuisineRaw": "cantonese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262809144",
+      "name": "Reiwa Shabushabu & Sake",
+      "nameEn": "令和鍋物酒場",
+      "aliases": [
+        "令和鍋物酒場",
+        "Reiwa Shabushabu & Sake"
+      ],
+      "district": "旺角",
+      "address": "九龍彌敦道613號飛達商業中心1樓",
+      "addressEn": "1/F, FEE TAT COMMERCIAL CENTRE, 613 NATHAN ROAD, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262809144",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-07-01"
+      },
+      "cuisine": "日本菜",
+      "cuisines": [
+        "日本菜"
+      ],
+      "cuisineRaw": [
+        "japanese"
+      ],
+      "osm": [
+        {
+          "id": "node/10103074609",
+          "url": "https://www.openstreetmap.org/node/10103074609",
+          "updatedAt": "2022-10-15T12:38:03Z",
+          "version": 1,
+          "cuisineRaw": "japanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262809524",
+      "name": "連和燒味餐廳",
+      "nameEn": "連和燒味餐廳",
+      "aliases": [
+        "連和燒味餐廳"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角西洋菜南街222號地下",
+      "addressEn": "G/F, 222 SAI YEUNG CHOI STREET SOUTH, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262809524",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-01-22"
+      },
+      "cuisine": "中式",
+      "cuisines": [
+        "中式"
+      ],
+      "cuisineRaw": [
+        "chinese"
+      ],
+      "osm": [
+        {
+          "id": "node/10816048932",
+          "url": "https://www.openstreetmap.org/node/10816048932",
+          "updatedAt": "2024-07-08T11:04:28Z",
+          "version": 2,
+          "cuisineRaw": "chinese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262811099",
+      "name": "譚仔雲南米線",
+      "nameEn": "譚仔雲南米線",
+      "aliases": [
+        "譚仔雲南米線"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角砵蘭街215號, 山東街31-35號德昌商場大廈 3樓",
+      "addressEn": "3/F, TAK CHEONG COMMERCIAL BUILDING, 215 PORTLAND STREET, 31-35 SHANTUNG STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262811099",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-11-03"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/10829672469",
+          "url": "https://www.openstreetmap.org/node/10829672469",
+          "updatedAt": "2023-09-14T05:54:06Z",
+          "version": 3,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262812366",
+      "name": "西記粥店",
+      "nameEn": "西記粥店",
+      "aliases": [
+        "西記粥店"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角旺角道22號地下",
+      "addressEn": "G/F, NO. 22 MONG KOK ROAD, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262812366",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-02-21"
+      },
+      "cuisine": "中式",
+      "cuisines": [
+        "中式"
+      ],
+      "cuisineRaw": [
+        "chinese"
+      ],
+      "osm": [
+        {
+          "id": "node/4860164685",
+          "url": "https://www.openstreetmap.org/node/4860164685",
+          "updatedAt": "2024-07-14T04:40:22Z",
+          "version": 7,
+          "cuisineRaw": "chinese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262813651",
+      "name": "令和居酒屋",
+      "nameEn": "Reiwa Izakaya",
+      "aliases": [
+        "Reiwa Izakaya",
+        "令和居酒屋"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角洗衣街111號地下",
+      "addressEn": "G/F., 111 SAI YEE STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262813651",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-08-27"
+      },
+      "cuisine": "日本菜",
+      "cuisines": [
+        "日本菜"
+      ],
+      "cuisineRaw": [
+        "japanese"
+      ],
+      "osm": [
+        {
+          "id": "node/10103124315",
+          "url": "https://www.openstreetmap.org/node/10103124315",
+          "updatedAt": "2022-10-15T13:07:52Z",
+          "version": 1,
+          "cuisineRaw": "japanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262814247",
+      "name": "一生懸麵",
+      "nameEn": "一生懸麵",
+      "aliases": [
+        "一生懸麵"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角通菜街73號地下",
+      "addressEn": "G/F, 73 TUNG CHOI STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262814247",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-06-04"
+      },
+      "cuisine": "日本菜",
+      "cuisines": [
+        "日本菜",
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "japanese",
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/6483811437",
+          "url": "https://www.openstreetmap.org/node/6483811437",
+          "updatedAt": "2022-10-19T11:13:22Z",
+          "version": 3,
+          "cuisineRaw": "japanese;noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262814511",
+      "name": "點點心",
+      "nameEn": "DIM DIM SUM",
+      "aliases": [
+        "DIM DIM SUM",
+        "點點心"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角通菜街104至106號地下",
+      "addressEn": "G/F, 104-106 TUNG CHOI STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262814511",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-11-03"
+      },
+      "cuisine": "中式",
+      "cuisines": [
+        "中式"
+      ],
+      "cuisineRaw": [
+        "chinese"
+      ],
+      "osm": [
+        {
+          "id": "node/1280851134",
+          "url": "https://www.openstreetmap.org/node/1280851134",
+          "updatedAt": "2025-03-27T22:57:33Z",
+          "version": 6,
+          "cuisineRaw": "chinese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262815684",
+      "name": "東京街",
+      "nameEn": "Tokyo Street",
+      "aliases": [
+        "Tokyo Street",
+        "東京街"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角西洋菜南街228號地下",
+      "addressEn": "G/F, NO. 228 SAI YEUNG CHOI STREET SOUTH, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262815684",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-07-18"
+      },
+      "cuisine": "日本菜",
+      "cuisines": [
+        "日本菜"
+      ],
+      "cuisineRaw": [
+        "japanese"
+      ],
+      "osm": [
+        {
+          "id": "node/9933800508",
+          "url": "https://www.openstreetmap.org/node/9933800508",
+          "updatedAt": "2024-07-08T11:04:28Z",
+          "version": 3,
+          "cuisineRaw": "japanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262815815",
+      "name": "榮園麵家",
+      "nameEn": "WING YUEN NOODLE",
+      "aliases": [
+        "WING YUEN NOODLE",
+        "榮園麵家"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角通菜街69號地下",
+      "addressEn": "G/F, NO. 69 TUNG CHOI STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262815815",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-10-07"
+      },
+      "cuisine": "麵食",
+      "cuisines": [
+        "麵食"
+      ],
+      "cuisineRaw": [
+        "noodle"
+      ],
+      "osm": [
+        {
+          "id": "node/4426193286",
+          "url": "https://www.openstreetmap.org/node/4426193286",
+          "updatedAt": "2024-03-22T11:33:14Z",
+          "version": 3,
+          "cuisineRaw": "noodle"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262815860",
+      "name": "水門雞飯",
+      "nameEn": "Watergate Chicken Rice",
+      "aliases": [
+        "Watergate Chicken Rice",
+        "水門雞飯"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角豉油街21C號地下",
+      "addressEn": "G/F, NO.21C SOY STREET, MONGKOK, KOWLOON",
+      "licence": {
+        "number": "2262815860",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-11-09"
+      },
+      "cuisine": "泰國菜",
+      "cuisines": [
+        "泰國菜"
+      ],
+      "cuisineRaw": [
+        "thai"
+      ],
+      "osm": [
+        {
+          "id": "node/11780667242",
+          "url": "https://www.openstreetmap.org/node/11780667242",
+          "updatedAt": "2024-04-05T13:28:53Z",
+          "version": 2,
+          "cuisineRaw": "thai"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262816650",
+      "name": "丸目背脂煮干",
+      "nameEn": "Marume Ramen",
+      "aliases": [
+        "Marume Ramen",
+        "丸目背脂煮干"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角通菜街74號地下",
+      "addressEn": "G/F, 74 TUNG CHOI STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262816650",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-08-28"
+      },
+      "cuisine": "日本菜",
+      "cuisines": [
+        "日本菜"
+      ],
+      "cuisineRaw": [
+        "japanese"
+      ],
+      "osm": [
+        {
+          "id": "node/10123795921",
+          "url": "https://www.openstreetmap.org/node/10123795921",
+          "updatedAt": "2023-02-03T10:37:06Z",
+          "version": 2,
+          "cuisineRaw": "japanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262817592",
+      "name": "一蘭",
+      "nameEn": "Ichiran",
+      "aliases": [
+        "Ichiran",
+        "一蘭"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角洗衣街88號碧薈地下B鋪",
+      "addressEn": "SHOP B, G/F., THE BEACON, 88 SAI YEE STREET, MONGKOK, KOWLOON",
+      "licence": {
+        "number": "2262817592",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-04-21"
+      },
+      "cuisine": "日本菜",
+      "cuisines": [
+        "日本菜"
+      ],
+      "cuisineRaw": [
+        "ramen"
+      ],
+      "osm": [
+        {
+          "id": "node/12038023837",
+          "url": "https://www.openstreetmap.org/node/12038023837",
+          "updatedAt": "2024-07-06T17:46:07Z",
+          "version": 1,
+          "cuisineRaw": "ramen"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262818179",
+      "name": "牛丼家",
+      "nameEn": "GYUDONYA",
+      "aliases": [
+        "GYUDONYA",
+        "牛丼家"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角通菜街123號 盛世酒店一樓及二樓",
+      "addressEn": "1/F & 2/F, EPOCH HOTEL, 123 TUNG CHOI STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262818179",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-05-29"
+      },
+      "cuisine": "日本菜",
+      "cuisines": [
+        "日本菜"
+      ],
+      "cuisineRaw": [
+        "japanese"
+      ],
+      "osm": [
+        {
+          "id": "node/12042757300",
+          "url": "https://www.openstreetmap.org/node/12042757300",
+          "updatedAt": "2024-07-09T03:13:03Z",
+          "version": 1,
+          "cuisineRaw": "japanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262818559",
+      "name": "一點心",
+      "nameEn": "One Dim Dum",
+      "aliases": [
+        "One Dim Dum",
+        "一點心"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角通菜街209A-209B號及運動場道9號 地下",
+      "addressEn": "G/F, 209A-209B TUNG CHOI STREET & 9 PLAYING FIELD ROAD, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262818559",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-05-21"
+      },
+      "cuisine": "粵菜",
+      "cuisines": [
+        "粵菜"
+      ],
+      "cuisineRaw": [
+        "cantonese",
+        "dim_sum"
+      ],
+      "osm": [
+        {
+          "id": "node/2195651220",
+          "url": "https://www.openstreetmap.org/node/2195651220",
+          "updatedAt": "2025-12-02T16:13:38Z",
+          "version": 8,
+          "cuisineRaw": "dim_sum;cantonese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3162191506",
+      "name": "阿純山東餃子",
+      "nameEn": "阿純山東餃子",
+      "aliases": [
+        "阿純山東餃子"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角荔枝角道60號地下",
+      "addressEn": "G/F, 60 LAI CHI KOK ROAD, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "3162191506",
+        "type": "RR",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2026-12-26"
+      },
+      "cuisine": "餃子",
+      "cuisines": [
+        "餃子"
+      ],
+      "cuisineRaw": [
+        "dumplings"
+      ],
+      "osm": [
+        {
+          "id": "node/4714346289",
+          "url": "https://www.openstreetmap.org/node/4714346289",
+          "updatedAt": "2020-07-19T22:31:00Z",
+          "version": 4,
+          "cuisineRaw": "dumplings"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-3162805715",
+      "name": "冚棒唥",
+      "nameEn": "HAM6 BAANG6 LAANG6",
+      "aliases": [
+        "HAM6 BAANG6 LAANG6",
+        "冚棒唥"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角廣東道983號廣福大廈地下D鋪",
+      "addressEn": "SHOP D, G/F, KWONG FOOK BUILDING, 983 CANTON ROAD, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "3162805715",
+        "type": "RR",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-03-14"
+      },
+      "cuisine": "西式",
+      "cuisines": [
+        "西式"
+      ],
+      "cuisineRaw": [
+        "western"
+      ],
+      "osm": [
+        {
+          "id": "node/10750624803",
+          "url": "https://www.openstreetmap.org/node/10750624803",
+          "updatedAt": "2023-03-21T11:41:14Z",
+          "version": 1,
+          "cuisineRaw": "western"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262068783",
+      "name": "銀龍茶餐廳",
+      "nameEn": "Ngan Lung Restaurant",
+      "aliases": [
+        "Ngan Lung Restaurant",
+        "銀龍茶餐廳"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角通菜街118-122號地下",
+      "addressEn": "G/F, 118-122 TUNG CHOI STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262068783",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/4335048294",
+          "url": "https://www.openstreetmap.org/node/4335048294",
+          "updatedAt": "2023-03-19T13:20:09Z",
+          "version": 4,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262130925",
+      "name": "三人行燒烤店",
+      "nameEn": "三人行燒烤店",
+      "aliases": [
+        "三人行燒烤店"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角通菜街85號地下",
+      "addressEn": "G/F, 85 TUNG CHOI ST, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262130925",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/6483811448",
+          "url": "https://www.openstreetmap.org/node/6483811448",
+          "updatedAt": "2023-02-03T10:37:06Z",
+          "version": 3,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262217905",
+      "name": "蘭苑饎館",
+      "nameEn": "LAN YUEN CHEE KOON",
+      "aliases": [
+        "LAN YUEN CHEE KOON",
+        "蘭苑饎館"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角西洋菜北街318號地下",
+      "addressEn": "G/F, 318 SAI YEUNG CHOI ST. NORTH, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262217905",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-02-28"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/4969480522",
+          "url": "https://www.openstreetmap.org/node/4969480522",
+          "updatedAt": "2018-09-30T12:21:10Z",
+          "version": 2,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262301118",
+      "name": "康年餐廳",
+      "nameEn": "Hong Lin Restaurant",
+      "aliases": [
+        "Hong Lin Restaurant",
+        "康年餐廳"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角通菜街143-145號地下2-3號舖",
+      "addressEn": "SHOP 2-3, G/F, 143-145 TUNG CHOI STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262301118",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2026-12-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/4714346592",
+          "url": "https://www.openstreetmap.org/node/4714346592",
+          "updatedAt": "2024-04-05T13:28:53Z",
+          "version": 5,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262806516",
+      "name": "英記油渣麵",
+      "nameEn": "英記油渣麵",
+      "aliases": [
+        "英記油渣麵"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角菩提街4號永信大廈地下I舖",
+      "addressEn": "SHOP I, G/F, WING SHUN BUILDING, 4 LIME STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262806516",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2026-12-28"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/7561519085",
+          "url": "https://www.openstreetmap.org/node/7561519085",
+          "updatedAt": "2020-05-27T05:47:42Z",
+          "version": 1,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262807041",
+      "name": "慶豐茶餐廳",
+      "nameEn": "慶豐茶餐廳",
+      "aliases": [
+        "慶豐茶餐廳"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角通菜街87號地下",
+      "addressEn": "G/F, 87 TUNG CHOI STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262807041",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-01-20"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/8732568062",
+          "url": "https://www.openstreetmap.org/node/8732568062",
+          "updatedAt": "2021-05-15T02:20:28Z",
+          "version": 1,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262807120",
+      "name": "晉家門炭燒工房",
+      "nameEn": "晉家門炭燒工房",
+      "aliases": [
+        "晉家門炭燒工房"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角白楊街3號地下A鋪",
+      "addressEn": "SHOP A, G/F, 3 POPLAR STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262807120",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-03-17"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/9894286187",
+          "url": "https://www.openstreetmap.org/node/9894286187",
+          "updatedAt": "2022-07-18T03:37:53Z",
+          "version": 1,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262808521",
+      "name": "佳記餐廳",
+      "nameEn": "KAI KEE RESTAURANT",
+      "aliases": [
+        "KAI KEE RESTAURANT",
+        "佳記餐廳"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角砵蘭街175-181號 寶倫大廈地下B舖,C舖及D舖後部分",
+      "addressEn": "SHOP B, C & REAR PORTION OF SHOP D, G/F, PO LUN BUILDING, 175-181 PORTLAND STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262808521",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-09-09"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/11472827668",
+          "url": "https://www.openstreetmap.org/node/11472827668",
+          "updatedAt": "2023-12-31T12:39:58Z",
+          "version": 1,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2262808831",
+      "name": "好旺角粥麵專家",
+      "nameEn": "Good Hope Restaurant",
+      "aliases": [
+        "Good Hope Restaurant",
+        "好旺角粥麵專家"
+      ],
+      "district": "旺角",
+      "address": "九龍旺角洗衣街123號地下",
+      "addressEn": "G/F, 123 SAI YEE STREET, MONG KOK, KOWLOON",
+      "licence": {
+        "number": "2262808831",
+        "type": "RL",
+        "sourceDistrict": "62",
+        "expiryAsRecorded": "2027-02-07"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "node/4714346593",
+          "url": "https://www.openstreetmap.org/node/4714346593",
+          "updatedAt": "2022-10-15T12:58:50Z",
+          "version": 4,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251801724",
+      "name": "聘珍樓",
+      "nameEn": "Heichinrou Restaurant",
+      "aliases": [
+        "Heichinrou Restaurant",
+        "聘珍樓"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘觀塘道392號創紀之城六期6樓",
+      "addressEn": "6/F, MILLENNIUM CITY 6, 392 KWUN TONG ROAD, KTIL 502, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251801724",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-04-19"
+      },
+      "cuisine": "中式",
+      "cuisines": [
+        "中式"
+      ],
+      "cuisineRaw": [
+        "chinese"
+      ],
+      "osm": [
+        {
+          "id": "node/5701187766",
+          "url": "https://www.openstreetmap.org/node/5701187766",
+          "updatedAt": "2023-10-18T17:10:40Z",
+          "version": 4,
+          "cuisineRaw": "chinese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251806969",
+      "name": "御品千之味",
+      "nameEn": "Oi-shi-sushi",
+      "aliases": [
+        "Oi-shi-sushi",
+        "御品千之味"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘榮業街2號振萬廣場地下G鋪",
+      "addressEn": "SHOP G, G/F, LU PLAZA, 2 WING YIP STREET, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251806969",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-03-10"
+      },
+      "cuisine": "日本菜",
+      "cuisines": [
+        "日本菜"
+      ],
+      "cuisineRaw": [
+        "japanese",
+        "sushi"
+      ],
+      "osm": [
+        {
+          "id": "node/10132200731",
+          "url": "https://www.openstreetmap.org/node/10132200731",
+          "updatedAt": "2022-10-27T09:19:31Z",
+          "version": 1,
+          "cuisineRaw": "sushi;japanese"
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251060239",
+      "name": "鴻圖樓",
+      "nameEn": "Hung To Restaurant",
+      "aliases": [
+        "Hung To Restaurant",
+        "鴻圖樓"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 鴻圖道30號地下至5樓",
+      "addressEn": "G/F TO 5/F, 30 HUNG TO ROAD, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251060239",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [
+        {
+          "id": "way/219614347",
+          "url": "https://www.openstreetmap.org/way/219614347",
+          "updatedAt": "2026-06-12T03:08:18Z",
+          "version": 6,
+          "cuisineRaw": null
+        }
+      ],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署 / OpenStreetMap",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251059378",
+      "name": "廣東燒味餐廳",
+      "nameEn": "廣東燒味餐廳",
+      "aliases": [
+        "廣東燒味餐廳"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 輔仁街34號地下(前部份)及28-38號 (閣樓)",
+      "addressEn": "34, G/F (FRONT PORTION) AND 28-38, (C/L), FU YAN STREET, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251059378",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251061454",
+      "name": "龍記小廚",
+      "nameEn": "龍記小廚",
+      "aliases": [
+        "龍記小廚"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘聯安街21號地下",
+      "addressEn": "G/F, 21 LUEN ON STREET, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251061454",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251063177",
+      "name": "新祥發",
+      "nameEn": "新祥發",
+      "aliases": [
+        "新祥發"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 協和街123-125號地下",
+      "addressEn": "G/F, 123-125 HIP WO STREET, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251063177",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251063584",
+      "name": "榮華快餐店",
+      "nameEn": "榮華快餐店",
+      "aliases": [
+        "榮華快餐店"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 順天邨天瑤樓11號地下",
+      "addressEn": "11, G/F, TIN YIU HOUSE, SHUN TIN ESTATE, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251063584",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251064028",
+      "name": "瓏門酒家",
+      "nameEn": "瓏門酒家",
+      "aliases": [
+        "瓏門酒家"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 順天邨天璣樓5-8號地下",
+      "addressEn": "5-8, G/F, TIN KEI HOUSE, SHUN TIN ESTATE, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251064028",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251064985",
+      "name": "金園麵家",
+      "nameEn": "金園麵家",
+      "aliases": [
+        "金園麵家"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 牛頭角道160號地下",
+      "addressEn": "G/F, 160 NGAU TAU KOK RD, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251064985",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251064994",
+      "name": "阿四粉麵",
+      "nameEn": "阿四粉麵",
+      "aliases": [
+        "阿四粉麵"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 牛頭角道162號地下",
+      "addressEn": "G/F, 162 NGAU TAU KOK RD, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251064994",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251065003",
+      "name": "金閣海鮮酒家",
+      "nameEn": "Golden Seafood Restaurant",
+      "aliases": [
+        "Golden Seafood Restaurant",
+        "金閣海鮮酒家"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 牛頭角道165號一樓及地下(部份)",
+      "addressEn": "PORTION OF G/F & 1/F, 165 NGAU TAU KOK ROAD, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251065003",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251065687",
+      "name": "彬記粥麵美食",
+      "nameEn": "Bun Kee Congee & Noodle Foods",
+      "aliases": [
+        "Bun Kee Congee & Noodle Foods",
+        "彬記粥麵美食"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 坪石邨玉石樓地下109-112號舖",
+      "addressEn": "G/F., NO. 109 - 112, YUK SHEK HOUSE, PING SHEK ESTATE, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251065687",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251068233",
+      "name": "紅蟻泰國菜",
+      "nameEn": "紅蟻泰國菜",
+      "aliases": [
+        "紅蟻泰國菜"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 定業街1號地下",
+      "addressEn": "G/F., 1 TING YIP ST, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251068233",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251068817",
+      "name": "好運印尼餐廳",
+      "nameEn": "好運印尼餐廳",
+      "aliases": [
+        "好運印尼餐廳"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 通明街46號地下",
+      "addressEn": "G/F, 46 TUNG MING ST, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251068817",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251077718",
+      "name": "炑八韓燒。親子餐廳",
+      "nameEn": "Meokbang BBQ Kidzone",
+      "aliases": [
+        "Meokbang BBQ Kidzone",
+        "炑八韓燒。親子餐廳"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 鴻圖道90號1樓及2樓",
+      "addressEn": "1/F AND 2/F, 90 HUNG TO RD, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251077718",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251077790",
+      "name": "寶光齋",
+      "nameEn": "寶光齋",
+      "aliases": [
+        "寶光齋"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 崇仁街29-31號地下",
+      "addressEn": "GROUND FLOOR, 29-31 SHUNG YAN STREET, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251077790",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251078225",
+      "name": "金禧快餐店",
+      "nameEn": "金禧快餐店",
+      "aliases": [
+        "金禧快餐店"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 順天邨天瑤樓5號地下",
+      "addressEn": "5, G/F, TIN YIU HOUSE, SHUN TIN ESTATE, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251078225",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251078304",
+      "name": "樂富",
+      "nameEn": "樂富",
+      "aliases": [
+        "樂富"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 茶果嶺道165號地下",
+      "addressEn": "G/F, 165 CHA KWO LING ROAD, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251078304",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251079130",
+      "name": "雙豬嘜燒味飯店",
+      "nameEn": "雙豬嘜燒味飯店",
+      "aliases": [
+        "雙豬嘜燒味飯店"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 定富街14號地下",
+      "addressEn": "G/F., 14 TING FU STREET, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251079130",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251100700",
+      "name": "泰華餐廳",
+      "nameEn": "泰華餐廳",
+      "aliases": [
+        "泰華餐廳"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 樂華邨信華樓103-105號舖",
+      "addressEn": "SHOP NO.103-105, SHUN WAH HSE, LOK WAH ESTATE, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251100700",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251123534",
+      "name": "荷里活冰室",
+      "nameEn": "荷里活冰室",
+      "aliases": [
+        "荷里活冰室"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘樂華北邨 樂華商場地下108號及109號舖",
+      "addressEn": "SHOP NO. 108 AND 109, G/F, LOK WAH COMMMERCIAL CENTRE, LOK WAH NORTH ESTATE, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251123534",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251140324",
+      "name": "上海一品香",
+      "nameEn": "上海一品香",
+      "aliases": [
+        "上海一品香"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘開源道 觀塘廣場2樓201-203號",
+      "addressEn": "201-203, 2/F, KWUN TONG PLAZA, HOI YUEN RD, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251140324",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251140607",
+      "name": "觀塘廣場龍寶酒家",
+      "nameEn": "觀塘廣場龍寶酒家",
+      "aliases": [
+        "觀塘廣場龍寶酒家"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘開源道68號觀塘廣場 15樓(小部份)及16樓(主要部份)",
+      "addressEn": "15/F(MINOR PORTION) & 16/F(MAJOR PORTION), KWUN TONG PLAZA, 68 HOI YUEN ROAD, KOWLOON",
+      "licence": {
+        "number": "2251140607",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251141415",
+      "name": "利群快餐小廚",
+      "nameEn": "利群快餐小廚",
+      "aliases": [
+        "利群快餐小廚"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 順利邨利溢樓3樓E8及E9號舖",
+      "addressEn": "SHOPS E8 & E9, 3/F, LEE YAT HOUSE, SHUN LEE ESTATE, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251141415",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251152792",
+      "name": "大家樂",
+      "nameEn": "Caf'e de Coral",
+      "aliases": [
+        "Caf'e de Coral",
+        "大家樂"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 順利邨利康樓1樓",
+      "addressEn": "1/F, LEE HONG HOUSE, SHUN LEE ESTATE, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251152792",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251155977",
+      "name": "成興",
+      "nameEn": "Shing Hing Noodle and Restaurant",
+      "aliases": [
+        "Shing Hing Noodle and Restaurant",
+        "成興"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 定安街98號地下",
+      "addressEn": "G/F, 98 TING ON STREET, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251155977",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251162207",
+      "name": "華安餐廳",
+      "nameEn": "華安餐廳",
+      "aliases": [
+        "華安餐廳"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 定富街34號地下",
+      "addressEn": "G/F, 34 TING FU STREET, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251162207",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-30"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251163352",
+      "name": "明記",
+      "nameEn": "明記",
+      "aliases": [
+        "明記"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘嘉樂街47號 瑞和大廈地下及閣樓G號舖",
+      "addressEn": "SHOP G, G/F & M/F, SHUI WO BUILDING, 47 KA LOK ST, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251163352",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-06-23"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251166883",
+      "name": "大家樂",
+      "nameEn": "Caf'e de Coral",
+      "aliases": [
+        "Caf'e de Coral",
+        "大家樂"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘康寧道11號冠天閣1樓及2樓(部份)",
+      "addressEn": "1/F & 2/F (PORTION), CHAMPION COURT, NO. 11 HONG NING ROAD, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251166883",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2026-12-11"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    },
+    {
+      "id": "FEHD-2251169749",
+      "name": "華豐",
+      "nameEn": "華豐",
+      "aliases": [
+        "華豐"
+      ],
+      "district": "觀塘",
+      "address": "九龍觀塘 宜安街2號地下高層,地下及地下低層",
+      "addressEn": "UG/F, G/F & LG/F, 2 YEE ON STREET, KWUN TONG, KOWLOON",
+      "licence": {
+        "number": "2251169749",
+        "type": "RL",
+        "sourceDistrict": "51",
+        "expiryAsRecorded": "2027-05-26"
+      },
+      "cuisine": null,
+      "cuisines": [],
+      "cuisineRaw": [],
+      "osm": [],
+      "fehdDate": "2026-10-30",
+      "importedAt": "2026-10-31",
+      "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "sourceProvider": "食物環境衞生署",
+      "hours": null,
+      "low": null,
+      "high": null,
+      "family": null,
+      "vegetarian": null,
+      "vegan": null,
+      "accessible": null,
+      "party": null,
+      "classificationReview": null
+    }
+  ]
+}

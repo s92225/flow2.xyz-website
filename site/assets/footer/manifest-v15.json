@@ -1,0 +1,15 @@
+{
+  "asset": "harbour-charcoal-v15.webp",
+  "source_master": "harbour-charcoal-v15.png",
+  "tool": "Built-in image_gen; no API-key or CLI fallback",
+  "purpose": "Decorative original footer artwork; live sitemap and social links are HTML, not raster text.",
+  "final_palette": "Neutral charcoal, grey and off-white. The earlier blue concept is not referenced by the website.",
+  "generation_prompt": "Use case: illustration-story. Asset: original website footer artwork for Flow2, a Hong Kong technology and business automation studio. Generate a very wide landscape composition, approximately 2.6:1. Art direction: a refined cobalt-blue and warm-white two-ink engraved / copperplate etching illustration with fine carved hatching and subtle paper grain, not a photo, not 3D. The composition must serve as a continuous footer background with live HTML navigation overlaid later: reserve the entire upper 65% as an almost uniform deep cobalt blue field, color approximately #103F8B, absolutely NO text, NO labels, NO logos, NO UI. Along the bottom 35%, draw an elegant panoramic imagined Hong Kong Victoria Harbour: layered mountain silhouettes, a compact low skyline toward the right, one tiny ferry on the harbour, intricate flowing water lines that gently imply connected workflows. Mostly white engraving against blue, with generous blue negative space. White landscape contours blend naturally into the blue field with no rectangular image edge, no border, no frame. Fine, sophisticated editorial printmaking, calm confident visual character. Do not copy any existing footer or brand illustration. No horse, no desert, no floating technology icons, no circuit boards, no gradients, no literal flowchart. Full-bleed art across both horizontal edges.",
+  "final_palette_edit_prompt": "Edit this generated footer artwork. Preserve the exact wide composition, Hong Kong harbour engraving, mountain shapes, skyline, ferry and flowing water lines. CHANGE PALETTE ONLY: remove ALL blue and all other chroma. The background must be deep neutral charcoal approximately #242422, with white and pale neutral grey engraving strokes and subtle print grain. Sophisticated strictly monochrome charcoal/grey/off-white, no navy, no teal, no warm brown or sepia. Keep the large empty upper field completely free of text and icons; this is for overlaid HTML footer navigation. Keep the same size and composition. No added elements, no words, no logos, no borders.",
+  "encoding": "Master copied into workspace; WebP encoding only, no programmatic artwork or palette edits.",
+  "dimensions": [
+    2022,
+    778
+  ],
+  "webp_bytes": 209330
+}

@@ -1,0 +1,32 @@
+{
+  "fetched": "2026-10-30",
+  "assets": {
+    "notion.svg": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/notion.svg",
+    "n8n.svg": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/n8n.svg",
+    "make.svg": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/make.svg",
+    "sheets.png": "https://www.gstatic.com/images/branding/product/2x/sheets_2020q4_48dp.png",
+    "gmail.png": "https://www.gstatic.com/images/branding/product/2x/gmail_2020q4_48dp.png",
+    "whatsapp.svg": "https://github.com/FortAwesome/Font-Awesome/blob/7.x/svgs/brands/whatsapp.svg",
+    "shopify.svg": "https://github.com/FortAwesome/Font-Awesome/blob/7.x/svgs/brands/shopify.svg"
+  },
+  "simpleIcons": [
+    {
+      "title": "Make",
+      "hex": "6D00CC",
+      "source": "https://www.make.com/en/press",
+      "guidelines": "https://www.make.com/en/press"
+    },
+    {
+      "title": "n8n",
+      "hex": "EA4B71",
+      "source": "https://n8n.io/press"
+    },
+    {
+      "title": "Notion",
+      "hex": "000000",
+      "source": "https://www.notion.so"
+    }
+  ],
+  "modifications": "SVG single-color fill applied for this neutral-background integration strip. Paths unchanged; Font Awesome attribution comments retained. Google PNGs unmodified.",
+  "note": "Brand trademarks remain with their owners. Logos identify potential integrations, not partnership or certification. Review current brand guidelines before production release."
+}

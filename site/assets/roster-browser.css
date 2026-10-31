@@ -1,0 +1,12 @@
+/* A Safari-like window wraps only the scheduling workspace; WhatsApp stays alongside it. */
+.roster-browser{scroll-margin-top:20px;min-width:0;overflow:hidden;border:1px solid #ced1d6;border-radius:14px;background:#eef0ee;align-self:start}
+.roster-browser-bar{height:48px;padding:0 16px;display:flex;align-items:center;justify-content:space-between;gap:14px;border-bottom:1px solid #dce0dc;background:#ecefee}
+.roster-browser-dots{display:flex;gap:7px;flex-shrink:0}
+.roster-browser-dots i{display:block;width:9px;height:9px;border-radius:50%;background:#e18b85}
+.roster-browser-dots i:nth-child(2){background:#d7ba65}.roster-browser-dots i:nth-child(3){background:#7eaf91}
+.roster-browser-address{font-size:11px;color:#5b645e;text-align:center;background:#fafcf9;border:1px solid #d6ddd6;border-radius:6px;padding:5px 12px;width:65%;max-width:360px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.roster-browser-bar>small{font-size:11px;color:#5b645e;white-space:nowrap}
+.roster-browser .matching-surface{border:0;border-radius:0;min-height:590px;padding:24px;background:#fff}
+.roster-browser .matching-surface>.section-top h2{font-size:20px}
+@media(max-width:1100px){.roster-browser .matching-surface{padding:20px 16px}.roster-browser-bar>small{display:none}.roster-browser-address{width:75%}}
+@media(max-width:600px){.roster-browser{border-radius:12px}.roster-browser-bar{height:44px;padding-inline:12px;gap:10px}.roster-browser-address{font-size:11px}.roster-browser .matching-surface{min-height:0;padding:20px 14px}.roster-browser .matching-surface>.section-top h2{font-size:18px}}

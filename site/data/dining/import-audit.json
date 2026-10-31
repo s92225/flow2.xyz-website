@@ -1,0 +1,661 @@
+{
+  "metadata": {
+    "version": "open-dining-a8a2c2bf11fe",
+    "importedAt": "2026-10-31",
+    "fehdGeneratedAt": "2026-10-30",
+    "osmSnapshotAt": "2026-10-30T16:21:11Z",
+    "count": 150,
+    "districts": [
+      "尖沙咀",
+      "中環",
+      "銅鑼灣",
+      "旺角",
+      "觀塘"
+    ],
+    "counts": {
+      "尖沙咀": 30,
+      "中環": 30,
+      "銅鑼灣": 30,
+      "旺角": 30,
+      "觀塘": 30
+    },
+    "withOsm": 116,
+    "withCuisine": 79,
+    "classificationsWithheld": 2,
+    "completeDirectory": false,
+    "selection": "Up to 30 licensed records per area, preferring exact-address OSM associations; not a complete directory or ranking. Areas follow FEHD address locality text plus district-code checks, not exact administrative polygons.",
+    "sourceUrls": {
+      "fehd": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "fehdTerms": "https://data.gov.hk/en/terms-and-conditions",
+      "osm": "https://www.openstreetmap.org/copyright",
+      "osmLicense": "https://opendatacommons.org/licenses/odbl/1-0/"
+    },
+    "attribution": "食物環境衞生署 / 香港特別行政區政府 / DATA.GOV.HK；© OpenStreetMap contributors.",
+    "limitations": "FEHD licence snapshot and OSM community tags are not real-time restaurant verification. OSM element edit date is not a field-by-field verification date. No prices, ratings, dietary safety, hours or live availability are asserted."
+  },
+  "sourceCounts": {
+    "fehdLicences": 17288,
+    "areaCandidates": 4100,
+    "osmElements": 1352,
+    "acceptedAssociations": 149,
+    "ambiguousAssociationsSkipped": 2
+  },
+  "inputSha256": {
+    "fehd-en.xml": "fe88adcc7422ab1e39c59b6454cab58f8b5dbb5ad106e445edfadac54551ed04",
+    "fehd-zh.xml": "264e8f261bf0b85e7ec4ad7f5f4f2197d840eda856048b827a32544764128686",
+    "osm-restaurants.json": "139675a47f4be0c9e86b0ea5b81eab0dd2a8a539da8864c0d481b40012751e81"
+  },
+  "fetch": {
+    "fehd": {
+      "en": {
+        "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+        "downloadedAt": "2026-10-30T16:21:38.539955+00:00",
+        "lastModified": "Thu, 29 Oct 2026 23:00:53 GMT",
+        "bytes": 4868192
+      },
+      "zh": {
+        "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+        "downloadedAt": "2026-10-30T16:21:39.706922+00:00",
+        "lastModified": "Thu, 29 Oct 2026 23:00:32 GMT",
+        "bytes": 4415321
+      }
+    },
+    "osm": {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "downloadedAt": "2026-10-30T16:22:33.449892+00:00",
+      "bytes": 632406,
+      "query": "[out:json][timeout:90];(nwr[\"amenity\"=\"restaurant\"](22.29,114.163,22.308,114.184);nwr[\"amenity\"=\"restaurant\"](22.277,114.149,22.289,114.166);nwr[\"amenity\"=\"restaurant\"](22.274,114.178,22.286,114.193);nwr[\"amenity\"=\"restaurant\"](22.312,114.162,22.329,114.179);nwr[\"amenity\"=\"restaurant\"](22.301,114.214,22.321,114.237););out center meta;"
+    }
+  },
+  "selectedAssociations": [
+    {
+      "fehdLicence": "2261803769",
+      "osm": "node/4149643552",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261804009",
+      "osm": "node/6778574618",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261805589",
+      "osm": "node/7257866551",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261805792",
+      "osm": "node/11397442569",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261806254",
+      "osm": "node/6937454527",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261808782",
+      "osm": "node/5477098932",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261813991",
+      "osm": "node/10128973461",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261816370",
+      "osm": "node/10102882153",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261816936",
+      "osm": "node/12949715099",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261821774",
+      "osm": "node/10096313690",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261822795",
+      "osm": "node/4377439994",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261823503",
+      "osm": "node/6064705493",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261823521",
+      "osm": "node/10102932918",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261824038",
+      "osm": "node/11083592142",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3161806146",
+      "osm": "node/4405710295",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261805330",
+      "osm": "node/4835822121",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261814611",
+      "osm": "node/4849863692",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261816343",
+      "osm": "node/10880215918",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261820814",
+      "osm": "node/12949740055",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261824056",
+      "osm": "node/5660581324",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2261824454",
+      "osm": "node/6346245185",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3161807468",
+      "osm": "node/13531388301",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3861825355",
+      "osm": "node/13934909702",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2213035792",
+      "osm": "node/4207227078",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2213067348",
+      "osm": "node/7291554277",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2213185538",
+      "osm": "node/5172769822",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218802955",
+      "osm": "node/4191084989",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218804951",
+      "osm": "node/6490345191",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218807923",
+      "osm": "node/4220477491",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218808670",
+      "osm": "node/4148659708",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218809099",
+      "osm": "node/5712853163",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218809460",
+      "osm": "node/1233568747",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218809594",
+      "osm": "node/7234578512",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218811865",
+      "osm": "node/13387881547",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218812433",
+      "osm": "node/6490345192",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218812628",
+      "osm": "node/6205676557",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218813773",
+      "osm": "way/1188582095",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218814730",
+      "osm": "node/10125919216",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218815195",
+      "osm": "node/5892708886",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218815751",
+      "osm": "node/6086782085",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218817234",
+      "osm": "node/10690645592",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218818042",
+      "osm": "node/13387881545",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218818918",
+      "osm": "node/11820459402",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2218819106",
+      "osm": "node/5346316322",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3113134972",
+      "osm": "node/4262547789",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3113141017",
+      "osm": "node/4235924590",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3113165303",
+      "osm": "node/5498471493",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3118800656",
+      "osm": "node/10199163128",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3118805952",
+      "osm": "node/6149386285",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3118810170",
+      "osm": "node/5500079821",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3118811465",
+      "osm": "node/4870427292",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3118811711",
+      "osm": "node/6433997606",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2213202293",
+      "osm": "node/4783876921",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212801622",
+      "osm": "node/5151216625",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212806362",
+      "osm": "node/6938631687",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212809538",
+      "osm": "node/2957738559",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212809714",
+      "osm": "node/14267969934",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212810602",
+      "osm": "node/4858546106",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212811720",
+      "osm": "node/9329041787",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212812334",
+      "osm": "node/9329041783",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212817065",
+      "osm": "node/4331683989",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212817278",
+      "osm": "node/4174631893",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212817676",
+      "osm": "node/8244642347",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212820630",
+      "osm": "node/4858618221",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212821563",
+      "osm": "node/2957738282",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212822229",
+      "osm": "node/2090588063",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212823277",
+      "osm": "node/4850145256",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3112807983",
+      "osm": "node/8244642342",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3112810424",
+      "osm": "node/9902966424",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3812825135",
+      "osm": "node/9902966421",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212810727",
+      "osm": "node/6715363687",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212810949",
+      "osm": "node/6759443427",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212813258",
+      "osm": "node/6759443418",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212813285",
+      "osm": "node/6759443421",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212816044",
+      "osm": "node/4860723625",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212816187",
+      "osm": "node/2979415890",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212817773",
+      "osm": "node/6937276426",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212818183",
+      "osm": "node/11210124166",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212818934",
+      "osm": "node/8658653925",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212822186",
+      "osm": "node/2300359472",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212822335",
+      "osm": "node/2090589274",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2212822478",
+      "osm": "node/10842706445",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3112803307",
+      "osm": "node/4860696043",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262063894",
+      "osm": "node/4264548292",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262064727",
+      "osm": "node/3176514491",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262176875",
+      "osm": "node/13959233401",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262807342",
+      "osm": "node/6483811435",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262807722",
+      "osm": "node/10140230750",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262809144",
+      "osm": "node/10103074609",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262809524",
+      "osm": "node/10816048932",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262811099",
+      "osm": "node/10829672469",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262812366",
+      "osm": "node/4860164685",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262813651",
+      "osm": "node/10103124315",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262814247",
+      "osm": "node/6483811437",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262814511",
+      "osm": "node/1280851134",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262815684",
+      "osm": "node/9933800508",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262815815",
+      "osm": "node/4426193286",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262815860",
+      "osm": "node/11780667242",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262816650",
+      "osm": "node/10123795921",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262817592",
+      "osm": "node/12038023837",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262818179",
+      "osm": "node/12042757300",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262818559",
+      "osm": "node/2195651220",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3162191506",
+      "osm": "node/4714346289",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "3162805715",
+      "osm": "node/10750624803",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262068783",
+      "osm": "node/4335048294",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262130925",
+      "osm": "node/6483811448",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262217905",
+      "osm": "node/4969480522",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262301118",
+      "osm": "node/4714346592",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262806516",
+      "osm": "node/7561519085",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262807041",
+      "osm": "node/8732568062",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262807120",
+      "osm": "node/9894286187",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262808521",
+      "osm": "node/11472827668",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2262808831",
+      "osm": "node/4714346593",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2251801724",
+      "osm": "node/5701187766",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2251806969",
+      "osm": "node/10132200731",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    },
+    {
+      "fehdLicence": "2251060239",
+      "osm": "way/219614347",
+      "basis": "exact normalized source name + same numbered street + area bounding-box check"
+    }
+  ],
+  "classificationReview": {
+    "reviewedAt": "2026-10-31",
+    "policy": "Conservative local review only. A withheld category is unknown, not replaced by a category inferred from a restaurant name. Raw OSM source values remain in the downloadable source subset.",
+    "withheld": {
+      "2261816936": "食環署餐廳名稱與 OSM 的 ramen 分類存在疑點；暫不採用菜式分類，亦不憑名稱推測其他菜式。",
+      "3118805952": "OSM 的 indian 分類尚需進一步確認；暫不採用，亦不補入其他未經確認的菜式。"
+    }
+  },
+  "reviewPolicySha256": "4e9cc78c3a083d636a4bb82b0722b033c1c9833e38a0f3213ca590fc82a87de4"
+}

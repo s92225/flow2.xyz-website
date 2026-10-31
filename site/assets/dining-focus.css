@@ -1,0 +1,18 @@
+/* TABLE: one conversation CTA; secondary information lives in the actual site footer. */
+.dining-site-scroll{display:flex;flex-direction:column}
+.dining-site-header{flex-shrink:0}
+.dining-site-hero{flex:1 0 auto;min-height:360px;padding:32px 24px 72px}
+.dining-site-hero>p.dining-site-intro{margin-top:16px;margin-bottom:0;font-size:14px;line-height:1.9;color:var(--muted)}
+.dining-site-hero>.button{margin-top:30px;min-height:52px;font-size:15px;padding-inline:26px}
+.dining-site-footer{flex-shrink:0;margin:0 32px;padding:12px 310px 20px 0;text-align:left;border-top:0;font-size:12px}
+.dining-site-footer details{max-width:680px}
+.dining-site-footer summary{display:flex;align-items:center;gap:9px;width:fit-content;min-height:44px;cursor:pointer;font-size:12px;color:var(--muted)}
+.dining-site-footer summary::after{content:'+';font-size:16px;line-height:1}
+.dining-site-footer details[open] summary::after{content:'−'}
+.dining-site-footer details>div{padding:4px 0 14px;line-height:1.9}
+.dining-site-footer details p+p{margin-top:9px}
+.dining-site-footer .dining-footer-credit{font-size:11px;line-height:1.8}
+.dining-site-footer a{color:#4b6260}
+.dining-site-footer summary:focus-visible{outline:2px solid #4b6260;outline-offset:3px;border-radius:3px}
+@media(max-width:900px){.dining-site-footer{margin-inline:26px;padding-right:290px}}
+@media(max-width:600px){.dining-site-hero{min-height:400px;padding:30px 20px 66px}.dining-site-hero h2{font-size:27px}.dining-site-hero>p.dining-site-intro{font-size:13px;max-width:20em}.dining-site-hero>.button{font-size:14px;padding-inline:22px}.dining-site-footer{margin:0 22px;padding:10px 66px 20px 0}.dining-site-footer details>div{padding-bottom:16px}.dining-site-footer summary{font-size:12px}.dining-site-footer .dining-footer-credit{font-size:11px}}

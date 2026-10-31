@@ -1,0 +1,8 @@
+{
+  "provider": "Google Fonts",
+  "families": [
+    "Manrope variable 400-800",
+    "Noto Sans TC variable 400-900, local copy subset to prototype characters"
+  ],
+  "note": "Downloaded from official fonts.googleapis.com and fonts.gstatic.com; no runtime font requests."
+}

@@ -1,0 +1,8 @@
+{
+  "reviewedAt": "2026-10-31",
+  "policy": "Conservative local review only. A withheld category is unknown, not replaced by a category inferred from a restaurant name. Raw OSM source values remain in the downloadable source subset.",
+  "withheld": {
+    "2261816936": "食環署餐廳名稱與 OSM 的 ramen 分類存在疑點；暫不採用菜式分類，亦不憑名稱推測其他菜式。",
+    "3118805952": "OSM 的 indian 分類尚需進一步確認；暫不採用，亦不補入其他未經確認的菜式。"
+  }
+}

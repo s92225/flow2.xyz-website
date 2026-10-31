@@ -1,0 +1,3159 @@
+{
+  "source": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+  "terms": "https://data.gov.hk/en/terms-and-conditions",
+  "generatedAt": "2026-10-30",
+  "importedAt": "2026-10-31",
+  "attribution": "食物環境衞生署 / 香港特別行政區政府 / DATA.GOV.HK",
+  "records": [
+    {
+      "id": "2261803769",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261803769",
+        "SS": "Din Tai Fung",
+        "ADR": "SHOP 130 & RESTAURANT C, 3/F, SILVERCORD, 30 CANTON ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-07-27"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261803769",
+        "SS": "鼎泰豐",
+        "ADR": "九龍尖沙咀廣東道30號 新港中心三樓 餐廳C及130舖",
+        "INFO": "",
+        "EXPDATE": "2027-07-27"
+      }
+    },
+    {
+      "id": "2261804009",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261804009",
+        "SS": "WOODLANDS",
+        "ADR": "SHOP NOS. 16 & 17, UG/F, WING ON PLAZA, 62 MODY ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-09-29"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261804009",
+        "SS": "WOODLANDS",
+        "ADR": "九龍尖沙咀麼地道62號永安廣場地下上層16及17號舖",
+        "INFO": "",
+        "EXPDATE": "2027-09-29"
+      }
+    },
+    {
+      "id": "2261805589",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261805589",
+        "SS": "MYUNG GA KOREAN RESTAURANT",
+        "ADR": "SHOP NO 2702, 27/F, ISQUARE, 63 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "#E#G#H",
+        "EXPDATE": "2027-05-27"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261805589",
+        "SS": "名家韓國餐廳",
+        "ADR": "九龍尖沙咀彌敦道63號國際廣場27樓2702號鋪",
+        "INFO": "#E#G#H",
+        "EXPDATE": "2027-05-27"
+      }
+    },
+    {
+      "id": "2261805792",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261805792",
+        "SS": "Joyous Gate Banquet",
+        "ADR": "SHOP 2502, 25/F, ISQUARE, 63 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-23"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261805792",
+        "SS": "彩薈軒",
+        "ADR": "九龍尖沙咀彌敦道63號國際廣場25樓2502號鋪",
+        "INFO": "",
+        "EXPDATE": "2027-06-23"
+      }
+    },
+    {
+      "id": "2261806254",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261806254",
+        "SS": "Choi Fook Royal Banquet",
+        "ADR": "SHOP 2601-2602, 26/F, ISQUARE, 63 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-09-21"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261806254",
+        "SS": "彩福皇宴",
+        "ADR": "九龍尖沙咀彌敦道63號國際廣場26樓2601-2602號舖",
+        "INFO": "",
+        "EXPDATE": "2027-09-21"
+      }
+    },
+    {
+      "id": "2261808782",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261808782",
+        "SS": "INDIA RESTAURANT AND BAR",
+        "ADR": "6/F, 10 PRAT, NO. 10 PRAT AVENUE, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-09-24"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261808782",
+        "SS": "印度菜館",
+        "ADR": "九龍尖沙咀寶勒巷10號寶勒10 6樓",
+        "INFO": "",
+        "EXPDATE": "2027-09-24"
+      }
+    },
+    {
+      "id": "2261813991",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261813991",
+        "SS": "一喜日本料理",
+        "ADR": "7/F, 10 PRAT, 10 PRAT AVENUE, TSIM SHA TSUI, KOWLOON",
+        "INFO": "#G#H",
+        "EXPDATE": "2027-01-03"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261813991",
+        "SS": "一喜日本料理",
+        "ADR": "九龍尖沙咀寶勒巷10號 10 PRAT 七樓",
+        "INFO": "#G#H",
+        "EXPDATE": "2027-01-03"
+      }
+    },
+    {
+      "id": "2261816370",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261816370",
+        "SS": "Grindie",
+        "ADR": "G/F, NO. 7 HAU FOOK STREET, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2026-12-09"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261816370",
+        "SS": "研香",
+        "ADR": "九龍尖沙咀厚福街7號地下",
+        "INFO": "",
+        "EXPDATE": "2026-12-09"
+      }
+    },
+    {
+      "id": "2261816936",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261816936",
+        "SS": "SUN THAI RESTAURANT",
+        "ADR": "SHOP 1A, G/F., & B/F, BCC BUILDING, 25-31 CARNARVON ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "#G",
+        "EXPDATE": "2027-06-10"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261816936",
+        "SS": "新泰東南亞餐廳",
+        "ADR": "九龍尖沙咀加拿分道25至31號國際商業信貸銀行大廈 地下1A舖及地庫",
+        "INFO": "#G",
+        "EXPDATE": "2027-06-10"
+      }
+    },
+    {
+      "id": "2261821774",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261821774",
+        "SS": "POKE GO",
+        "ADR": "SHOP F,G,H & I, G/F, SOUTH SEA APARTMENTS, NO. 81 CHATHAM ROAD SOUTH, TSIM SHA TSUI, KOWLOON",
+        "INFO": "#G",
+        "EXPDATE": "2027-03-13"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261821774",
+        "SS": "POKE GO",
+        "ADR": "九龍尖沙咀漆咸道南81號南海大廈地下F,G,H及I鋪",
+        "INFO": "#G",
+        "EXPDATE": "2027-03-13"
+      }
+    },
+    {
+      "id": "2261822795",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261822795",
+        "SS": "雞少雞飯",
+        "ADR": "GROUND FLOOR, THE WAVE, NO. 184 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-01-07"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261822795",
+        "SS": "雞少雞飯",
+        "ADR": "九龍尖沙咀彌敦道184號 THE WAVE 地下",
+        "INFO": "",
+        "EXPDATE": "2027-01-07"
+      }
+    },
+    {
+      "id": "2261823503",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261823503",
+        "SS": "Sam Sam",
+        "ADR": "PORTIONS A, B, C AND D OF SHOP A, G/F., NO.55 KIMBERLEY ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-10-15"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261823503",
+        "SS": "三三骨肉",
+        "ADR": "九龍尖沙咀金巴利道 55 號地下 A 舖 A, B, C 和 D舖部份",
+        "INFO": "",
+        "EXPDATE": "2027-10-15"
+      }
+    },
+    {
+      "id": "2261823521",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261823521",
+        "SS": "春城銅鍋米線",
+        "ADR": "SHOP NO.6, G/F, DORFU COURT, 5-6 HAU FOOK STREET, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-10-23"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261823521",
+        "SS": "春城銅鍋米線",
+        "ADR": "九龍尖沙咀厚福街5-6號多富閣地下6號舖",
+        "INFO": "",
+        "EXPDATE": "2027-10-23"
+      }
+    },
+    {
+      "id": "2261824038",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261824038",
+        "SS": "ALICE PIZZA",
+        "ADR": "SHOP 1, G/F, 1-3 MINDEN AVENUE, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-04"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261824038",
+        "SS": "ALICE PIZZA",
+        "ADR": "九龍尖沙咀棉登徑1-3號地下1號鋪",
+        "INFO": "",
+        "EXPDATE": "2027-06-04"
+      }
+    },
+    {
+      "id": "3161806146",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "61",
+        "LICNO": "3161806146",
+        "SS": "麥奀雲吞麵世家",
+        "ADR": "G/F, 19 LOCK ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-03-26"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "61",
+        "LICNO": "3161806146",
+        "SS": "麥奀雲吞麵世家",
+        "ADR": "九龍尖沙咀樂道19地下",
+        "INFO": "",
+        "EXPDATE": "2027-03-26"
+      }
+    },
+    {
+      "id": "2261805330",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261805330",
+        "SS": "Lanfongyuen",
+        "ADR": "SHOP S09, BASEMENT, HEATH, CHUNGKING MANSIONS, 36-44 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-03-21"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261805330",
+        "SS": "蘭芳園",
+        "ADR": "九龍尖沙咀彌敦道36至44號重慶大厦慶方地庫S09號舖",
+        "INFO": "",
+        "EXPDATE": "2027-03-21"
+      }
+    },
+    {
+      "id": "2261814611",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261814611",
+        "SS": "UNCLE FONG HOT POT RESTAURANT",
+        "ADR": "19/F, PRINCE TOWER, 12A PEKING ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-07-27"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261814611",
+        "SS": "方叔叔重慶老火鍋",
+        "ADR": "九龍尖沙咀北京道12A號太子集團中心19樓",
+        "INFO": "",
+        "EXPDATE": "2027-07-27"
+      }
+    },
+    {
+      "id": "2261816343",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261816343",
+        "SS": "V & B CUISINE",
+        "ADR": "SHOP A & B, G/F, LONG WAH BUILDING, 21A LOCK ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2026-11-29"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261816343",
+        "SS": "品味",
+        "ADR": "九龍尖沙咀樂道21A號龍華大廈地下A及B鋪",
+        "INFO": "",
+        "EXPDATE": "2026-11-29"
+      }
+    },
+    {
+      "id": "2261820814",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261820814",
+        "SS": "Aqua",
+        "ADR": "17/F, H ZENTRE, 15 MIDDLE ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-06-05"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261820814",
+        "SS": "Aqua",
+        "ADR": "九龍尖沙咀中間道15號H ZENTRE 17樓",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-06-05"
+      }
+    },
+    {
+      "id": "2261824056",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261824056",
+        "SS": "DONYIN DINER",
+        "ADR": "G/F, 2A HAU FOOK STREET, TSIM SHA TSUI, KOWLOON",
+        "INFO": "#G#H",
+        "EXPDATE": "2027-06-09"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261824056",
+        "SS": "丼燃食堂",
+        "ADR": "九龍尖沙咀厚福街2A地下",
+        "INFO": "#G#H",
+        "EXPDATE": "2027-06-09"
+      }
+    },
+    {
+      "id": "2261824454",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261824454",
+        "SS": "三多美食",
+        "ADR": "SHOP 1, G/F, DORFU COURT, 5-6 HAU FOOK STREET, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2026-11-20"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261824454",
+        "SS": "三多美食",
+        "ADR": "九龍尖沙咀厚福街5-6號多富閣地下1號舖",
+        "INFO": "",
+        "EXPDATE": "2026-11-20"
+      }
+    },
+    {
+      "id": "3161807468",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "61",
+        "LICNO": "3161807468",
+        "SS": "CAFE ZI",
+        "ADR": "SHOP A & B, G/F, GLORY CENTRE, 8 HILLWOOD ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-02-12"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "61",
+        "LICNO": "3161807468",
+        "SS": "梔子",
+        "ADR": "九龍尖沙咀山林道8號高荔商業中心地下A及B鋪",
+        "INFO": "",
+        "EXPDATE": "2027-02-12"
+      }
+    },
+    {
+      "id": "3861825355",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "3861825355",
+        "SS": "Yung's Bistro",
+        "ADR": "SHOP NO. 704, LEVEL 7, K11 MUSEA, VICTORIA DOCKSIDE, 18 SALISBURY ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2026-12-08"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "3861825355",
+        "SS": "鏞鏞‧藝嚐館",
+        "ADR": "九龍尖沙咀梳士巴利道18號 VICTORIA DOCKSIDE K11 MUSEA  7樓704號舖",
+        "INFO": "",
+        "EXPDATE": "2026-12-08"
+      }
+    },
+    {
+      "id": "2261049635",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261049635",
+        "SS": "Jumping Dragon Seafood Restaurant",
+        "ADR": "G/F, 18B AUSTIN AVENUE, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261049635",
+        "SS": "龍門金閣海鮮酒家",
+        "ADR": "九龍尖沙咀柯士甸路18B號 地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2261049927",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261049927",
+        "SS": "SHERATON HK HOTEL",
+        "ADR": "PORTION OF 3/F, 4/F(MAJOR PORTION), 18/F & ROOF, SHERATON HONG KONG HOTEL, 20 NATHAN ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "#E#F#G#H",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261049927",
+        "SS": "香港喜來登酒店",
+        "ADR": "九龍尖沙咀彌敦道20號香港喜來登酒店 3樓(部份),4樓(主部份),18樓及天台",
+        "INFO": "#E#F#G#H",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2261058059",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261058059",
+        "SS": "興發燒味茶餐廳",
+        "ADR": "G/F, NO. 8 & G/F & PORT. OF C/L NO.10, ASHLEY ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261058059",
+        "SS": "興發燒味茶餐廳",
+        "ADR": "九龍尖沙咀亞士厘道8號 地下及10號地下及閣樓部份",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2261058077",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261058077",
+        "SS": "LA TAVERNA",
+        "ADR": "G/F & BASEMENT(PTN), ASTORIA BUILDING, 36-38 ASHLEY ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261058077",
+        "SS": "LA TAVERNA",
+        "ADR": "九龍尖沙咀亞士厘道36-38號 天星大廈地下及地庫(部份)",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2261058439",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261058439",
+        "SS": "THE MARCO POLO HONG KONG HOTEL (COFFEE SHOP)",
+        "ADR": "THE HONG KONG HOTEL LIMITED, 1/F PORTION, 3 CANTON ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261058439",
+        "SS": "馬哥孛羅香港酒店",
+        "ADR": "九龍尖沙咀廣東道3號1樓部份",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2261058448",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261058448",
+        "SS": "The Marco Polo Hong Kong Hotel",
+        "ADR": "THE HONG KONG HOTEL LTD. G/F (PORTION), 4/F (PORTION),5/F & 6/F (MAJOR PORTION), KML 91 & RP OF KML, 3 CANTON ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "#E#F#G#H",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261058448",
+        "SS": "馬哥孛羅香港酒店",
+        "ADR": "九龍尖沙咀廣東道3號 地下(部份)4樓(部份) 5樓及6樓(主要部份) (KML 91及RP OF KML)",
+        "INFO": "#E#F#G#H",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2261063152",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261063152",
+        "SS": "LEI GARDEN RESTAURANT",
+        "ADR": "2 ND BASEMENT, SHOP NO.B59, B220-B221, HOUSTON CENTRE, 63 MODY ROAD, TSIM SHA TSUI, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "61",
+        "LICNO": "2261063152",
+        "SS": "利苑酒家",
+        "ADR": "九龍尖沙咀麼地道63號 好時中心地庫第二層 B59, B220-B221號舖",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2213035792",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2213035792",
+        "SS": "MAK' S NOODLE",
+        "ADR": "G/F, 77 WELLINGTON STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2213035792",
+        "SS": "麥奀雲吞麵世家",
+        "ADR": "香港中環 威靈頓街77號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2213067348",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2213067348",
+        "SS": "忠記麵家",
+        "ADR": "SHOP A, G/F, 29-37 WING KUT STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2213067348",
+        "SS": "忠記麵家",
+        "ADR": "香港永吉街29-37號地下A舖",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2213185538",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2213185538",
+        "SS": "DIVINO",
+        "ADR": "SHOP 1, UG/F., WINSOME HOUSE, 73 WYNDHAM STREET, CENTRAL, HONG KONG",
+        "INFO": "#E#F",
+        "EXPDATE": "2027-02-01"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2213185538",
+        "SS": "DIVINO",
+        "ADR": "香港中環雲咸街73號 雲山大廈地下高層1號舖",
+        "INFO": "#E#F",
+        "EXPDATE": "2027-02-01"
+      }
+    },
+    {
+      "id": "2218802955",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218802955",
+        "SS": "Motorino Pizzeria",
+        "ADR": "G/F., 14 SHELLEY STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-02-05"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218802955",
+        "SS": "Motorino Pizzeria",
+        "ADR": "香港中環些利街14號地下",
+        "INFO": "",
+        "EXPDATE": "2027-02-05"
+      }
+    },
+    {
+      "id": "2218804951",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218804951",
+        "SS": "BELON",
+        "ADR": "G/F (PORTION), 1/F., 1-5 ELGIN STREET, CENTRAL, HONG KONG",
+        "INFO": "#E#F",
+        "EXPDATE": "2027-09-07"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218804951",
+        "SS": "BELON",
+        "ADR": "香港中環伊利近街1-5號地下(部份)及1樓",
+        "INFO": "#E#F",
+        "EXPDATE": "2027-09-07"
+      }
+    },
+    {
+      "id": "2218807923",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218807923",
+        "SS": "LA VACHE!",
+        "ADR": "SHOP B ON BASEMENT, GARLEY BUILDING, NO. 48 PEEL STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-10-27"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218807923",
+        "SS": "LA VACHE!",
+        "ADR": "香港中環卑利街48號嘉利大廈地庫B舖",
+        "INFO": "",
+        "EXPDATE": "2027-10-27"
+      }
+    },
+    {
+      "id": "2218808670",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218808670",
+        "SS": "Chilli Fagara",
+        "ADR": "G/F., 7 OLD BAILEY STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-05-18"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218808670",
+        "SS": "Chilli Fagara",
+        "ADR": "香港中環奧卑利街7號地下",
+        "INFO": "",
+        "EXPDATE": "2027-05-18"
+      }
+    },
+    {
+      "id": "2218809099",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218809099",
+        "SS": "Burger Circus",
+        "ADR": "G/F., 22 HOLLYWOOD ROAD, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-09-13"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218809099",
+        "SS": "Burger Circus",
+        "ADR": "香港中環荷李活道22號地下",
+        "INFO": "",
+        "EXPDATE": "2027-09-13"
+      }
+    },
+    {
+      "id": "2218809460",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218809460",
+        "SS": "Beyrouth Bistro",
+        "ADR": "SHOP A, G/F., LYNDHURST BUILDING, NO. 39 LYNDHURST TERRACE, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2026-12-13"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218809460",
+        "SS": "Beyrouth Bistro",
+        "ADR": "香港中環擺花街39號地下A舖",
+        "INFO": "",
+        "EXPDATE": "2026-12-13"
+      }
+    },
+    {
+      "id": "2218809594",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218809594",
+        "SS": "Porterhouse",
+        "ADR": "24/F., CALIFORNIA TOWER, 30-36 D'AGUILAR STREET, CENTRAL, HONG KONG",
+        "INFO": "#E#F#G#H",
+        "EXPDATE": "2027-02-01"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218809594",
+        "SS": "Porterhouse",
+        "ADR": "香港中環德己立街30-36號加州大廈24樓",
+        "INFO": "#E#F#G#H",
+        "EXPDATE": "2027-02-01"
+      }
+    },
+    {
+      "id": "2218811865",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218811865",
+        "SS": "JENNIFER'S KITCHEN",
+        "ADR": "SHOP 3, G/F., RYAN MANSION, NO. 31-37 MOSQUE STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-03-25"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218811865",
+        "SS": "花心廚房",
+        "ADR": "香港中環摩羅廟街31-37號樂欣大廈地下3號鋪",
+        "INFO": "",
+        "EXPDATE": "2027-03-25"
+      }
+    },
+    {
+      "id": "2218812433",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218812433",
+        "SS": "ARBOR",
+        "ADR": "25/F., H QUEEN'S, 80 QUEEN'S ROAD CENTRAL, CENTRAL, HONG KONG",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-10-14"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218812433",
+        "SS": "ARBOR",
+        "ADR": "香港中環皇后大道中80號H QUEEN'S 25樓",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-10-14"
+      }
+    },
+    {
+      "id": "2218812628",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218812628",
+        "SS": "CAFE CLAUDEL",
+        "ADR": "SHOP 01-G08 AND THE OUTSIDE SEATING ACCOMMODATION AT SHOP FRONT, G/F., HEADQUARTERS BLOCK, CENTRAL POLICE STATION, 10 HOLLYWOOD ROAD, CENTRAL, HONG KONG",
+        "INFO": "#A",
+        "EXPDATE": "2026-11-20"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218812628",
+        "SS": "CAFE CLAUDEL",
+        "ADR": "香港中環荷李活道10號中區警署總部大樓地下G08至01號舖及 舖前露天座位",
+        "INFO": "#A",
+        "EXPDATE": "2026-11-20"
+      }
+    },
+    {
+      "id": "2218813773",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218813773",
+        "SS": "Lawry's The Prime Rib",
+        "ADR": "SHOP 301, 3/F., THE GALLERIA, 9 QUEEN'S ROAD CENTRAL, CENTRAL, HONG KONG",
+        "INFO": "#F#G",
+        "EXPDATE": "2026-11-12"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218813773",
+        "SS": "Lawry's The Prime Rib",
+        "ADR": "香港中環皇后大道中9號 嘉軒廣場3字樓301鋪",
+        "INFO": "#F#G",
+        "EXPDATE": "2026-11-12"
+      }
+    },
+    {
+      "id": "2218814730",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218814730",
+        "SS": "Grill",
+        "ADR": "UNIT 1A & 1B, G/F., TAK WOO HOUSE, 17-19 D'AGUILAR STREET & 1-3 WO ON LANE, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-06-03"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218814730",
+        "SS": "Grill",
+        "ADR": "香港中環德己立街17-19號及和安里1-3號 德和大廈地下1A&1B鋪",
+        "INFO": "",
+        "EXPDATE": "2027-06-03"
+      }
+    },
+    {
+      "id": "2218815195",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218815195",
+        "SS": "LEE LAKSA",
+        "ADR": "G/F., CNT COMMERCIAL BUILDING, 302 QUEEN'S ROAD CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-01-31"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218815195",
+        "SS": "新加坡喇沙‧雞飯",
+        "ADR": "香港皇后大道中302號北海商業大廈地下",
+        "INFO": "",
+        "EXPDATE": "2027-01-31"
+      }
+    },
+    {
+      "id": "2218815751",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218815751",
+        "SS": "LUNG FU PAO",
+        "ADR": "G/F., 47B ELGIN STREET, CENTRAL, HONG KONG",
+        "INFO": "#G#H",
+        "EXPDATE": "2027-10-10"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218815751",
+        "SS": "LUNG FU PAO",
+        "ADR": "香港中環伊利近街47B號地下",
+        "INFO": "#G#H",
+        "EXPDATE": "2027-10-10"
+      }
+    },
+    {
+      "id": "2218817234",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218817234",
+        "SS": "一起食堂",
+        "ADR": "G/F., NO. 2 QUEEN VICTORIA STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2026-11-08"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218817234",
+        "SS": "一起食堂",
+        "ADR": "香港中環域多利皇后街2號地下",
+        "INFO": "",
+        "EXPDATE": "2026-11-08"
+      }
+    },
+    {
+      "id": "2218818042",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218818042",
+        "SS": "DOUBLE BLACK",
+        "ADR": "SHOP A OF G/F., KIN HING HOUSE, 26-28 MOSQUE STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-07-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218818042",
+        "SS": "DOUBLE BLACK",
+        "ADR": "香港中環摩羅廟街26-28號 建興樓地下A舖",
+        "INFO": "",
+        "EXPDATE": "2027-07-30"
+      }
+    },
+    {
+      "id": "2218818918",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218818918",
+        "SS": "田浦食肉",
+        "ADR": "G/F., WELLINGTON PLAZA, 56-58 WELLINGTON STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-08-20"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218818918",
+        "SS": "田浦食肉",
+        "ADR": "香港中環威靈頓街56-58號 威寧大廈地下",
+        "INFO": "",
+        "EXPDATE": "2027-08-20"
+      }
+    },
+    {
+      "id": "2218819106",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218819106",
+        "SS": "ALICE PIZZA",
+        "ADR": "G/F. & C/L, 18 COCHRANE STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2026-12-12"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2218819106",
+        "SS": "ALICE PIZZA",
+        "ADR": "香港中環閣麟街18號地下及閣樓",
+        "INFO": "",
+        "EXPDATE": "2026-12-12"
+      }
+    },
+    {
+      "id": "3113134972",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3113134972",
+        "SS": "車仔麵世家",
+        "ADR": "G/F, 82 JERVOIS STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-03-11"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3113134972",
+        "SS": "車仔麵世家",
+        "ADR": "香港蘇杭街82號地下",
+        "INFO": "",
+        "EXPDATE": "2027-03-11"
+      }
+    },
+    {
+      "id": "3113141017",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3113141017",
+        "SS": "SAM DOR",
+        "ADR": "G/F, 30 POTTINGER STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2026-11-16"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3113141017",
+        "SS": "三多麵食",
+        "ADR": "香港中環 砵典乍街30號地下",
+        "INFO": "",
+        "EXPDATE": "2026-11-16"
+      }
+    },
+    {
+      "id": "3113165303",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3113165303",
+        "SS": "Chopsticks Kee",
+        "ADR": "G/F., KHUAN YING COMMERCIAL BUILDING, 85 WELLINGTON STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-11-08"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3113165303",
+        "SS": "筷子記",
+        "ADR": "香港中環 威靈頓街85號 群英商業大廈地下",
+        "INFO": "",
+        "EXPDATE": "2027-11-08"
+      }
+    },
+    {
+      "id": "3118800656",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3118800656",
+        "SS": "橋香園",
+        "ADR": "G/F, 91 WELLINGTON STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2026-12-04"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3118800656",
+        "SS": "橋香園",
+        "ADR": "香港中環威靈頓街91號地下",
+        "INFO": "",
+        "EXPDATE": "2026-12-04"
+      }
+    },
+    {
+      "id": "3118805952",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3118805952",
+        "SS": "HOTAL COLOMBO",
+        "ADR": "G/F., 31 ELGIN STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-09-13"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3118805952",
+        "SS": "HOTAL COLOMBO",
+        "ADR": "香港中環伊利近街31號地下",
+        "INFO": "",
+        "EXPDATE": "2027-09-13"
+      }
+    },
+    {
+      "id": "3118810170",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3118810170",
+        "SS": "十八座狗仔粉",
+        "ADR": "G/F, NO. 20 D'AGUILAR STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-05-12"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3118810170",
+        "SS": "十八座狗仔粉",
+        "ADR": "香港中環德己立街20號地下",
+        "INFO": "",
+        "EXPDATE": "2027-05-12"
+      }
+    },
+    {
+      "id": "3118811465",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3118811465",
+        "SS": "RARE RESTAURANT",
+        "ADR": "SHOP B AND THE OUTSIDE SEATING ACCOMMODATION AT SHOP FRONT, G/F, 50 CONNAUGHT ROAD CENTRAL, CENTRAL, HONG KONG",
+        "INFO": "#A",
+        "EXPDATE": "2027-07-17"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3118811465",
+        "SS": "紅館",
+        "ADR": "香港中環干諾道中50號 地下B號鋪及鋪前露天座位",
+        "INFO": "#A",
+        "EXPDATE": "2027-07-17"
+      }
+    },
+    {
+      "id": "3118811711",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3118811711",
+        "SS": "車水堂車仔麵",
+        "ADR": "G/F, 82 STANLEY STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-01-16"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "18",
+        "LICNO": "3118811711",
+        "SS": "車水堂車仔麵",
+        "ADR": "香港中環士丹利街82號地下",
+        "INFO": "",
+        "EXPDATE": "2027-01-16"
+      }
+    },
+    {
+      "id": "2213202293",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2213202293",
+        "SS": "TWELVE FLAVORS (CEN)",
+        "ADR": "G/F. & B/M., 21 D'AGUILAR STREET, CENTRAL, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-07-21"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "18",
+        "LICNO": "2213202293",
+        "SS": "十二味",
+        "ADR": "香港中環 德己立街21號地下及地庫",
+        "INFO": "",
+        "EXPDATE": "2027-07-21"
+      }
+    },
+    {
+      "id": "2212801622",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212801622",
+        "SS": "韓雅林",
+        "ADR": "FLAT B, 6/F., CAUSEWAY BAY PLAZA ONE, 489 HENNESSY ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "#G#H",
+        "EXPDATE": "2027-06-08"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212801622",
+        "SS": "韓雅林",
+        "ADR": "香港銅鑼灣軒尼詩道489號銅鑼灣廣場一期6樓B室",
+        "INFO": "#G#H",
+        "EXPDATE": "2027-06-08"
+      }
+    },
+    {
+      "id": "2212806362",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212806362",
+        "SS": "Chez Moi",
+        "ADR": "11TH FLOOR, NO. 1 HOI PING ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "#F",
+        "EXPDATE": "2027-05-25"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212806362",
+        "SS": "Chez Moi",
+        "ADR": "香港銅鑼灣開平道1號11樓",
+        "INFO": "#F",
+        "EXPDATE": "2027-05-25"
+      }
+    },
+    {
+      "id": "2212809538",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212809538",
+        "SS": "HUNGRY KOREAN",
+        "ADR": "SHOP D, G/F., JARDINE CENTRE, 50 JARDINE'S BAZAAR, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-04-09"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212809538",
+        "SS": "HUNGRY KOREAN",
+        "ADR": "香港銅鑼灣渣甸街50號渣甸中心地下D號舖",
+        "INFO": "",
+        "EXPDATE": "2027-04-09"
+      }
+    },
+    {
+      "id": "2212809714",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212809714",
+        "SS": "CADILLAC BAR & GRILL",
+        "ADR": "SHOP 718-719, 7/F., HYSAN PLACE, 500 HENNESSY ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "#F",
+        "EXPDATE": "2027-05-27"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212809714",
+        "SS": "CADILLAC BAR & GRILL",
+        "ADR": "香港銅鑼灣軒尼詩道500號希慎廣場7樓718-719號舖",
+        "INFO": "#F",
+        "EXPDATE": "2027-05-27"
+      }
+    },
+    {
+      "id": "2212810602",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212810602",
+        "SS": "MA THAI",
+        "ADR": "G/F., 408 LOCKHART ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2026-12-28"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212810602",
+        "SS": "馬泰",
+        "ADR": "香港銅鑼灣洛克道408號地下",
+        "INFO": "",
+        "EXPDATE": "2026-12-28"
+      }
+    },
+    {
+      "id": "2212811720",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212811720",
+        "SS": "譚仔雲南米線",
+        "ADR": "SHOP E & F, G/F., CITY MANSION, NO. 483-499 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2026-11-17"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212811720",
+        "SS": "譚仔雲南米線",
+        "ADR": "香港銅鑼灣謝斐道483-499號新城大廈地下E及F舖",
+        "INFO": "",
+        "EXPDATE": "2026-11-17"
+      }
+    },
+    {
+      "id": "2212812334",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212812334",
+        "SS": "泰國大城船麵",
+        "ADR": "SHOP NOS. G & H, G/F., CITY MANSION, NOS. 483-499 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-04-28"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212812334",
+        "SS": "泰國大城船麵",
+        "ADR": "香港銅鑼灣謝斐道483-499號新城大廈地下G及H舖",
+        "INFO": "",
+        "EXPDATE": "2027-04-28"
+      }
+    },
+    {
+      "id": "2212817065",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212817065",
+        "SS": "Wing Nin Noodle",
+        "ADR": "SHOP NOS. 7, 8 & 9, G/F., SIU ON PLAZA, 482 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-07-10"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212817065",
+        "SS": "永年士多",
+        "ADR": "香港銅鑼灣謝斐道482號 兆安廣場地下7,8及9號舖",
+        "INFO": "",
+        "EXPDATE": "2027-07-10"
+      }
+    },
+    {
+      "id": "2212817278",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212817278",
+        "SS": "HON WO KOREAN RESTAURANT",
+        "ADR": "7/F., CAUSEWAY BAY PLAZA 1, 489 HENNESSY ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "#G#H",
+        "EXPDATE": "2027-09-11"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212817278",
+        "SS": "漢和韓國料理",
+        "ADR": "香港銅鑼灣軒尼詩道489號銅鑼灣廣場一期7樓",
+        "INFO": "#G#H",
+        "EXPDATE": "2027-09-11"
+      }
+    },
+    {
+      "id": "2212817676",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212817676",
+        "SS": "毫無分串",
+        "ADR": "GROUND FLOOR, NO. 526 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-01-20"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212817676",
+        "SS": "毫無分串",
+        "ADR": "香港銅鑼灣謝斐道526號地下",
+        "INFO": "",
+        "EXPDATE": "2027-01-20"
+      }
+    },
+    {
+      "id": "2212820630",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212820630",
+        "SS": "Grill",
+        "ADR": "G/F., L'HART, NOS. 487-489 LOCKHART ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-08-09"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212820630",
+        "SS": "Grill",
+        "ADR": "香港銅鑼灣駱克道487-489號駱克駅地下",
+        "INFO": "",
+        "EXPDATE": "2027-08-09"
+      }
+    },
+    {
+      "id": "2212821563",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212821563",
+        "SS": "Water Gate Chicken Rice",
+        "ADR": "SHOP NO. 9, G/F., EMPIRE COURT, 2-4 HYSAN AVENUE, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-04-27"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212821563",
+        "SS": "水門雞飯",
+        "ADR": "香港銅鑼灣希慎道2-4號 蟾宮大廈地下9鋪",
+        "INFO": "",
+        "EXPDATE": "2027-04-27"
+      }
+    },
+    {
+      "id": "2212822229",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212822229",
+        "SS": "Eva tonkatsu",
+        "ADR": "SHOP A, G/F, GOLDEN DRAGON BUILDING, 41-51 TANG LUNG STREET, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-10-19"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212822229",
+        "SS": "Eva tonkatsu",
+        "ADR": "香港銅鑼灣登龍街41-51號 金龍大廈地下A號舖",
+        "INFO": "",
+        "EXPDATE": "2027-10-19"
+      }
+    },
+    {
+      "id": "2212823277",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212823277",
+        "SS": "AKA JAPANESE RESTAURANT",
+        "ADR": "SHOP A, G/F, 66-72 PATERSON STREET, FASHION WALK, CAUSEWAY BAY, HONG KONG",
+        "INFO": "#G",
+        "EXPDATE": "2027-01-13"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212823277",
+        "SS": "赤居食屋",
+        "ADR": "香港銅鑼灣名店坊 百德新街66-72號地下A鋪",
+        "INFO": "#G",
+        "EXPDATE": "2027-01-13"
+      }
+    },
+    {
+      "id": "3112807983",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "12",
+        "LICNO": "3112807983",
+        "SS": "Kikanbo Ramen",
+        "ADR": "G/F., 530 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-04-07"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "12",
+        "LICNO": "3112807983",
+        "SS": "鬼金棒",
+        "ADR": "香港銅鑼灣謝斐道530號地下",
+        "INFO": "",
+        "EXPDATE": "2027-04-07"
+      }
+    },
+    {
+      "id": "3112810424",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "12",
+        "LICNO": "3112810424",
+        "SS": "何富記麵家",
+        "ADR": "G/F, NO. 12 MATHESON STREET, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-09-02"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "12",
+        "LICNO": "3112810424",
+        "SS": "何富記麵家",
+        "ADR": "香港銅鑼灣勿地臣街12號地下",
+        "INFO": "",
+        "EXPDATE": "2027-09-02"
+      }
+    },
+    {
+      "id": "3812825135",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "3812825135",
+        "SS": "HWA TONG",
+        "ADR": "G/F, 18 MATHESON STREET, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-02-04"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "3812825135",
+        "SS": "火桶",
+        "ADR": "香港銅鑼灣勿地臣街18號地下",
+        "INFO": "",
+        "EXPDATE": "2027-02-04"
+      }
+    },
+    {
+      "id": "2212810727",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212810727",
+        "SS": "湖南苑湘菜館",
+        "ADR": "SHOP E-G, G/F., PAUL YEE MANSION, 340-344 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-01-18"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212810727",
+        "SS": "湖南苑湘菜館",
+        "ADR": "香港銅鑼灣謝斐道340-344號保如大廈地下E至G舖",
+        "INFO": "",
+        "EXPDATE": "2027-01-18"
+      }
+    },
+    {
+      "id": "2212810949",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212810949",
+        "SS": "King's Cafe",
+        "ADR": "G/F., NO. 31 JARDINE'S BAZAAR, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-03-15"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212810949",
+        "SS": "勤記粉麵",
+        "ADR": "香港銅鑼灣渣甸街31號地下",
+        "INFO": "",
+        "EXPDATE": "2027-03-15"
+      }
+    },
+    {
+      "id": "2212813258",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212813258",
+        "SS": "連和燒味餐廳",
+        "ADR": "G/F., 41 JARDINE'S BAZAAR, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2026-11-21"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212813258",
+        "SS": "連和燒味餐廳",
+        "ADR": "香港銅鑼灣渣甸街41號地下",
+        "INFO": "",
+        "EXPDATE": "2026-11-21"
+      }
+    },
+    {
+      "id": "2212813285",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212813285",
+        "SS": "King's Dimsum",
+        "ADR": "G/F., 35 JARDINE'S BAZAAR, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2026-12-04"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212813285",
+        "SS": "優點點心專門店",
+        "ADR": "香港銅鑼灣渣甸街35號地下",
+        "INFO": "",
+        "EXPDATE": "2026-12-04"
+      }
+    },
+    {
+      "id": "2212816044",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212816044",
+        "SS": "The Cross Cafe",
+        "ADR": "G/F., NO. 64 LEIGHTON ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-11-07"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212816044",
+        "SS": "十字冰室",
+        "ADR": "香港銅鑼灣禮頓道64號地下",
+        "INFO": "",
+        "EXPDATE": "2027-11-07"
+      }
+    },
+    {
+      "id": "2212816187",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212816187",
+        "SS": "YKY 自家麵",
+        "ADR": "SHOP B, G/F., TANG FAI BUILDING, NO. 36-48 TANG LUNG STREET, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2026-12-09"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212816187",
+        "SS": "YKY 自家麵",
+        "ADR": "香港銅鑼灣登龍街36-48號登輝大廈地下B鋪",
+        "INFO": "",
+        "EXPDATE": "2026-12-09"
+      }
+    },
+    {
+      "id": "2212817773",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212817773",
+        "SS": "Under Bridge Spicy Crab",
+        "ADR": "GROUND FLOOR (PORTION) AND M/F., GOLDEN JUBILEE HOUSE, 391 LOCKHART ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-03-09"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212817773",
+        "SS": "橋底辣蟹",
+        "ADR": "香港銅鑼灣駱克道391號 金禧大廈地下(部分)及閣樓",
+        "INFO": "",
+        "EXPDATE": "2027-03-09"
+      }
+    },
+    {
+      "id": "2212818183",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212818183",
+        "SS": "潮興隆",
+        "ADR": "G/F., NO. 39 TANG LUNG STREET, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-07-07"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212818183",
+        "SS": "潮興隆",
+        "ADR": "香港銅鑼灣登龍街39號地下",
+        "INFO": "",
+        "EXPDATE": "2027-07-07"
+      }
+    },
+    {
+      "id": "2212818934",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212818934",
+        "SS": "TOO GOOD",
+        "ADR": "G/F., NO. 17 LAN FONG ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-08-03"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212818934",
+        "SS": "淘館",
+        "ADR": "香港銅鑼灣蘭芳道17號地下",
+        "INFO": "",
+        "EXPDATE": "2027-08-03"
+      }
+    },
+    {
+      "id": "2212822186",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212822186",
+        "SS": "鵝頸橋",
+        "ADR": "SHOP 1-2, G/F, CHINAWEAL CENTRE, 414-424 JAFFE ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "#G",
+        "EXPDATE": "2027-10-16"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212822186",
+        "SS": "鵝頸橋",
+        "ADR": "香港銅鑼灣謝斐道414-424號 中望商業中心地下1-2號舖",
+        "INFO": "#G",
+        "EXPDATE": "2027-10-16"
+      }
+    },
+    {
+      "id": "2212822335",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212822335",
+        "SS": "Milk Cafe",
+        "ADR": "SHOP NO. G04 (PORTION A), G/F, CAUSEWAY BAY PLAZA 2, 463-483 LOCKHART ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2026-11-27"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212822335",
+        "SS": "牛奶冰室",
+        "ADR": "香港銅鑼灣駱克道463-483號 銅鑼灣廣場二期地下G04舖(A部份)",
+        "INFO": "",
+        "EXPDATE": "2026-11-27"
+      }
+    },
+    {
+      "id": "2212822478",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212822478",
+        "SS": "人和荳品廠",
+        "ADR": "GROUND FLOOR & PORTION OF COCKLOFT, NO. 49 JARDINE'S BAZAAR, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-01-22"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "12",
+        "LICNO": "2212822478",
+        "SS": "人和荳品廠",
+        "ADR": "香港銅鑼灣渣甸街49號 地下及閣樓部份",
+        "INFO": "",
+        "EXPDATE": "2027-01-22"
+      }
+    },
+    {
+      "id": "3112803307",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "12",
+        "LICNO": "3112803307",
+        "SS": "VIA TOKYO",
+        "ADR": "SHOP 1A & 1B, G/F., LEI SHUN COURT, 106-126 LEIGHTON ROAD, CAUSEWAY BAY, HONG KONG",
+        "INFO": "",
+        "EXPDATE": "2027-07-25"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "12",
+        "LICNO": "3112803307",
+        "SS": "VIA TOKYO",
+        "ADR": "香港銅鑼灣禮頓道106-126號禮信大厦地下1A及1B舖",
+        "INFO": "",
+        "EXPDATE": "2027-07-25"
+      }
+    },
+    {
+      "id": "2262063894",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262063894",
+        "SS": "農米莊",
+        "ADR": "G/F, 154 TUNG CHOI STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262063894",
+        "SS": "農米莊",
+        "ADR": "九龍旺角通菜街154號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2262064727",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262064727",
+        "SS": "倫敦大酒樓",
+        "ADR": "G/F OF 612(PORTION), 3/F-4/F OF 612-618 NATHAN ROAD, GOOD HOPE BUILDING, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262064727",
+        "SS": "倫敦大酒樓",
+        "ADR": "九龍旺角彌敦道612號地下(部份)及612-618 號好望角大廈3樓至4樓",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2262176875",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262176875",
+        "SS": "萬和廚坊",
+        "ADR": "SHOP 3, G/F, SHUN HING BUILDING, 322 FERRY ST, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-07-20"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262176875",
+        "SS": "萬和廚坊",
+        "ADR": "九龍旺角渡船街322號順興大廈地下3號舖",
+        "INFO": "",
+        "EXPDATE": "2027-07-20"
+      }
+    },
+    {
+      "id": "2262807342",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262807342",
+        "SS": "UENO TEPPAN YAKI RESTAURANT",
+        "ADR": "G/F, 79 TUNG CHOI STREET, MONG KOK, KOWLOON",
+        "INFO": "#G#H",
+        "EXPDATE": "2027-07-22"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262807342",
+        "SS": "上野鐵板燒專門店",
+        "ADR": "九龍旺角通菜街79號地下",
+        "INFO": "#G#H",
+        "EXPDATE": "2027-07-22"
+      }
+    },
+    {
+      "id": "2262807722",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262807722",
+        "SS": "光榮冰室",
+        "ADR": "SHOP 12-13, G/F, HUNG WAI BUILDING, 3-5 FA YUEN STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-04-14"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262807722",
+        "SS": "光榮冰室",
+        "ADR": "九龍旺角花園街3-5號鴻威大廈地下12-13號舖",
+        "INFO": "",
+        "EXPDATE": "2027-04-14"
+      }
+    },
+    {
+      "id": "2262809144",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262809144",
+        "SS": "令和鍋物酒場",
+        "ADR": "1/F, FEE TAT COMMERCIAL CENTRE, 613 NATHAN ROAD, MONG KOK, KOWLOON",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-07-01"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262809144",
+        "SS": "Reiwa Shabushabu & Sake",
+        "ADR": "九龍彌敦道613號飛達商業中心1樓",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-07-01"
+      }
+    },
+    {
+      "id": "2262809524",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262809524",
+        "SS": "連和燒味餐廳",
+        "ADR": "G/F, 222 SAI YEUNG CHOI STREET SOUTH, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-01-22"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262809524",
+        "SS": "連和燒味餐廳",
+        "ADR": "九龍旺角西洋菜南街222號地下",
+        "INFO": "",
+        "EXPDATE": "2027-01-22"
+      }
+    },
+    {
+      "id": "2262811099",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262811099",
+        "SS": "譚仔雲南米線",
+        "ADR": "3/F, TAK CHEONG COMMERCIAL BUILDING, 215 PORTLAND STREET, 31-35 SHANTUNG STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-11-03"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262811099",
+        "SS": "譚仔雲南米線",
+        "ADR": "九龍旺角砵蘭街215號, 山東街31-35號德昌商場大廈 3樓",
+        "INFO": "",
+        "EXPDATE": "2027-11-03"
+      }
+    },
+    {
+      "id": "2262812366",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262812366",
+        "SS": "西記粥店",
+        "ADR": "G/F, NO. 22 MONG KOK ROAD, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-02-21"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262812366",
+        "SS": "西記粥店",
+        "ADR": "九龍旺角旺角道22號地下",
+        "INFO": "",
+        "EXPDATE": "2027-02-21"
+      }
+    },
+    {
+      "id": "2262813651",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262813651",
+        "SS": "Reiwa Izakaya",
+        "ADR": "G/F., 111 SAI YEE STREET, MONG KOK, KOWLOON",
+        "INFO": "#F#G",
+        "EXPDATE": "2027-08-27"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262813651",
+        "SS": "令和居酒屋",
+        "ADR": "九龍旺角洗衣街111號地下",
+        "INFO": "#F#G",
+        "EXPDATE": "2027-08-27"
+      }
+    },
+    {
+      "id": "2262814247",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262814247",
+        "SS": "一生懸麵",
+        "ADR": "G/F, 73 TUNG CHOI STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-04"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262814247",
+        "SS": "一生懸麵",
+        "ADR": "九龍旺角通菜街73號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-04"
+      }
+    },
+    {
+      "id": "2262814511",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262814511",
+        "SS": "DIM DIM SUM",
+        "ADR": "G/F, 104-106 TUNG CHOI STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-11-03"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262814511",
+        "SS": "點點心",
+        "ADR": "九龍旺角通菜街104至106號地下",
+        "INFO": "",
+        "EXPDATE": "2027-11-03"
+      }
+    },
+    {
+      "id": "2262815684",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262815684",
+        "SS": "Tokyo Street",
+        "ADR": "G/F, NO. 228 SAI YEUNG CHOI STREET SOUTH, MONG KOK, KOWLOON",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-07-18"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262815684",
+        "SS": "東京街",
+        "ADR": "九龍旺角西洋菜南街228號地下",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-07-18"
+      }
+    },
+    {
+      "id": "2262815815",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262815815",
+        "SS": "WING YUEN NOODLE",
+        "ADR": "G/F, NO. 69 TUNG CHOI STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-10-07"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262815815",
+        "SS": "榮園麵家",
+        "ADR": "九龍旺角通菜街69號地下",
+        "INFO": "",
+        "EXPDATE": "2027-10-07"
+      }
+    },
+    {
+      "id": "2262815860",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262815860",
+        "SS": "Watergate Chicken Rice",
+        "ADR": "G/F, NO.21C SOY STREET, MONGKOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-11-09"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262815860",
+        "SS": "水門雞飯",
+        "ADR": "九龍旺角豉油街21C號地下",
+        "INFO": "",
+        "EXPDATE": "2027-11-09"
+      }
+    },
+    {
+      "id": "2262816650",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262816650",
+        "SS": "Marume Ramen",
+        "ADR": "G/F, 74 TUNG CHOI STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-08-28"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262816650",
+        "SS": "丸目背脂煮干",
+        "ADR": "九龍旺角通菜街74號地下",
+        "INFO": "",
+        "EXPDATE": "2027-08-28"
+      }
+    },
+    {
+      "id": "2262817592",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262817592",
+        "SS": "Ichiran",
+        "ADR": "SHOP B, G/F., THE BEACON, 88 SAI YEE STREET, MONGKOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-04-21"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262817592",
+        "SS": "一蘭",
+        "ADR": "九龍旺角洗衣街88號碧薈地下B鋪",
+        "INFO": "",
+        "EXPDATE": "2027-04-21"
+      }
+    },
+    {
+      "id": "2262818179",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262818179",
+        "SS": "GYUDONYA",
+        "ADR": "1/F & 2/F, EPOCH HOTEL, 123 TUNG CHOI STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-05-29"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262818179",
+        "SS": "牛丼家",
+        "ADR": "九龍旺角通菜街123號 盛世酒店一樓及二樓",
+        "INFO": "",
+        "EXPDATE": "2027-05-29"
+      }
+    },
+    {
+      "id": "2262818559",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262818559",
+        "SS": "One Dim Dum",
+        "ADR": "G/F, 209A-209B TUNG CHOI STREET & 9 PLAYING FIELD ROAD, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-05-21"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262818559",
+        "SS": "一點心",
+        "ADR": "九龍旺角通菜街209A-209B號及運動場道9號 地下",
+        "INFO": "",
+        "EXPDATE": "2027-05-21"
+      }
+    },
+    {
+      "id": "3162191506",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "62",
+        "LICNO": "3162191506",
+        "SS": "阿純山東餃子",
+        "ADR": "G/F, 60 LAI CHI KOK ROAD, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2026-12-26"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "62",
+        "LICNO": "3162191506",
+        "SS": "阿純山東餃子",
+        "ADR": "九龍旺角荔枝角道60號地下",
+        "INFO": "",
+        "EXPDATE": "2026-12-26"
+      }
+    },
+    {
+      "id": "3162805715",
+      "english": {
+        "TYPE": "RR",
+        "DIST": "62",
+        "LICNO": "3162805715",
+        "SS": "HAM6 BAANG6 LAANG6",
+        "ADR": "SHOP D, G/F, KWONG FOOK BUILDING, 983 CANTON ROAD, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-03-14"
+      },
+      "traditionalChinese": {
+        "TYPE": "RR",
+        "DIST": "62",
+        "LICNO": "3162805715",
+        "SS": "冚棒唥",
+        "ADR": "九龍旺角廣東道983號廣福大廈地下D鋪",
+        "INFO": "",
+        "EXPDATE": "2027-03-14"
+      }
+    },
+    {
+      "id": "2262068783",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262068783",
+        "SS": "Ngan Lung Restaurant",
+        "ADR": "G/F, 118-122 TUNG CHOI STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262068783",
+        "SS": "銀龍茶餐廳",
+        "ADR": "九龍旺角通菜街118-122號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2262130925",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262130925",
+        "SS": "三人行燒烤店",
+        "ADR": "G/F, 85 TUNG CHOI ST, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262130925",
+        "SS": "三人行燒烤店",
+        "ADR": "九龍旺角通菜街85號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2262217905",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262217905",
+        "SS": "LAN YUEN CHEE KOON",
+        "ADR": "G/F, 318 SAI YEUNG CHOI ST. NORTH, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-02-28"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262217905",
+        "SS": "蘭苑饎館",
+        "ADR": "九龍旺角西洋菜北街318號地下",
+        "INFO": "",
+        "EXPDATE": "2027-02-28"
+      }
+    },
+    {
+      "id": "2262301118",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262301118",
+        "SS": "Hong Lin Restaurant",
+        "ADR": "SHOP 2-3, G/F, 143-145 TUNG CHOI STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2026-12-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262301118",
+        "SS": "康年餐廳",
+        "ADR": "九龍旺角通菜街143-145號地下2-3號舖",
+        "INFO": "",
+        "EXPDATE": "2026-12-30"
+      }
+    },
+    {
+      "id": "2262806516",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262806516",
+        "SS": "英記油渣麵",
+        "ADR": "SHOP I, G/F, WING SHUN BUILDING, 4 LIME STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2026-12-28"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262806516",
+        "SS": "英記油渣麵",
+        "ADR": "九龍旺角菩提街4號永信大廈地下I舖",
+        "INFO": "",
+        "EXPDATE": "2026-12-28"
+      }
+    },
+    {
+      "id": "2262807041",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262807041",
+        "SS": "慶豐茶餐廳",
+        "ADR": "G/F, 87 TUNG CHOI STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-01-20"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262807041",
+        "SS": "慶豐茶餐廳",
+        "ADR": "九龍旺角通菜街87號地下",
+        "INFO": "",
+        "EXPDATE": "2027-01-20"
+      }
+    },
+    {
+      "id": "2262807120",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262807120",
+        "SS": "晉家門炭燒工房",
+        "ADR": "SHOP A, G/F, 3 POPLAR STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-03-17"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262807120",
+        "SS": "晉家門炭燒工房",
+        "ADR": "九龍旺角白楊街3號地下A鋪",
+        "INFO": "",
+        "EXPDATE": "2027-03-17"
+      }
+    },
+    {
+      "id": "2262808521",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262808521",
+        "SS": "KAI KEE RESTAURANT",
+        "ADR": "SHOP B, C & REAR PORTION OF SHOP D, G/F, PO LUN BUILDING, 175-181 PORTLAND STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-09-09"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262808521",
+        "SS": "佳記餐廳",
+        "ADR": "九龍旺角砵蘭街175-181號 寶倫大廈地下B舖,C舖及D舖後部分",
+        "INFO": "",
+        "EXPDATE": "2027-09-09"
+      }
+    },
+    {
+      "id": "2262808831",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262808831",
+        "SS": "Good Hope Restaurant",
+        "ADR": "G/F, 123 SAI YEE STREET, MONG KOK, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-02-07"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "62",
+        "LICNO": "2262808831",
+        "SS": "好旺角粥麵專家",
+        "ADR": "九龍旺角洗衣街123號地下",
+        "INFO": "",
+        "EXPDATE": "2027-02-07"
+      }
+    },
+    {
+      "id": "2251801724",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251801724",
+        "SS": "Heichinrou Restaurant",
+        "ADR": "6/F, MILLENNIUM CITY 6, 392 KWUN TONG ROAD, KTIL 502, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-04-19"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251801724",
+        "SS": "聘珍樓",
+        "ADR": "九龍觀塘觀塘道392號創紀之城六期6樓",
+        "INFO": "",
+        "EXPDATE": "2027-04-19"
+      }
+    },
+    {
+      "id": "2251806969",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251806969",
+        "SS": "Oi-shi-sushi",
+        "ADR": "SHOP G, G/F, LU PLAZA, 2 WING YIP STREET, KWUN TONG, KOWLOON",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-03-10"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251806969",
+        "SS": "御品千之味",
+        "ADR": "九龍觀塘榮業街2號振萬廣場地下G鋪",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-03-10"
+      }
+    },
+    {
+      "id": "2251060239",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251060239",
+        "SS": "Hung To Restaurant",
+        "ADR": "G/F TO 5/F, 30 HUNG TO ROAD, KWUN TONG, KOWLOON",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251060239",
+        "SS": "鴻圖樓",
+        "ADR": "九龍觀塘 鴻圖道30號地下至5樓",
+        "INFO": "#F#G#H",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251059378",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251059378",
+        "SS": "廣東燒味餐廳",
+        "ADR": "34, G/F (FRONT PORTION) AND 28-38, (C/L), FU YAN STREET, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251059378",
+        "SS": "廣東燒味餐廳",
+        "ADR": "九龍觀塘 輔仁街34號地下(前部份)及28-38號 (閣樓)",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251061454",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251061454",
+        "SS": "龍記小廚",
+        "ADR": "G/F, 21 LUEN ON STREET, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251061454",
+        "SS": "龍記小廚",
+        "ADR": "九龍觀塘聯安街21號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251063177",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251063177",
+        "SS": "新祥發",
+        "ADR": "G/F, 123-125 HIP WO STREET, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251063177",
+        "SS": "新祥發",
+        "ADR": "九龍觀塘 協和街123-125號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251063584",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251063584",
+        "SS": "榮華快餐店",
+        "ADR": "11, G/F, TIN YIU HOUSE, SHUN TIN ESTATE, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251063584",
+        "SS": "榮華快餐店",
+        "ADR": "九龍觀塘 順天邨天瑤樓11號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251064028",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251064028",
+        "SS": "瓏門酒家",
+        "ADR": "5-8, G/F, TIN KEI HOUSE, SHUN TIN ESTATE, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251064028",
+        "SS": "瓏門酒家",
+        "ADR": "九龍觀塘 順天邨天璣樓5-8號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251064985",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251064985",
+        "SS": "金園麵家",
+        "ADR": "G/F, 160 NGAU TAU KOK RD, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251064985",
+        "SS": "金園麵家",
+        "ADR": "九龍觀塘 牛頭角道160號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251064994",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251064994",
+        "SS": "阿四粉麵",
+        "ADR": "G/F, 162 NGAU TAU KOK RD, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251064994",
+        "SS": "阿四粉麵",
+        "ADR": "九龍觀塘 牛頭角道162號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251065003",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251065003",
+        "SS": "Golden Seafood Restaurant",
+        "ADR": "PORTION OF G/F & 1/F, 165 NGAU TAU KOK ROAD, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251065003",
+        "SS": "金閣海鮮酒家",
+        "ADR": "九龍觀塘 牛頭角道165號一樓及地下(部份)",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251065687",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251065687",
+        "SS": "Bun Kee Congee & Noodle Foods",
+        "ADR": "G/F., NO. 109 - 112, YUK SHEK HOUSE, PING SHEK ESTATE, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251065687",
+        "SS": "彬記粥麵美食",
+        "ADR": "九龍觀塘 坪石邨玉石樓地下109-112號舖",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251068233",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251068233",
+        "SS": "紅蟻泰國菜",
+        "ADR": "G/F., 1 TING YIP ST, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251068233",
+        "SS": "紅蟻泰國菜",
+        "ADR": "九龍觀塘 定業街1號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251068817",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251068817",
+        "SS": "好運印尼餐廳",
+        "ADR": "G/F, 46 TUNG MING ST, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251068817",
+        "SS": "好運印尼餐廳",
+        "ADR": "九龍觀塘 通明街46號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251077718",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251077718",
+        "SS": "Meokbang BBQ Kidzone",
+        "ADR": "1/F AND 2/F, 90 HUNG TO RD, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251077718",
+        "SS": "炑八韓燒。親子餐廳",
+        "ADR": "九龍觀塘 鴻圖道90號1樓及2樓",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251077790",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251077790",
+        "SS": "寶光齋",
+        "ADR": "GROUND FLOOR, 29-31 SHUNG YAN STREET, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251077790",
+        "SS": "寶光齋",
+        "ADR": "九龍觀塘 崇仁街29-31號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251078225",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251078225",
+        "SS": "金禧快餐店",
+        "ADR": "5, G/F, TIN YIU HOUSE, SHUN TIN ESTATE, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251078225",
+        "SS": "金禧快餐店",
+        "ADR": "九龍觀塘 順天邨天瑤樓5號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251078304",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251078304",
+        "SS": "樂富",
+        "ADR": "G/F, 165 CHA KWO LING ROAD, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251078304",
+        "SS": "樂富",
+        "ADR": "九龍觀塘 茶果嶺道165號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251079130",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251079130",
+        "SS": "雙豬嘜燒味飯店",
+        "ADR": "G/F., 14 TING FU STREET, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251079130",
+        "SS": "雙豬嘜燒味飯店",
+        "ADR": "九龍觀塘 定富街14號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251100700",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251100700",
+        "SS": "泰華餐廳",
+        "ADR": "SHOP NO.103-105, SHUN WAH HSE, LOK WAH ESTATE, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251100700",
+        "SS": "泰華餐廳",
+        "ADR": "九龍觀塘 樂華邨信華樓103-105號舖",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251123534",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251123534",
+        "SS": "荷里活冰室",
+        "ADR": "SHOP NO. 108 AND 109, G/F, LOK WAH COMMMERCIAL CENTRE, LOK WAH NORTH ESTATE, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251123534",
+        "SS": "荷里活冰室",
+        "ADR": "九龍觀塘樂華北邨 樂華商場地下108號及109號舖",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251140324",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251140324",
+        "SS": "上海一品香",
+        "ADR": "201-203, 2/F, KWUN TONG PLAZA, HOI YUEN RD, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251140324",
+        "SS": "上海一品香",
+        "ADR": "九龍觀塘開源道 觀塘廣場2樓201-203號",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251140607",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251140607",
+        "SS": "觀塘廣場龍寶酒家",
+        "ADR": "15/F(MINOR PORTION) & 16/F(MAJOR PORTION), KWUN TONG PLAZA, 68 HOI YUEN ROAD, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251140607",
+        "SS": "觀塘廣場龍寶酒家",
+        "ADR": "九龍觀塘開源道68號觀塘廣場 15樓(小部份)及16樓(主要部份)",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251141415",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251141415",
+        "SS": "利群快餐小廚",
+        "ADR": "SHOPS E8 & E9, 3/F, LEE YAT HOUSE, SHUN LEE ESTATE, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251141415",
+        "SS": "利群快餐小廚",
+        "ADR": "九龍觀塘 順利邨利溢樓3樓E8及E9號舖",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251152792",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251152792",
+        "SS": "Caf'e de Coral",
+        "ADR": "1/F, LEE HONG HOUSE, SHUN LEE ESTATE, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251152792",
+        "SS": "大家樂",
+        "ADR": "九龍觀塘 順利邨利康樓1樓",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251155977",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251155977",
+        "SS": "Shing Hing Noodle and Restaurant",
+        "ADR": "G/F, 98 TING ON STREET, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251155977",
+        "SS": "成興",
+        "ADR": "九龍觀塘 定安街98號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251162207",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251162207",
+        "SS": "華安餐廳",
+        "ADR": "G/F, 34 TING FU STREET, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251162207",
+        "SS": "華安餐廳",
+        "ADR": "九龍觀塘 定富街34號地下",
+        "INFO": "",
+        "EXPDATE": "2027-06-30"
+      }
+    },
+    {
+      "id": "2251163352",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251163352",
+        "SS": "明記",
+        "ADR": "SHOP G, G/F & M/F, SHUI WO BUILDING, 47 KA LOK ST, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-06-23"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251163352",
+        "SS": "明記",
+        "ADR": "九龍觀塘嘉樂街47號 瑞和大廈地下及閣樓G號舖",
+        "INFO": "",
+        "EXPDATE": "2027-06-23"
+      }
+    },
+    {
+      "id": "2251166883",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251166883",
+        "SS": "Caf'e de Coral",
+        "ADR": "1/F & 2/F (PORTION), CHAMPION COURT, NO. 11 HONG NING ROAD, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2026-12-11"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251166883",
+        "SS": "大家樂",
+        "ADR": "九龍觀塘康寧道11號冠天閣1樓及2樓(部份)",
+        "INFO": "",
+        "EXPDATE": "2026-12-11"
+      }
+    },
+    {
+      "id": "2251169749",
+      "english": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251169749",
+        "SS": "華豐",
+        "ADR": "UG/F, G/F & LG/F, 2 YEE ON STREET, KWUN TONG, KOWLOON",
+        "INFO": "",
+        "EXPDATE": "2027-05-26"
+      },
+      "traditionalChinese": {
+        "TYPE": "RL",
+        "DIST": "51",
+        "LICNO": "2251169749",
+        "SS": "華豐",
+        "ADR": "九龍觀塘 宜安街2號地下高層,地下及地下低層",
+        "INFO": "",
+        "EXPDATE": "2027-05-26"
+      }
+    }
+  ]
+}

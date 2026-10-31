@@ -1,0 +1,66 @@
+/* Provenance stays beside the facts; missing values are text, never invented statistics. */
+.dining-data-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding:18px 0;margin:0 0 27px;border-block:1px solid var(--line)}
+.dining-data-strip>div{min-width:0}
+.dining-data-strip span{display:block;font-size:12px;color:var(--muted)}
+.dining-data-strip strong{display:block;font-size:14px;font-weight:550;margin-top:5px;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.dining-list-top{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:0 0 23px}
+.dining-list-top>p{font-size:13px;font-weight:600}
+.dining-list-top>p>small{display:block;margin-top:5px;font-size:12px;font-weight:400}
+.dining-pagination{display:flex;align-items:center;gap:12px;flex:none;font-size:12px;font-variant-numeric:tabular-nums}
+.dining-pagination .button{width:44px;height:44px;padding:0;font-size:17px}
+.real-restaurant{display:flex;flex-direction:column}
+.real-restaurant .restaurant-card-head{align-items:flex-start;min-height:99px}
+.real-restaurant .food-mark{width:44px;height:44px;border-radius:9px;background:#f1f2f1;color:#727973}
+.real-restaurant .food-mark svg{width:25px;height:25px}
+.real-restaurant .restaurant-card-head>div{min-width:0}
+.real-restaurant h3{overflow-wrap:anywhere;line-height:1.7}
+.real-restaurant .restaurant-address{font-size:13px;line-height:1.9;padding-bottom:15px;min-height:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.restaurant-source-stamp{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:0 18px 15px;margin-top:auto;color:var(--muted);font-size:11px;flex-wrap:wrap}
+.real-restaurant .restaurant-card-bottom{flex-wrap:wrap;align-items:center;gap:6px 10px}
+.real-restaurant .restaurant-card-bottom>small{font-size:11px}
+.real-restaurant .restaurant-card-bottom .text-action{font-size:12px;white-space:nowrap}
+.real-catalogue .empty-state{grid-column:1/-1;padding:35px 20px}
+.dining-source-footer{border-top:1px solid var(--line);margin-top:30px;padding-top:22px;font-size:12px;color:var(--muted);line-height:1.9}
+.dining-source-footer a,.dining-dialog-attribution a,.dining-record-sources a{color:#234fa4;text-decoration:underline;text-underline-offset:3px}
+.dining-source-footer>details{margin-top:10px}
+.dining-source-footer summary{min-height:44px;display:list-item;padding:10px 0;cursor:pointer;color:var(--ink);font-size:13px}
+.dining-source-footer details>div{max-width:80em}
+.dining-source-footer p+p{margin-top:13px}
+.dining-data-downloads{display:flex;gap:10px 25px;flex-wrap:wrap;margin-top:14px}
+.dining-data-downloads a{display:inline-flex;align-items:center;min-height:44px}
+.dining-raw-tag{display:block;font-size:12px;line-height:1.8;margin-top:7px;overflow-wrap:anywhere}
+.dining-record-sources{border-top:1px solid var(--line);padding-top:21px;margin-top:20px;font-size:13px}
+.dining-record-sources h3{font-size:15px;font-weight:600;margin:0 0 15px}
+.dining-record-sources article+article{margin-top:18px}
+.dining-record-sources article>a{display:inline-flex;min-height:44px;align-items:center;overflow-wrap:anywhere}
+.dining-record-sources article>p,.dining-record-sources>p{font-size:12px;color:var(--muted);line-height:1.9}
+.dining-dialog-attribution{font-size:11px;line-height:1.9;color:var(--muted);margin-top:16px}
+#restaurant-detail dl{grid-template-columns:124px minmax(0,1fr)}
+#restaurant-detail dd{overflow-wrap:anywhere;line-height:1.9}
+#restaurant-detail h2{line-height:1.6;overflow-wrap:anywhere}
+.dining-chat-panel .widget-source-label{font-size:11px;color:#626262;padding:9px 12px 12px;line-height:1.7}
+.dining-chat-panel .widget-head small{font-size:11px}
+@media(max-width:900px){.restaurant-source-stamp{padding-inline:16px}.dining-data-strip{gap:17px}.dining-list-top{align-items:flex-start}.real-restaurant .restaurant-card-bottom{align-items:flex-start;flex-direction:column}}
+@media(max-width:600px){.dining-data-strip{grid-template-columns:1fr;padding-block:16px;gap:16px}.dining-data-strip>div{display:flex;align-items:baseline;justify-content:space-between;gap:16px}.dining-data-strip span{font-size:11px;flex:none}.dining-data-strip strong{font-size:12px;margin-top:0;text-align:right}.dining-list-top{flex-direction:column;gap:16px}.dining-pagination{width:100%;justify-content:space-between}.real-restaurant .restaurant-card-head{min-height:0}.real-restaurant .restaurant-address{font-size:13px}.real-restaurant .restaurant-card-bottom{flex-direction:row;align-items:center;justify-content:space-between}.dining-data-downloads{flex-direction:column;gap:4px}#restaurant-detail dl{grid-template-columns:1fr;gap:5px}#restaurant-detail dt:not(:first-child){margin-top:13px}.dining-chat-panel .widget-head small{font-size:11px}.dining-chat-panel .widget-source-label{font-size:11px}.dining-source-footer{font-size:12px}}
+
+.dining-record-id{font-size:12px;color:var(--muted);margin:0 0 8px;overflow-wrap:anywhere}
+
+.dining-source-byline{font-size:12px;line-height:1.9;color:var(--muted);margin:-10px 0 25px}.dining-source-byline a{color:#234fa4;text-decoration:underline;text-underline-offset:3px}
+.real-catalogue-controls>label{min-width:0}
+.real-catalogue-controls input,.real-catalogue-controls select{width:100%;min-width:0}
+@media(max-width:600px){.real-catalogue-controls{grid-template-columns:minmax(0,1fr)}.real-catalogue-controls>label{grid-column:1/-1}}
+
+/* The optional hint sits above its icon, never over the conversation. No focus steal or looping motion. */
+.dining-launcher{padding:0;border-radius:50%}
+.dining-launcher-guide{position:fixed;z-index:45;right:25px;bottom:99px;width:264px;max-width:calc(100vw - 36px);background:white;border:1px solid #dedfe3;border-radius:12px;box-shadow:0 8px 28px #00000012} /* taste-skill-ignore: actual floating, dismissible onboarding overlay */
+.dining-launcher-guide[hidden]{display:none}
+.dining-launcher-guide:after{content:'';position:absolute;right:24px;bottom:-7px;width:12px;height:12px;background:white;border-right:1px solid #dedfe3;border-bottom:1px solid #dedfe3;transform:rotate(45deg);pointer-events:none}
+.dining-guide-open{display:block;min-height:86px;width:100%;padding:16px 45px 16px 16px;border-radius:12px;text-align:left;line-height:1.65}
+.dining-guide-open strong{display:block;font-size:14px;font-weight:650;color:var(--ink)}
+.dining-guide-open>span{display:block;font-size:12px;color:var(--muted);margin-top:4px}
+.dining-guide-dismiss{position:absolute;top:1px;right:1px;width:44px;height:44px;border-radius:8px;display:grid;place-items:center;color:var(--muted)}
+.dining-guide-dismiss svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round}
+.dining-guide-open:focus-visible,.dining-guide-dismiss:focus-visible{outline-offset:2px}
+@media(hover:hover) and (pointer:fine){.dining-guide-open:hover{background:#f8f9f8}.dining-guide-dismiss:hover{background:#f0f1f0;color:var(--ink)}}
+@media(max-width:600px){.dining-launcher-guide{right:18px;bottom:88px}.dining-launcher-guide:after{right:22px}}
+@media(max-height:520px){.dining-launcher-guide{display:none}}

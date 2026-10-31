@@ -1,0 +1,42 @@
+[
+  {
+    "command": "node check-demo-engine.cjs",
+    "output": "PASS future week is seven contiguous HK calendar dates\nPASS initial roster has real gaps, not fake success\nPASS auto roster fills 28 person shifts and all constraints\nPASS unavailable team is infeasible and does not change existing roster\nPASS manual unavailable day and excess weekly assignments are detected\nPASS full yoga classes cannot be booked\nPASS booking decrements seats and creates exactly one local draft\nPASS duplicate booking rejected case insensitively\nPASS cancellation restores seats and creates cancellation draft only once\nPASS invalid booking fields cause no mutations\nPASS last seat can be taken once, never overbooked sequentially\nPASS disabled rule still books course without fake delivery\nPASS Chinese location, cuisine and budget are strict\nPASS English location and budget are parsed\nPASS follow-up constraints retain the previous location\nPASS unknown cuisine does not silently relax filters\nPASS named restaurant facts and unavailable live data are distinguished\nPASS allergy and external-data questions are flagged\nPASS reset query clears all previous constraints\nPASS email template rejects unsupported variables\nPASS email event is deduplicated\nPASS email draft merges content without unexpanded fields\nPASS CSV protects spreadsheet formula cells and quotes\nPASS HTML is escaped rather than interpreted\n{\"passed\":24,\"failed\":0}\n",
+    "exitCode": 0
+  },
+  {
+    "command": "node check-lab-v2.cjs",
+    "output": "PASS all six messages parse seven explicit day/shift records\nPASS parser supports ranges, weekends and remaining days\nPASS partial and contradictory replies never imply availability\nPASS edited message invalidates the old signature\nPASS plan provides 14 real trace steps and fills 28 person-shifts\nPASS no staff availability yields failure, not a fake complete plan\nPASS manual wrong shift is caught despite that day being available\nPASS yoga teachers and attendee lists agree with seeded capacities\nPASS booking deducts credits and updates both attendance and capacity\nPASS cancellation refunds once, no double-refund or duplicate booking\nPASS insufficient credits cause zero mutations\nPASS full class and overlapping class bookings are blocked\nPASS research strictly applies industry department region and size\nPASS missing contacts and suppressed companies cannot be selected\nPASS personalised outreach has safe sample recipients, real fields and no delivery claim\nPASS non-example recipient, newline subject and empty drafts are blocked\nPASS outcomes are reproducible arithmetic, not client figures\nPASS real restaurant records retain source provenance, no invented prices or ratings\nPASS new demo code has no network, email service or eval capabilities\n{\"passed\":19,\"failed\":0}\n",
+    "exitCode": 0
+  },
+  {
+    "command": "node check-lab-polish.cjs",
+    "output": "PASS WhatsApp message is derived from every person and every actual shift\nPASS Roster publication hash changes on edited schedule or invalidated source\nPASS Simulation counts reconcile before, during and after sending\nPASS All five districts have real sourced catalogue entries\nPASS District and cuisine combine strictly, without claiming unavailable data\nPASS Catalogue has no OpenRice data dependency\nPASS All four photographic assets and their source records exist\nPASS Simplified roster contains no per-person bounce/cross-out player\nPASS Local demo code has no outbound APIs or mail transport\n{\"passed\":9,\"failed\":0}\n",
+    "exitCode": 0
+  },
+  {
+    "command": "node check-reach-dashboard.cjs",
+    "output": "PASS Overview uses actual sample records, with honest zero-state metrics\nPASS Directory normalizes the selected department and respects contact suppression\nPASS Company search combines text, scope and contact status strictly\nPASS Progress and campaign states reconcile throughout the real local queue\nPASS Recent activity derives timestamps from actions, not invented analytics\nPASS Dashboard does not mutate the shared sample state\nPASS Dashboard assets remain local, with no transport or real search APIs\n{\"passed\":7,\"failed\":0}\n",
+    "exitCode": 0
+  },
+  {
+    "command": "node check-dining-open-data.cjs",
+    "output": "PASS Five areas contain 30 source-backed selected records each, not a complete-directory claim\nPASS Every displayed name, address and licence agrees exactly with the FEHD source subset\nPASS Dates distinguish FEHD publication, OSM snapshot, element edits and import\nPASS Every OSM field is traceable to the downloaded element and exact-address association\nPASS FEHD and OSM licences and attribution are retained with downloadable source subsets\nPASS Unknown cuisine, prices, dietary safety, hours, facilities and seats are never filled in\nPASS Questionable classifications are withheld, including dish searches, without rewriting source tags\nPASS Each area has a working grounded cuisine query, without substituting other areas\nPASS Every cuisine exposed by the catalogue is also understood by the chatbot\nPASS Budget, party size and accessibility are not silently dropped\nPASS Unknown cuisine remains unknown, including after a previous successful filter\nPASS Outside-area and live-status requests have honest boundaries\nPASS Specific source record lookup cites that record and reports unknown facts\nPASS Follow-up area filters persist; preset and reset queries explicitly clear old constraints\nPASS Provenance answer states actual dates and does not claim live verification\nPASS Unknown named address and unrelated follow-up questions do not return other restaurants\nPASS No OpenRice dependency or runtime external transport was added\n{\"passed\":17,\"failed\":0}\n",
+    "exitCode": 0
+  },
+  {
+    "command": "python check-dining-import.py",
+    "output": "PASS Audit hashes identify the actual downloaded source snapshots\nPASS Every OSM association agrees on source name, numbered street and query area\nPASS Name-only, wrong-street, wrong-number and ambiguous floor strings cannot authorize a link\nPASS Building-number ranges are bounded and do not merge different lettered entrances\nPASS Cuisine labels are traceable translations of raw tags; unknown facts remain null\n{\n  \"count\": 150,\n  \"withOsm\": 116,\n  \"withCuisine\": 79,\n  \"counts\": {\n    \"尖沙咀\": 30,\n    \"中環\": 30,\n    \"銅鑼灣\": 30,\n    \"旺角\": 30,\n    \"觀塘\": 30\n  },\n  \"audit\": \"C:\\\\Users\\\\User\\\\OneDrive\\\\Dokumente\\\\ChatGPT\\\\Flow2.xyz\\\\rebrand-preview\\\\data\\\\dining\\\\import-audit.json\"\n}\nPASS Rebuilding from the same offline snapshots produces byte-identical catalogue files\n{\"passed\": 6, \"failed\": 0}\n",
+    "exitCode": 0
+  },
+  {
+    "command": "node check-function-stories.cjs",
+    "output": "{\n  \"combinations\": 24,\n  \"validatedTracks\": 336,\n  \"missingTargets\": 0,\n  \"invalidKeyframes\": 0,\n  \"sampleArithmetic\": \"passed\"\n}\n",
+    "exitCode": 0
+  },
+  {
+    "command": "python check-preview.py",
+    "output": "{\n  \"html_pages\": 8,\n  \"errors\": [],\n  \"contrast\": [\n    {\n      \"pair\": \"Signal body\",\n      \"ratio\": 15.89\n    },\n    {\n      \"pair\": \"Signal secondary\",\n      \"ratio\": 10.24\n    },\n    {\n      \"pair\": \"Signal yellow\",\n      \"ratio\": 12.87\n    },\n    {\n      \"pair\": \"Current body\",\n      \"ratio\": 16.2\n    },\n    {\n      \"pair\": \"Current blue\",\n      \"ratio\": 6.68\n    },\n    {\n      \"pair\": \"Review secondary\",\n      \"ratio\": 6.44\n    },\n    {\n      \"pair\": \"Simple body\",\n      \"ratio\": 17.93\n    },\n    {\n      \"pair\": \"Simple secondary\",\n      \"ratio\": 5.55\n    },\n    {\n      \"pair\": \"Simple primary button\",\n      \"ratio\": 17.93\n    },\n    {\n      \"pair\": \"Simple blue\",\n      \"ratio\": 5.93\n    },\n    {\n      \"pair\": \"Simple green\",\n      \"ratio\": 5.43\n    },\n    {\n      \"pair\": \"Simple orange\",\n      \"ratio\": 5.26\n    },\n    {\n      \"pair\": \"Simple purple\",\n      \"ratio\": 5.92\n    },\n    {\n      \"pair\": \"Motion body\",\n      \"ratio\": 15.28\n    },\n    {\n      \"pair\": \"Motion human text\",\n      \"ratio\": 11.34\n    },\n    {\n      \"pair\": \"Motion human status\",\n      \"ratio\": 9.17\n    }\n  ]\n}\n",
+    "exitCode": 0
+  }
+]

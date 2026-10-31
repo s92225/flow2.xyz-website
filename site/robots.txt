@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /demos
+Sitemap: https://flow2.xyz/sitemap.xml
