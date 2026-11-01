@@ -65,7 +65,7 @@ check('Gatherly is a public product link in the footer only, with no private eve
  const footer=home.slice(home.indexOf('<footer'),home.indexOf('</footer>'));
  assert(footer.includes('class="footer-products"'));assert(footer.includes('href="https://gather.flow2.xyz/"'));
  assert(footer.includes('referrerpolicy="no-referrer"'));assert(!footer.includes('gather.flow2.xyz/?'));
- const copy=fs.readFileSync(path.join(root,'assets/app.js'),'utf8');assert(copy.includes("'footer.products':['產品','Products']"));assert(copy.includes('Find a time. Get together.'));
+ const copy=fs.readFileSync(path.join(root,'assets/simple.js'),'utf8');assert(copy.includes("'footer.products':pair('產品','Products')"));assert(copy.includes('Find a time. Get together.'));
 });
 console.log(JSON.stringify({passed:checks,failed:0}));
 

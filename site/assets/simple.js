@@ -8,6 +8,7 @@ let lang = 'zh';
 const text = value => Array.isArray(value) ? value[lang === 'zh' ? 0 : 1] : value;
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const copy = {
+  'footer.products':pair('產品','Products'),'footer.gatherly':pair('夾時間，約朋友','Find a time. Get together.'),
   skip:pair('跳到內容','Skip to content'), proposal:pair('← 提案總覽','← All concepts'), prototype:pair('Simple V5 · 本機互動原型，未部署','Simple V5 · Local prototype, not deployed'), previous:pair('上一版 ↗','Previous ↗'),
   'nav.services':pair('Showcase','Showcase'),'nav.guides':pair('指南','Guides'),'guides.lead':pair('查看系統設計與使用指南 ↗','Read the system guides (Chinese) ↗'),'footer.about':pair('關於 Flow2','About Flow2'),'footer.contactPage':pair('聯絡我們','Contact us'),'footer.privacy':pair('私隱政策','Privacy policy'),'nav.work':pair('成效','Impact'),'nav.pricing':pair('收費','Pricing'),
   'contact.short':pair('預約諮詢 <span aria-hidden="true">↗</span>','Let’s talk <span aria-hidden="true">↗</span>'),
@@ -100,6 +101,7 @@ function paintCopy(){
   $('[data-menu]').setAttribute('aria-label',text(pair($('#main-nav').classList.contains('is-open')?'關閉導覽選單':'開啟導覽選單',$('#main-nav').classList.contains('is-open')?'Close menu':'Open menu')));
   $('[data-close]').setAttribute('aria-label',text(pair('關閉','Close')));
   $('.footer-sitemap').setAttribute('aria-label',text(pair('網站導覽','Website navigation')));
+  $('.footer-products')?.setAttribute('aria-label',text(pair('Flow2 產品','Flow2 products')));
   $('.footer-demos').setAttribute('aria-label',text(pair('互動系統示範','Interactive system demos')));
   $('.footer-social a').setAttribute('aria-label',text(pair('Flow2 Instagram（在新分頁開啟）','Flow2 Instagram (opens in a new tab)')));
   paintPause();
