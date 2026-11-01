@@ -1,5 +1,6 @@
 /* Local-only presentation. No fetch, forms, tracking, account access or external writes. */
 const copy={
+ 'footer.products':['產品','Products'],'footer.gatherly':['夾時間，約朋友','Find a time. Get together.'],
  'nav.work':['案例','Work'],'nav.services':['服務及收費','Services & pricing'],'nav.resources':['資源','Resources'],'nav.studio':['工作室','Studio'],
  'cta':['傾吓你條流程','Talk through a workflow'],
  'signal.title':['少啲手動，|多啲流動。','Less busywork.|More flow.'],

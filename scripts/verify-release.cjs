@@ -61,5 +61,11 @@ check('No live advertising or analytics runtime is silently introduced',()=>{
  for(const name of fs.readdirSync(root,{recursive:true}).filter(f=>f.endsWith('.html'))){const html=fs.readFileSync(path.join(root,name),'utf8');assert(!/<script[^>]+src=["'][^"']*(googlesyndication|googletagmanager|google-analytics)/i.test(html),name);}
  const policy=fs.readFileSync(path.join(root,'privacy.html'),'utf8');assert(policy.includes('flow2-interactive-lab-v2'));assert(policy.includes('未載入 AdSense 廣告腳本'));
 });
+check('Gatherly is a public product link in the footer only, with no private event URL',()=>{
+ const footer=home.slice(home.indexOf('<footer'),home.indexOf('</footer>'));
+ assert(footer.includes('class="footer-products"'));assert(footer.includes('href="https://gather.flow2.xyz/"'));
+ assert(footer.includes('referrerpolicy="no-referrer"'));assert(!footer.includes('gather.flow2.xyz/?'));
+ const copy=fs.readFileSync(path.join(root,'assets/app.js'),'utf8');assert(copy.includes("'footer.products':['產品','Products']"));assert(copy.includes('Find a time. Get together.'));
+});
 console.log(JSON.stringify({passed:checks,failed:0}));
 
