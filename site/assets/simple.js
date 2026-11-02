@@ -14,7 +14,7 @@ const copy = {
   'contact.short':pair('預約諮詢 <span aria-hidden="true">↗</span>','Let’s talk <span aria-hidden="true">↗</span>'),
   'contact.full':pair('諮詢自動化方案 <span aria-hidden="true">↗</span>','Talk through a workflow <span aria-hidden="true">↗</span>'),
   'hero.first':pair('仲用緊人手去管理<wbr><span class="hero-question-tail">你盤生意?</span>','Still running it manually?'),
-  'hero.body':pair('為香港中小企業整合查詢、文件與日常營運。<br>由您掌握決策，讓流程處理重複工作。','Practical automation for Hong Kong SMEs.<br>You make decisions. The workflow does the repeat work.'),
+  'hero.body':pair('以 AI 自動化為香港中小企業整合查詢、文件與日常營運。<br>由您掌握決策，讓流程處理重複工作。','Practical automation for Hong Kong SMEs.<br>You make decisions. The workflow does the repeat work.'),
   'hero.try':pair('了解運作方式 <span aria-hidden="true">↓</span>','See it in action <span aria-hidden="true">↓</span>'),
   'demo.title':pair('一份資料，接好下一步。','One input. The next steps, connected.'),'demo.caption':pair('概念示範 · 非客戶系統','Illustrative demo · Not a client system'),
   replay:pair('再播一次','Replay'), 'tools.lead':pair('沿用您熟悉的工具。','Keep the tools you know.'),'tools.note':pair('接駁按項目確認，並非合作或認證聲明。','Integrations are scoped per project, not partnership or certification claims.'),

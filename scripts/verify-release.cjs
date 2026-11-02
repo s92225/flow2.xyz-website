@@ -69,4 +69,5 @@ check('Gatherly is a public product link in the footer only, with no private eve
 });
 console.log(JSON.stringify({passed:checks,failed:0}));
 require('node:child_process').execFileSync(process.execPath, [require('node:path').join(__dirname, 'seo-metadata.cjs'), '--check'], {stdio:'inherit'});
+require('node:child_process').execFileSync(process.execPath, [require('node:path').join(__dirname, 'seo-guide-links.cjs'), '--check'], {stdio:'inherit'});
 
