@@ -5,6 +5,11 @@ const home=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const demos=fs.readFileSync(path.join(root,'demos.html'),'utf8');
 let checks=0;
 function check(name,run){run();checks++;console.log('PASS '+name);}
+check('Owner-authorized Search Console verification remains in the public homepage head',()=>{
+ const head=home.split('</head>')[0];
+ assert(head.includes('<meta name="google-site-verification" content="wb9PIs2sn8EcTzZESL59WT5RfxCyk2tgZHQ4jP4Dbvs">'));
+ assert.equal((head.match(/name="google-site-verification"/g)||[]).length,1);
+});
 check('Public homepage is indexable with the correct canonical domain',()=>{assert(home.includes('content="index,follow"'));assert(home.includes('rel="canonical" href="https://flow2.xyz/"'));});
 check('No internal proposal UI or retired studio section is published',()=>{for(const x of ['prototype-bar','footer-preview','id="studio"','href="#studio"','strategy.html','verification.html'])assert(!home.includes(x),x);});
 check('Every local HTML stylesheet, script, image and public source link resolves',()=>{

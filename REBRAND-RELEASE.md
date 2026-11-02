@@ -10,6 +10,9 @@ After regenerating public pages, run `node scripts/seo-metadata.cjs` to restore
 the canonical public-page OG/Twitter cards. The release check verifies them.
 Social artwork is application-owned static SVG/PNG under `site/assets/social/`.
 SEO changes do not enable ads or resume the paused AdSense plan.
+The public homepage also retains an owner-authorized Google Search Console
+verification meta tag. Preserve it after regeneration; it is not an Analytics
+or advertising script and does not send visitor events.
 After rebuilding guide content, run `node scripts/seo-guide-links.cjs` before
 `node scripts/seo-metadata.cjs`; the release check verifies both outputs.
 Legacy root HTML/assets remain in Git history/source, not the output directory.
