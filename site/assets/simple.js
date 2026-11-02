@@ -88,7 +88,7 @@ let invoiceStory=null;
 
 function paintCopy(){
   document.documentElement.lang=lang==='zh'?'zh-Hant':'en';
-  document.title=lang==='zh'?'Flow2 — 仲用緊人手去管理你盤生意?':'Flow2 — Still running it manually?';
+  document.title=lang==='zh'?'Flow2 — 香港 AI 自動化與客製化業務系統':'Flow2 — AI Automation & Custom Business Systems in Hong Kong';
   $$('[data-copy]').forEach(el=>{if(copy[el.dataset.copy]) el.innerHTML=c(el.dataset.copy);});
   $('[data-language]').textContent=lang==='zh'?'EN':'中';
   $('[data-language]').setAttribute('aria-label',lang==='zh'?'Switch to English':'切換至中文');

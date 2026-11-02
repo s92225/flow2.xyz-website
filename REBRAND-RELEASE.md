@@ -6,6 +6,10 @@ Approved website: `https://flow2.xyz/`.
 
 The reviewed static website is in `site/`. Vercel runs
 `node scripts/verify-release.cjs` and publishes **only** `site/`.
+After regenerating public pages, run `node scripts/seo-metadata.cjs` to restore
+the canonical public-page OG/Twitter cards. The release check verifies them.
+Social artwork is application-owned static SVG/PNG under `site/assets/social/`.
+SEO changes do not enable ads or resume the paused AdSense plan.
 Legacy root HTML/assets remain in Git history/source, not the output directory.
 Do not run the legacy partial generator over this redesign.
 

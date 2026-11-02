@@ -2,9 +2,26 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="index,follow">
 <title>把 WhatsApp 可用時間，整理成可檢查的員工更表 — Flow2</title><meta name="description" content="從七天回覆、早晚班與負責人限制，到排班檢查及群組公告，實際拆解零售門市排班示範。">
 <link rel="canonical" href="https://flow2.xyz/guides/whatsapp-roster"><meta name="google-adsense-account" content="ca-pub-8769011123659282"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<meta property="og:type" content="article"><meta property="og:title" content="把 WhatsApp 可用時間，整理成可檢查的員工更表"><meta property="og:description" content="從七天回覆、早晚班與負責人限制，到排班檢查及群組公告，實際拆解零售門市排班示範。"><meta property="og:url" content="https://flow2.xyz/guides/whatsapp-roster"><meta property="og:locale" content="zh_HK">
 <link rel="stylesheet" href="/assets/simple.css?v=15"><link rel="stylesheet" href="/assets/editorial.css?v=22">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "把 WhatsApp 可用時間，整理成可檢查的員工更表", "name": "把 WhatsApp 可用時間，整理成可檢查的員工更表", "description": "從七天回覆、早晚班與負責人限制，到排班檢查及群組公告，實際拆解零售門市排班示範。", "url": "https://flow2.xyz/guides/whatsapp-roster", "inLanguage": "zh-Hant", "dateModified": "2026-10-31", "author": {"@type": "Organization", "name": "Flow2", "url": "https://flow2.xyz/"}}</script></head>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "把 WhatsApp 可用時間，整理成可檢查的員工更表", "name": "把 WhatsApp 可用時間，整理成可檢查的員工更表", "description": "從七天回覆、早晚班與負責人限制，到排班檢查及群組公告，實際拆解零售門市排班示範。", "url": "https://flow2.xyz/guides/whatsapp-roster", "inLanguage": "zh-Hant", "dateModified": "2026-10-31", "author": {"@type": "Organization", "name": "Flow2", "url": "https://flow2.xyz/"}}</script>
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="zh_HK">
+  <meta property="og:site_name" content="Flow2">
+  <meta property="og:url" content="https://flow2.xyz/guides/whatsapp-roster">
+  <meta property="og:title" content="把 WhatsApp 可用時間，整理成可檢查的員工更表 — Flow2">
+  <meta property="og:description" content="從七天回覆、早晚班與負責人限制，到排班檢查及群組公告，實際拆解零售門市排班示範。">
+  <meta property="og:image" content="https://flow2.xyz/assets/social/flow2-v1.png">
+  <meta property="og:image:secure_url" content="https://flow2.xyz/assets/social/flow2-v1.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Flow2 — Less admin. More flow. Hong Kong AI automation and custom business systems.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="把 WhatsApp 可用時間，整理成可檢查的員工更表 — Flow2">
+  <meta name="twitter:description" content="從七天回覆、早晚班與負責人限制，到排班檢查及群組公告，實際拆解零售門市排班示範。">
+  <meta name="twitter:image" content="https://flow2.xyz/assets/social/flow2-v1.png">
+  <meta name="twitter:image:alt" content="Flow2 — Less admin. More flow. Hong Kong AI automation and custom business systems.">
+</head>
 <body class="editorial-site"><a class="skip-link" href="#main">跳到內容</a>
 <header class="editorial-header"><a class="wordmark" href="/" aria-label="Flow2 首頁"><span>flow</span><sup>2</sup></a><nav aria-label="主要導覽"><a href="/">首頁</a><a href="/#services">Showcase</a><a href="/guides" aria-current="page">指南</a><a href="/about">關於</a><a href="/contact">聯絡</a></nav></header>
 <main class="editorial-main" id="main"><nav class="editorial-breadcrumbs" aria-label="麵包屑"><a href="/">首頁</a><span aria-hidden="true">／</span><a href="/guides">指南</a><span aria-hidden="true">／</span><span aria-current="page">門市營運</span></nav><header class="editorial-hero"><div class="editorial-kicker">FLOW2 / 門市營運</div><h1>把 WhatsApp 可用時間，整理成可檢查的員工更表</h1><p>從七天回覆、早晚班與負責人限制，到排班檢查及群組公告，實際拆解零售門市排班示範。</p><div class="editorial-meta">Flow2 · 更新日期 <time datetime="2026-10-31">2026-10-31</time></div></header><div class="editorial-layout"><nav class="editorial-toc" aria-label="本頁內容"><p>本頁內容</p><a href="#problem">排班前，先處理「資料是否完整」</a><a href="#inputs">一則可以被核對的回覆</a><a href="#rules">哪些條件必須同時成立？</a><a href="#try">建議按這個順序試用</a><a href="#limits">從示範到正式系統，還差甚麼？</a></nav><article class="editorial-article"><section id="problem"><h2>排班前，先處理「資料是否完整」</h2><p>門市排班不只是將姓名填入格子。員工在群組回覆「星期三晚上可以」時，並沒有同時表示其他六天也能上班；「全日」亦不代表同一天應安排兩個班。若將沒有提及的日子當成可用時間，再快的自動排班也會得出錯誤結果。</p><p>這個示範把流程分成三份資料：員工原始訊息、逐日可用班次，以及最後更表。三者保留關聯，讓管理員知道某個班次是根據哪則回覆安排，而不是只看到一張無法追查的結果。</p></section><section id="inputs"><h2>一則可以被核對的回覆</h2><pre><code>星期一：早班；星期二：全日；星期三：休息；

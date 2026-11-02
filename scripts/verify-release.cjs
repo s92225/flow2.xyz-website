@@ -68,4 +68,5 @@ check('Gatherly is a public product link in the footer only, with no private eve
  const copy=fs.readFileSync(path.join(root,'assets/simple.js'),'utf8');assert(copy.includes("'footer.products':pair('產品','Products')"));assert(copy.includes('Find a time. Get together.'));
 });
 console.log(JSON.stringify({passed:checks,failed:0}));
+require('node:child_process').execFileSync(process.execPath, [require('node:path').join(__dirname, 'seo-metadata.cjs'), '--check'], {stdio:'inherit'});
 
