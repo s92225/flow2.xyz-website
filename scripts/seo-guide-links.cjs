@@ -11,6 +11,9 @@ const guides={
 for(const [slug,guide] of Object.entries(guides)){
  const file=path.join(root,'guides',slug+'.html');let html=fs.readFileSync(file,'utf8');
  html=html.replace(/<!-- SEO BREADCRUMB START -->[\s\S]*?<!-- SEO BREADCRUMB END -->\s*/g,'').replace(/<!-- SEO RELATED START -->[\s\S]*?<!-- SEO RELATED END -->\s*/g,'');
+ // The original editorial template already has a visual breadcrumb. Replace
+ // that trail rather than publishing a second navigation above it.
+ html=html.replace(/<nav[^>]+aria-label="麵包屑"[^>]*>[\s\S]*?<\/nav>/,'');
  html=html.replace(/\s*<script id="flow2-breadcrumb-data"[^>]*>[\s\S]*?<\/script>/,'');
  const url='https://flow2.xyz/guides/'+slug;
  const schema={'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[
@@ -27,6 +30,7 @@ for(const [slug,guide] of Object.entries(guides)){
   const current=fs.readFileSync(file,'utf8');
   const actual=JSON.parse(current.match(/<script id="flow2-breadcrumb-data"[^>]*>([\s\S]*?)<\/script>/)?.[1]||'null');
   assert.deepEqual(actual,schema,slug);assert(current.includes(crumb),slug);assert(current.includes(related),slug);
+  assert.equal((current.match(/aria-label="麵包屑(?:導航)?"/g)||[]).length,1,'One breadcrumb trail only: '+slug);
  }else fs.writeFileSync(file,html);
 }
 console.log('PASS: 4 guides have visible breadcrumbs, matching BreadcrumbList and descriptive related links.');
