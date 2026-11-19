@@ -41,14 +41,15 @@ check('Calendar control is icon-only, labelled and sized for touch',()=>{
 check('Contact uses the owner-confirmed WhatsApp number with an email fallback',()=>{
  const js=fs.readFileSync(path.join(root,'assets/simple.js'),'utf8');assert(js.includes('https://wa.me/85263111207?text='));assert(js.includes('mailto:info@flow2.xyz'));assert(!js.includes('85200000000'));
 });
-check('Showcase has four descriptive actions, one link per card and visible filled CTAs',()=>{
+check('Showcase has five descriptive actions, one link per card and visible filled CTAs',()=>{
  assert(home.includes('data-copy="services.title">Showcase</h2>'));
  const sandbox={window:{},IntersectionObserver:class{observe(){} disconnect(){}}};
  require('node:vm').runInNewContext(fs.readFileSync(path.join(root,'assets/demo-cards.js'),'utf8'),sandbox);
  const container={innerHTML:'',querySelectorAll(){return []}};
  sandbox.window.FlowDemoCards.render(container,'zh');
- assert.equal((container.innerHTML.match(/<a /g)||[]).length,4);
+ assert.equal((container.innerHTML.match(/<a /g)||[]).length,5);
  for(const label of ['試用排班系統','試用瑜伽預約','開啟餐廳助手','試用外展工作台'])assert(container.innerHTML.includes(label));
+ assert(container.innerHTML.includes('architect-studio-showcase'));
  assert(fs.readFileSync(path.join(root,'assets/demo-cards.css'),'utf8').includes('min-height:48px'));
 });
 check('Original guides, business information and privacy pages are public, canonical and linked',()=>{
@@ -57,7 +58,7 @@ check('Original guides, business information and privacy pages are public, canon
  for(const link of ['/guides','/about','/contact','/privacy'])assert(home.includes('href="'+link+'"'));
 });
 check('Homepage publishes the same cards, prices and FAQs before JavaScript enhancement',()=>{
- assert.equal((home.match(/class="demo-launch"/g)||[]).length,4);
+ assert.equal((home.match(/class="demo-launch"/g)||[]).length,5);
  assert.equal((home.match(/class="price-card /g)||[]).length,3);
  assert(home.includes('<div id="faq-list"><details>'));
  assert(home.includes('name="google-adsense-account" content="ca-pub-8769011123659282"'));
@@ -71,6 +72,15 @@ check('Gatherly is a public product link in the footer only, with no private eve
  assert(footer.includes('class="footer-products"'));assert(footer.includes('href="https://gather.flow2.xyz/"'));
  assert(footer.includes('referrerpolicy="no-referrer"'));assert(!footer.includes('gather.flow2.xyz/?'));
  const copy=fs.readFileSync(path.join(root,'assets/simple.js'),'utf8');assert(copy.includes("'footer.products':pair('產品','Products')"));assert(copy.includes('Find a time. Get together.'));
+});
+check('Architecture ships only the reviewed public 3D assets and attributions',()=>{
+ const folder=path.join(root,'demo/architect-studio/showroom/assets'),manifest=require('./architecture-public-assets.json');
+ assert.deepEqual(fs.readdirSync(folder).sort(),Object.keys(manifest).sort());
+ for(const [name,hash] of Object.entries(manifest))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(folder,name))).digest('hex'),hash,name);
+ const arch=path.join(root,'demo/architect-studio');
+ for(const f of fs.readdirSync(arch,{recursive:true}))if(/\.(?:glb|gltf|blend|fbx|bin|uasset|zip|obj)$/i.test(f))assert(Object.hasOwn(manifest,path.basename(f))&&path.dirname(path.join(arch,f))===folder,f);
+ const credit=fs.readFileSync(path.join(folder,'../asset-credits.txt'),'utf8');
+ for(const name of ['Eric Chadwick','Fran Calvente','Wayfair','Darmstadt Graphics Group','Poly Haven','CC BY 4.0','CC0'])assert(credit.toLowerCase().includes(name.toLowerCase()));
 });
 console.log(JSON.stringify({passed:checks,failed:0}));
 require('node:child_process').execFileSync(process.execPath, [require('node:path').join(__dirname, 'seo-metadata.cjs'), '--check'], {stdio:'inherit'});

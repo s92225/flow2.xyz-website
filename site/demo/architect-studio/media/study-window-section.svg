@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="t d" xml:lang="en"><title id="t">Window and seat — one-window living room section</title><desc id="d">An original qualitative section of a room with one glazed opening. A person sits on a low-backed sofa away from the window and curtain. The dashed line at eye level is above the sill; a pale ochre fan marks the idea of entering light rather than measured exposure. The open margin allows access for cleaning and drawing the curtain.</desc><style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#292b25}.mono,.key,.mini,.largecode{font-family:'Courier New',monospace}.mono{font-size:13px;letter-spacing:1.2px}.key{font-size:12px;letter-spacing:.8px;font-weight:bold}.mini{font-size:10.5px;letter-spacing:.7px;fill:#696d60}.largecode{font-size:23px;letter-spacing:-1.5px}.name{font-size:31px;letter-spacing:-1.4px}.small{font-size:15px;fill:#54594a}.cut{fill:url(#h);stroke:#292c25;stroke-width:2}.ink{fill:none;stroke:#464b3e;stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round}.faint{fill:none;stroke:#919689;stroke-width:.9;stroke-linejoin:round;stroke-linecap:round}.lead{fill:none;stroke:#797e72;stroke-width:.9;stroke-linejoin:round;stroke-linecap:round}
+</style>
+<rect width="1200" height="700" fill="#fdfcf8"/>
+<path d="M30 30h19m-11-8v17m1132-9h-19m11-8v17M30 671h19m-11-8v17m1132-9h-19m11-8v17" fill="none" stroke="#858a7c" stroke-width=".9"/>
+<path d="M63 61h1074M63 597h1074" stroke="#505547" stroke-width="1"/>
+<text class="mono" x="63" y="41">STILLFORM  /  DRAWING OFFICE</text><text class="mono" x="1137" y="41" text-anchor="end">SPATIAL STUDY     02 / SECTION</text>
+<defs>
+<pattern id="h" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(38)"><rect width="7" height="7" fill="#eeeee6"/><path d="M0 0v7" stroke="#888f7e" stroke-width="1"/></pattern>
+<pattern id="slab" width="13" height="10" patternUnits="userSpaceOnUse"><rect width="13" height="10" fill="#e9e9e0"/><path d="M2 7l2-1m6-3 1 1m-5 5 1-.7" stroke="#909684" stroke-width=".9" fill="none"/></pattern>
+</defs>
+<!-- The faint hill contour is seen through the sole opening; not a site view. -->
+<g class="faint">
+ <path d="M64 341q33-17 56-15t51-13 48-10"/><path d="M63 349q29-10 54-10t50-10 50-6"/>
+ <path d="M84 362q34-7 64-6t55-9" stroke-dasharray="3 4"/>
+</g>
+<!-- Roof, wall cut, and the single bay of glazing. -->
+<path class="cut" d="M192 148h916v18H254v27h-57v-27h-5z"/>
+<path class="ink" d="M195 146h914m-855 24h854" stroke-width="2.8"/>
+<path class="cut" d="M191 371h66v12h-8v115h-48V384h-10z"/>
+<path class="ink" d="M188 369h70m-55 125V385m43 111V384"/>
+<path d="M215 204h10v158h-10zm-5-12h23v12h-23zm-2 170h27v9h-27z" fill="#fdfcf8" stroke="#474c40" stroke-width="1.7"/>
+<path d="M221 206v152" class="faint"/>
+<path d="M169 497H1084v13H251v13h-82z" class="cut"/>
+<path d="M170 524h82v-12h834v14H170z" fill="url(#slab)" stroke="#979c8e" stroke-width="1"/>
+<path d="M249 497h836" stroke="#34382e" stroke-width="2.8"/>
+<path d="M255 489h827" class="faint"/>
+<!-- A translucent warm wedge rather than a claim about illuminance or solar angles. -->
+<path d="M226 204l572 283H493L226 281z" fill="#c29251" opacity=".105"/>
+<path d="M228 206l566 280" fill="none" stroke="#ba8b4f" stroke-width="1.2"/>
+<path d="M227 281l268 205" fill="none" stroke="#b79462" stroke-width="1" stroke-dasharray="4 5"/>
+<!-- Drapery and track: light grey lines remain subordinate to the black cut. -->
+<path d="M251 178h54v5h-54z" class="ink"/>
+<path d="M271 183c1 20-3 61-4 89s2 65 0 93-8 74-6 99q5 5 10 .5l5 .7q5 2 8-2c-2-30 3-68 3-102s-3-69-3-99 1-54 2-79" fill="#eeeeE7" stroke="#929889" stroke-width="1.3"/>
+<path d="M276 186c1 41-5 72-2 122s-5 107-6 152m13-273c-2 21-3 53-2 83s2 77-1 112-3 48-2 75" class="faint"/>
+<!-- Upholstered, low back side section: timber underframe, piping and tapered feet. -->
+<path d="M574 466l9 0-2 29h-5zm194 0h10l-2 29h-6z" fill="#c4b7a1" stroke="#414638" stroke-width="1.6"/>
+<path d="M567 453q0-8 9-9h187l13-77q2-13 14-12l12 2q9 2 7 14l-15 90q-1 8-11 8H579q-11 0-12-9z" fill="#d9d8ca" stroke="#393f32" stroke-width="2.2"/>
+<path d="M571 461q3 4 12 4h199q8 0 9-7l15-89" class="faint"/>
+<path d="M569 428q0-7 8-8l164-1q14 0 14 10l-1 11q-1 8-13 8H581q-13 0-13-8z" fill="#eeede5" stroke="#464c3d" stroke-width="1.7"/>
+<path d="M756 416l10-51q2-9 9-10l9 2q6 2 4 10l-10 51q-2 9-9 9l-8-1q-7-2-5-10z" fill="#e8e8dd" stroke="#474d3d" stroke-width="1.7"/>
+<path class="faint" d="M578 424h159m-158 20h165m-175 5v7h189"/>
+<!-- An original seated figure in side elevation, looking left. -->
+<path d="M692 315q-3-8-2-17 0-11 8-18 7-6 16-3 15 3 18 17 3 13-5 24l-3 9-17 4-10-13-4-.5-1-3z" fill="#c6c8bd" stroke="#545c4c" stroke-width="1.25"/>
+<path d="M692 298q0-16 11-20 15-6 25 6 9 12 2 24l-5 4q-5 1-5-5l1-5-6-1-3-10q-11 7-20 7z" fill="#737c6a"/>
+<path d="M691 300l-2 7-3 3 4 2 2 7 5 1m-2-16 3 0" class="ink" stroke-width="1"/>
+<path d="M706 325l16-5 11 3q14 6 16 20l5 42q1 13-8 17l-26 8-30-9 3-32 4-28q1-12 9-16z" fill="#d6d7cd" stroke="#525b48" stroke-width="1.55"/>
+<path d="M738 398q17 0 19 9t-8 13q-23 4-48-1l-64-9-19 33-18 38-11-3q4-27 12-51l11-29q3-12 18-13l53 3 12-5z" fill="#a2a999" stroke="#555f4c" stroke-width="1.6"/>
+<path d="M704 404l-65-7q-16-1-18 11l-17 46m-15 24-2 7-16 3q-6 2-5 6h35l1-13" fill="#afb5a8" stroke="#56604d" stroke-width="1.4"/>
+<path d="M712 341l-13 34-32 13-8 0-7 4 2 4 16-1 39-10q6-2 9-10l13-30" fill="#d4d7cc" stroke="#59624e" stroke-width="1.4"/>
+<path d="M742 389l7-2m-48-20 4-15" class="faint"/>
+<!-- Eye level and access references. -->
+<path d="M105 302H688" fill="none" stroke="#bb4b32" stroke-width="1.8" stroke-dasharray="9 6"/>
+<path d="M116 297l-13 5 13 5" fill="none" stroke="#bb4b32" stroke-width="1.8"/>
+<circle cx="691" cy="302" r="3.7" fill="#bd4c34"/>
+<text x="69" y="276" class="key" style="fill:#a8432f">01  /  SIGHTLINE</text>
+<path d="M282 535v22m282-22v22m-283-9h284m-286 4 7-8m273 8 7-8" class="lead"/>
+<text x="423" y="573" class="key" text-anchor="middle">02  /  CLEAR WINDOW EDGE</text>
+<path d="M799 355l46-43h138" class="lead"/><circle cx="799" cy="355" r="2.4" fill="#686f60"/>
+<text x="852" y="302" class="key">03  /  LOW BACK</text>
+<path d="M435 267l31-46h82" stroke="#c09a67" fill="none" stroke-width="1"/>
+<text x="472" y="212" class="mini" style="fill:#94764d">BORROWED LIGHT</text>
+<text x="77" y="112" class="key">A—A   /   SITTING ROOM</text>
+<text x="1136" y="112" text-anchor="end" class="mini">QUALITATIVE SECTION   ·   NOT TO SCALE</text>
+<text class="name" x="63" y="641">Window and seat</text><text class="mini" x="65" y="667">A SINGLE ASPECT ROOM   /   SIGHT AND CLEARANCE STUDY</text><text class="largecode" x="1137" y="650" text-anchor="end">S.02</text><text x="625" y="649" class="mini">INDICATIVE LIGHT PATH  ·  NOT A LIGHTING SIMULATION</text></svg>

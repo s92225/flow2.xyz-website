@@ -1,0 +1,8 @@
+@font-face{font-family:StillformHK;src:url("media/wordmark-hk.woff2") format("woff2");font-style:normal;font-weight:600;font-display:swap;unicode-range:U+7BC9,U+975C}
+@font-face{font-family:SFManrope;src:url("media/manrope.woff2") format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
+.sf-wordmark{--brand-ink:#22241f;display:inline-flex;align-items:center;gap:12px;color:var(--brand-ink);text-decoration:none;white-space:nowrap;width:max-content;line-height:1}
+.sf-wordmark:hover,.sf-wordmark:focus{text-decoration:none}
+.sf-wordmark .sf-zh{font:600 41px/.98 StillformHK,"Noto Serif HK","Songti TC","PMingLiU",serif;letter-spacing:-.055em}
+.sf-wordmark .sf-en{font:650 17px/.96 SFManrope,Arial,sans-serif;letter-spacing:-.045em}
+.sf-wordmark .sf-en small{font-size:12px;letter-spacing:-.018em;font-weight:540}
+@media(max-width:650px){.sf-wordmark{gap:8px}.sf-wordmark .sf-zh{font-size:32px}.sf-wordmark .sf-en{font-size:14px}.sf-wordmark .sf-en small{font-size:11px}}

@@ -1,0 +1,29 @@
+HOUSE 03 / 互動住宅設計研究 — browser edition
+This independent architectural interpretation is not a property listing, survey or developer endorsement.
+
+FEATURED SEATING
+GlamVelvetSofa by Eric Chadwick, copyright 2021 Wayfair, LLC. CC BY 4.0. Source: https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/GlamVelvetSofa
+
+Sheen Wood Leather Sofa: original by Fran Calvente (2021, CC0); improvements by Eric Chadwick, copyright 2024 Darmstadt Graphics Group GmbH, CC BY 4.0. Source: https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/SheenWoodLeatherSofa
+
+CC BY 4.0 terms: https://creativecommons.org/licenses/by/4.0/
+CC0 terms: https://creativecommons.org/publicdomain/zero/1.0/
+Changes: textures resized/encoded to WebP; geometry optimised, placed and scaled for this house. Colour, upholstery options, lighting and presentation adapted. No affiliation or endorsement implied.
+
+POLY HAVEN — CC0
+Dining Table, Dining Chair 02, Modern Arm Chair 01, Modern Coffee Table 01, Coffee Table Round 01, Brass Vase 03, Ceramic Vase 04, Tea Set 01, Chinese Console Table, Wooden Table 02, Chinese Armchair, Mid-Century Lounge Chair, Poly Wool Herringbone, Kloofendal 48d Partly Cloudy, Precast Stone Paving, grass/stone textures, Tree Small 02 and Aerial Grass Rock. Cropped, compressed, fitted, recoloured or simplified for the browser.
+https://polyhaven.com/license
+https://polyhaven.com/a/dining_table
+https://polyhaven.com/a/dining_chair_02
+Garden source notes: ../model/planting/SOURCES.md
+
+SURFACES AND SCREEN
+Plaster001, ambientCG (CC0), resampled normal map. https://ambientcg.com/view?id=Plaster001
+Lake Mountain Landscape, Bonnie Moreland (CC0), still for the cinema display. https://commons.wikimedia.org/wiki/File:Lake_Mountain_Landscape.jpg
+
+ORIGINAL WEB FITTINGS
+Custom joinery, bed and bedding, bedside tables, lamps, clothing, bags, washbasins, sanitaryware, kitchen fittings, tableware, light rig, house geometry, procedural materials, lift and staircase adapted or made for this design study.
+Gallery stills illustrate design iterations. The Showcase walkthrough image is a capture of the public WebGL model. No meshes from the private Unreal furniture catalogue are supplied.
+
+SOFTWARE
+Three.js and its addons: MIT (../model/vendor/LICENSE). Meshoptimizer: MIT (vendor/meshoptimizer-LICENSE.txt).
