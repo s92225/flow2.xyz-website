@@ -1,0 +1,371 @@
+[
+  {
+    "id": "audio",
+    "title": "Canton Reference 9dc",
+    "author": "sudd dendron",
+    "source": "https://www.blenderkit.com/asset-gallery-detail/e416fb90-f61a-4297-830a-7858c9b30864/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "terms": "CC0 1.0",
+    "sha256": "fd703ae2271459a35a6384abe38053a10194890666756c72867228696a790c77"
+  },
+  {
+    "id": "base-cabinet",
+    "title": "Drawers cabinet",
+    "author": "Jay-Artist",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/kitchenDrawersCabinet.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "dce3ff347830125cf62fd584429eec9329d0a24e328ccc944d191ae04304c57e"
+  },
+  {
+    "id": "bed-guest",
+    "title": "Dimanche Bed - Low Poly Bed",
+    "author": "Nick Havas",
+    "source": "https://sketchfab.com/models/6407bf79683d47468716929650cc4c0c",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "terms": "CC BY 4.0",
+    "sha256": "6dfb036e48d975704477cf05aa18d4feeec022a7aafd49e5dffdc27bee4fa1fd"
+  },
+  {
+    "id": "bed-primary",
+    "title": "Bed Sagara",
+    "author": "Эльба Мебель",
+    "source": "https://sketchfab.com/models/e681df331fd148f1b9b12ca8a6d32bcb",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "terms": "CC BY 4.0",
+    "sha256": "a59d4f861b9071a5ba03b22fd1d594d2c4c4759c1ac0fa08e6017edbf1aa84d3"
+  },
+  {
+    "id": "bench",
+    "title": "Mid-century-bench-sofa",
+    "author": "Andrew Kator & Jennifer Legaz",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/katorlegaz/mid-century-bench-sofa.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/us/",
+    "terms": "CC BY 3.0 US",
+    "sha256": "fcfdf06ede09a522014b6d338ac60b39baea7f24c527d3cec67e144e61b4eadc"
+  },
+  {
+    "id": "board",
+    "title": "Chopping board",
+    "author": "Jay-Artist",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/choppingBoard.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "680e5b94b86f334bd2a38690be4e40da6427b305ea16fc1b0350a271241e602f"
+  },
+  {
+    "id": "book",
+    "title": "Book",
+    "author": "Jay-Artist",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/book.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "4c3f5d2ea36134379122df905214d60a2abcfad2cb5b3c702935d028c2c0689d"
+  },
+  {
+    "id": "bowl",
+    "title": "Bowl",
+    "author": "Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/bowl.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "b5ace7fa0f89dfc230ad4dbdd5790c30457fcc6156e27536d0211d9d83c3a7e2"
+  },
+  {
+    "id": "chaise",
+    "title": "Pool lounge",
+    "author": "LarryStephenRobb",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/poolLounge.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "33c619ceb72fa6ef47bcb65f05bd5bd580337b1a1c93181d2127acf8d30ee7e5"
+  },
+  {
+    "id": "chandelier",
+    "title": "Chandelier lamp",
+    "author": "Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/chandelier-lamp.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "c5657e714ee1270a3bb826aa31ec0796274b0abec46307269678a4ae53e9f41f"
+  },
+  {
+    "id": "cinema",
+    "title": "Vintage Armchair",
+    "author": "Rohma Ansari",
+    "source": "https://www.blenderkit.com/asset-gallery-detail/bf356937-e6e7-4a2e-91c7-c1251d1a406b/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "terms": "CC0 1.0",
+    "sha256": "e943848df5688b0d4665efc22b32e8ada2ac0085990b6ba005f74f1e1c17e83c"
+  },
+  {
+    "id": "coffee-family",
+    "title": "Noguchi coffee table",
+    "author": "Flareworks Studio",
+    "source": "https://www.blenderkit.com/asset-gallery-detail/499820e7-b642-4756-9042-73604627b3f1/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "terms": "CC0 1.0",
+    "sha256": "9e1b0aad4c583b368a48357c2f501e2dd016c8f0b428695dcb57791bacac439b"
+  },
+  {
+    "id": "coffee-main",
+    "title": "Coffee Table",
+    "author": "John Carlo",
+    "source": "https://www.blenderkit.com/asset-gallery-detail/784023dd-6758-4b3b-99c8-a96c4c8dfee2/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "terms": "CC0 1.0",
+    "sha256": "7a3b705739dc4fd9871732f441f34e76ea81452220cb1d7a654031db499439d8"
+  },
+  {
+    "id": "coffee-round",
+    "title": "Coffee Table",
+    "author": "abd3d",
+    "source": "https://www.blenderkit.com/asset-gallery-detail/4db96473-72ed-4947-80d8-af6dc1c4dee8/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "terms": "CC0 1.0",
+    "sha256": "644007afa584976be86948532a56f3dfaa3199d7d4222bc892d99412613aa4fe"
+  },
+  {
+    "id": "coffee-side",
+    "title": "Luxury Coffee Table",
+    "author": "FortaMesh Moezi",
+    "source": "https://www.blenderkit.com/asset-gallery-detail/d4de2ba6-412d-4e23-8cbc-50f5ee7cfa4e/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "terms": "CC0 1.0",
+    "sha256": "4f1958fea4ef3024ee57325de9fa56287704eff3555c138c062e29706c7adbd5"
+  },
+  {
+    "id": "flush",
+    "title": "Grohe G-38844000",
+    "author": "trendforward",
+    "source": "https://sketchfab.com/models/1dcab0d4f3b9448b92772087032d21e4",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "terms": "CC BY 4.0",
+    "sha256": "70ca7210fcb41738f6590ee0d90ea40fc38bf060813a733dd7c0456bc5445dd2"
+  },
+  {
+    "id": "fridge",
+    "title": "(JR art luxury Fridge Concept)",
+    "author": "Jayrenn Reeve",
+    "source": "https://www.blenderkit.com/asset-gallery-detail/71338bb3-1905-4461-8ce0-e048cd144cd1/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "terms": "CC0 1.0",
+    "sha256": "045a1dddeeaf0db1aee7b49baea4afaa9c400f96b08cee48017f5d2a794670ae"
+  },
+  {
+    "id": "hob",
+    "title": "Induction cooker 4 zones",
+    "author": "Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/induction-cooker-4-zones.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "5b6b465e4d3466617115024357a44362ddb13c83681f18336f3b29f26828a262"
+  },
+  {
+    "id": "knife",
+    "title": "Kitchen knife",
+    "author": "Jay-Artist",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/kitchenKnife.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "7089aca04d773a3894ea6989a2d4a0a7b3fe51bd07bfa6b2fb08e897fc5e3192"
+  },
+  {
+    "id": "knife-block",
+    "title": "Knife stand",
+    "author": "Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/kitchenKnifeStandSet.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "25ddfa971df1a89bd23467b4d4b5c333e84b6498a3d3fd9fae30d3dd596e4e50"
+  },
+  {
+    "id": "light-desk",
+    "title": "Desk lamp2",
+    "author": "Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/desk_lamp2.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "9f2440d014d2042bb5560f0e0941ffd5b612b02f49df4fdc1a9d8c0bce083ed5"
+  },
+  {
+    "id": "light-floor",
+    "title": "Lamp",
+    "author": "Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/living_lamp.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "ec97f9da79e9328a3fde14de3d496ae77987416bb4db78503b8e8af1abd55f6d"
+  },
+  {
+    "id": "mixer",
+    "title": "Grohe G-32901001",
+    "author": "trendforward",
+    "source": "https://sketchfab.com/models/2345e56662504ece977525901a593b43",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "terms": "CC BY 4.0",
+    "sha256": "10b9396aac092c9a80404479c0ef508b22d251ba74a6d55782eee24d9be3ac63"
+  },
+  {
+    "id": "nightstand",
+    "title": "Bedside table",
+    "author": "SirOccor",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/bedsideTable.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "c91634df351697d1d9942b0e51fc74e25f9f2e51dfddc333349806c49e19abeb"
+  },
+  {
+    "id": "oven",
+    "title": "Small oven",
+    "author": "Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/small-oven.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "d6af044099153b3a64b087b48117c604df1aa0eb91b8c95c429cbd88785345d3"
+  },
+  {
+    "id": "pan",
+    "title": "Large pan",
+    "author": "Jay-Artist",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/largePan.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "6c1c90867fc45d807aff8c29dbe5a8a33e5ba24a568b36f601ea58d32d60e9f7"
+  },
+  {
+    "id": "place-setting",
+    "title": "Plate, glasses and cutlery",
+    "author": "Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/ensemble-assiette-couteau-fourchette-cuillere-verre.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "db666c991aea2f2cca90a6634863f199345c2959c856bae073cfe8e9760d00c5"
+  },
+  {
+    "id": "salon-bag",
+    "title": "Lether bag-Freepoly.org",
+    "author": "Free poly",
+    "source": "https://www.blenderkit.com/asset-gallery-detail/50547561-b678-4ae9-bac4-1c181a60d7e1/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "terms": "CC0 1.0",
+    "sha256": "fc77db7ee2356155c8df1cb5c31af3733176b4187efb5297cc42cd3f80f2745c"
+  },
+  {
+    "id": "scent",
+    "title": "Perfume Bottle",
+    "author": "3D Modeler",
+    "source": "https://www.blenderkit.com/asset-gallery-detail/77fb719e-69fe-43f5-acb8-20f421419e2b/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "terms": "CC0 1.0",
+    "sha256": "f17ff82950af46deae4a2d50737cd296852479d393a4e6ad4733e5b688ec3971"
+  },
+  {
+    "id": "shirt",
+    "title": "Hanging Shirt By Camille Kleinman",
+    "author": "camillekleinman",
+    "source": "https://sketchfab.com/models/117fc4a6e8304a858dfaf2adc2c782a0",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "terms": "CC BY 4.0",
+    "sha256": "522b206299d3091410d687700ab5f56552b3a9195624973f051253cd657e0a8e"
+  },
+  {
+    "id": "sink",
+    "title": "Sink",
+    "author": "Jay-Artist",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/kitchenSink.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "0978c64acc7d1c9c451ce6ad5cd9291dfcb84076d5536e2e191333ba93891139"
+  },
+  {
+    "id": "spice",
+    "title": "Glass jar",
+    "author": "Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/kitchen-glass-jar-low.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "97917d5d8b50c820e080dce1406a723b0013f24f8b098e7095d1d890370de4af"
+  },
+  {
+    "id": "sputnik",
+    "title": "SPUTNIK Color Chandelier",
+    "author": "YULIN LAND",
+    "source": "https://www.blenderkit.com/asset-gallery-detail/7a38153e-9325-4a5e-9fd6-fa4804fbac28/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "terms": "CC0 1.0",
+    "sha256": "9b62691a7e81bc2c646899614f0c59c347c407d300f5b7e37ce39108e565f63a"
+  },
+  {
+    "id": "table-library",
+    "title": "Coffee table",
+    "author": "Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/coffee-table2.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "9f8dc218a819047e323851d246f059c3bacefc6e87640076f3ec38bb80a90373"
+  },
+  {
+    "id": "table-small",
+    "title": "Round table",
+    "author": "Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/round-table.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "68e6bc165ab694d1bea2b89cd3a19901ff6f631eebe3836a3706acb93f6e8f93"
+  },
+  {
+    "id": "toilet-ceramic",
+    "title": "Toilet geberit selnova",
+    "author": "Bruno Bassani",
+    "source": "https://www.blenderkit.com/asset-gallery-detail/4f662f3f-9c41-4f4a-9de2-6d590a70fd88/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "terms": "CC0 1.0",
+    "sha256": "bb94878f0d0084041401503add12873f3fde51e56c4350c3cde4717bf6a34c19"
+  },
+  {
+    "id": "trench",
+    "title": "Hangers W Clothes",
+    "author": "melaamory",
+    "source": "https://sketchfab.com/models/6df08ef8a8504504911ef520cd870aa8",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "terms": "CC BY 4.0",
+    "sha256": "562e76723c18515f9d8e9b58ed561b0b450b1eaeaa707ff652b191bcef277054"
+  },
+  {
+    "id": "trousers",
+    "title": "Hangers and Pants",
+    "author": "dudecon",
+    "source": "https://sketchfab.com/models/37b92fbde5ca45448c50fc2cb6a376d8",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "terms": "CC BY 4.0",
+    "sha256": "0a1de3ac45ecc0951404625bbe0bc98e9915169b1bb0a69f83f8c6c10b66f90b"
+  },
+  {
+    "id": "tub",
+    "title": "Freestanding designer bathtub.",
+    "author": "Joachim Bornemann",
+    "source": "https://www.blenderkit.com/asset-gallery-detail/afd3a7ea-70aa-4525-b26d-d48db6978d1d/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "terms": "CC0 1.0",
+    "sha256": "5988ad7baa4173eb06ebcc0a60664180692d6f141eb3a63c725ad6ab1f7c0ec4"
+  },
+  {
+    "id": "vanity",
+    "title": "Vanity",
+    "author": "Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/bathroom_vanity.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "0c74cdb10fbf7da40daf4293c4bf10a43439707d72a477b41223da50d025ad9b"
+  },
+  {
+    "id": "wall-cabinet",
+    "title": "Upper cabinet",
+    "author": "Jay-Artist",
+    "source": "https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/kitchenUpperCabinet.zip",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "terms": "CC BY 3.0",
+    "sha256": "542b0384b74c3c7e2ace14a883e6764b2f0ef3b3addc700c73e9ceff9d3a2454"
+  }
+]

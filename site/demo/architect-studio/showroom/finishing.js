@@ -18,7 +18,7 @@ export function correctedFit(fit){for(const b of fit.barriers){const f=bathFit[b
 const std=(color,rough=.7,metal=0)=>new T.MeshStandardMaterial({color,roughness:rough,metalness:metal});
 const brass=std(0xa78550,.36,.65),frame=std(0x544739),paper=std(0xcdc8b7),bookM=[0x535747,0xbbab92,0x5b4740,0xb0845b].map(c=>std(c)),geo=new T.BoxGeometry(1,1,1);let images;
 function slab(g,x,y,z,w,h,d,m){const o=new T.Mesh(geo,m);o.position.set(x,y,z);o.scale.set(w,h,d);o.castShadow=o.receiveShadow=true;g.add(o);return o}
-export function dressWing(key,g,scene,render,materials){
+export function dressWing(key,g,scene,render,stock,materials){
  if(key==='ground'){
   for(const [n,dy] of [['SM_INT_FoyerConsole',0],['SM_INT_FoyerCeramic',0]]){const o=g.getObjectByName(n);if(!o)continue;o.position.x-=5.21;o.position.z-=.41}
   if(!images)images=['house03-plan-sheet.svg','study-window-section.svg'].map(n=>{const tex=new T.TextureLoader().load(new URL('../media/'+n,import.meta.url).href,render);tex.colorSpace=T.SRGBColorSpace;return new T.MeshBasicMaterial({map:tex,toneMapped:false})});
@@ -28,32 +28,23 @@ export function dressWing(key,g,scene,render,materials){
   }
   print(-2.91,1.64,3.075,1.26,.90,0,0);print(-4.13,1.64,4.04,.83,.67,Math.PI/2,1);print(.166,1.70,4.17,.97,.72,Math.PI/2,0);
   cloneAt(g,scene.getObjectByName('SM_KG_GuestBedsideLamp0'),'Study brass task lamp',-3.40,4.36,.759,.13,.32,.47,.32);
-  for(let i=0;i<3;i++)slab(g,-2.45+i*.013,.776+i*.032,4.57-i*.014,.275-i*.014,.029,.20-i*.013,bookM[i]);
+  for(let i=0;i<3;i++)stock.put(g,'book','Study folio',-2.45+i*.013,.760+i*.032,4.57-i*.014,.275-i*.014,.032,.20-i*.013,i*.042);
   const stool=scene.getObjectByName('SM_EXT_LoungeChair_0');cloneAt(g,stool,'West garden lounge 1',-10.05,-3,-.061,-.6,.89,.79,.94);
   cloneAt(g,stool,'West garden lounge 2',-12,-3.60,-.061,2.5,.89,.79,.94);
-  cloneAt(g,scene.getObjectByName('SM_EXT_SittingTeaTable'),'Outdoor tea',-11.00,-3.36,-.059,.3,.65,.37,.65)
+  stock.put(g,'coffee-round','Garden tea table',-11.00,-.059,-3.36,.65,.37,.65)
  }
  // Give the narrow dressing runs a rail of genuinely shaped garments rather than an empty box.
  if(key==='second'||key==='first'){
   const base=key==='first'?4.2:7.95;const alcoves=key==='first'?[[-3.53,4.13],[13.82,4.12]]:[[13.77,4.1]];
   const wood=std(0x6d5240,.59);
-  const hangers=[];
-  g.traverse(o=>{if(/^SM_SAL_F_Coat|^Fit_Dressing__hanging_coat/.test(o.name))hangers.push(o)});
-  for(const coat of hangers){
-   const b=bounds(coat),c=b.getCenter(new T.Vector3()),top=b.max.y;
-   // Existing rod pins end at collar height. Carry the load through the neck
-   // onto a wooden shoulder piece rather than ending the pin in empty space.
-   slab(g,c.x,top-.023,c.z,.010,.080,.010,brass);
-   for(const side of [-1,1]){
-    const arm=slab(g,c.x+side*.071,top-.066,c.z,.16,.021,.026,wood);
-    arm.rotation.z=-side*.30;
-   }
-  }
   for(const [x,z] of alcoves){const hor=key==='first'&&x<0?1:-1;const xx=x-hor*.32;
    const rail=new T.Mesh(new T.CylinderGeometry(.014,.014,1.08,14),brass);rail.rotation.x=Math.PI/2;rail.position.set(xx,base+1.78,z);g.add(rail);
    for(const dz of [-.53,.53]){slab(g,xx,base+.92,z+dz,.028,1.82,.028,brass)}slab(g,xx,base+.15,z,.40,.04,1.12,wood);
-   const coat=scene.getObjectByName('SM_SAL_F_Coat1_1_0')||scene.getObjectByName('Fit_Dressing__hanging_coat_00');
-   if(coat)for(let j=0;j<3;j++)cloneAt(g,coat,'Hanging jacket',xx,z-.24+j*.22,base+.62,.24,.32,1.14,.16)
+   // Two face-out looks on each free-standing rail. The stock models include
+   // their own wooden/wire hangers. Fit the top of each hook directly to the rod.
+   const sign=x<0?1:-1;
+   stock.rail(g,'Rail / tailored jacket','trench',xx,base+1.793,z-.263,sign*1.06,.49,.95,.18);
+   stock.rail(g,'Rail / hanging shirt','shirt',xx,base+1.793,z+.258,sign*.93,.45,.85,.16);
   }
  }
  for(const [k,v] of Object.entries(bathFit)){

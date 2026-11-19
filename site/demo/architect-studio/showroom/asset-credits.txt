@@ -21,9 +21,175 @@ SURFACES AND SCREEN
 Plaster001, ambientCG (CC0), resampled normal map. https://ambientcg.com/view?id=Plaster001
 Lake Mountain Landscape, Bonnie Moreland (CC0), still for the cinema display. https://commons.wikimedia.org/wiki/File:Lake_Mountain_Landscape.jpg
 
-ORIGINAL WEB FITTINGS
-Custom joinery, bed and bedding, bedside tables, lamps, clothing, bags, washbasins, sanitaryware, kitchen fittings, tableware, light rig, house geometry, procedural materials, lift and staircase adapted or made for this design study.
-Gallery stills illustrate design iterations. The Showcase walkthrough image is a capture of the public WebGL model. No meshes from the private Unreal furniture catalogue are supplied.
+CATALOGUE FIT-OUT / 現成模型
+The following are independently authored third-party objects. Catalogue meshes and textures were optimised, fitted in metres, rotated and sometimes re-finished. No endorsement, sponsorship or measured reconstruction is implied. Accessible source records: stock-register.json; accompanying original notices: stock-notices.txt.
+
+Canton Reference 9dc — sudd dendron
+https://www.blenderkit.com/asset-gallery-detail/e416fb90-f61a-4297-830a-7858c9b30864/
+CC0 1.0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Drawers cabinet — Jay-Artist
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/kitchenDrawersCabinet.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Dimanche Bed - Low Poly Bed — Nick Havas
+https://sketchfab.com/models/6407bf79683d47468716929650cc4c0c
+CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/
+
+Bed Sagara — Эльба Мебель
+https://sketchfab.com/models/e681df331fd148f1b9b12ca8a6d32bcb
+CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/
+
+Mid-century-bench-sofa — Andrew Kator & Jennifer Legaz
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/katorlegaz/mid-century-bench-sofa.zip
+CC BY 3.0 US · https://creativecommons.org/licenses/by/3.0/us/
+
+Chopping board — Jay-Artist
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/choppingBoard.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Book — Jay-Artist
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/book.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Bowl — Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/bowl.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Pool lounge — LarryStephenRobb
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/poolLounge.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Chandelier lamp — Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/chandelier-lamp.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Vintage Armchair — Rohma Ansari
+https://www.blenderkit.com/asset-gallery-detail/bf356937-e6e7-4a2e-91c7-c1251d1a406b/
+CC0 1.0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Noguchi coffee table — Flareworks Studio
+https://www.blenderkit.com/asset-gallery-detail/499820e7-b642-4756-9042-73604627b3f1/
+CC0 1.0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Coffee Table — John Carlo
+https://www.blenderkit.com/asset-gallery-detail/784023dd-6758-4b3b-99c8-a96c4c8dfee2/
+CC0 1.0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Coffee Table — abd3d
+https://www.blenderkit.com/asset-gallery-detail/4db96473-72ed-4947-80d8-af6dc1c4dee8/
+CC0 1.0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Luxury Coffee Table — FortaMesh Moezi
+https://www.blenderkit.com/asset-gallery-detail/d4de2ba6-412d-4e23-8cbc-50f5ee7cfa4e/
+CC0 1.0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Grohe G-38844000 — trendforward
+https://sketchfab.com/models/1dcab0d4f3b9448b92772087032d21e4
+CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/
+
+(JR art luxury Fridge Concept) — Jayrenn Reeve
+https://www.blenderkit.com/asset-gallery-detail/71338bb3-1905-4461-8ce0-e048cd144cd1/
+CC0 1.0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Induction cooker 4 zones — Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/induction-cooker-4-zones.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Kitchen knife — Jay-Artist
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/kitchenKnife.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Knife stand — Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/kitchenKnifeStandSet.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Desk lamp2 — Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/desk_lamp2.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Lamp — Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/living_lamp.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Grohe G-32901001 — trendforward
+https://sketchfab.com/models/2345e56662504ece977525901a593b43
+CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/
+
+Bedside table — SirOccor
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/bedsideTable.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Small oven — Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/small-oven.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Large pan — Jay-Artist
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/largePan.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Plate, glasses and cutlery — Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/ensemble-assiette-couteau-fourchette-cuillere-verre.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Lether bag-Freepoly.org — Free poly
+https://www.blenderkit.com/asset-gallery-detail/50547561-b678-4ae9-bac4-1c181a60d7e1/
+CC0 1.0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Perfume Bottle — 3D Modeler
+https://www.blenderkit.com/asset-gallery-detail/77fb719e-69fe-43f5-acb8-20f421419e2b/
+CC0 1.0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Hanging Shirt By Camille Kleinman — camillekleinman
+https://sketchfab.com/models/117fc4a6e8304a858dfaf2adc2c782a0
+CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/
+
+Sink — Jay-Artist
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/kitchenSink.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Glass jar — Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/kitchen-glass-jar-low.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+SPUTNIK Color Chandelier — YULIN LAND
+https://www.blenderkit.com/asset-gallery-detail/7a38153e-9325-4a5e-9fd6-fa4804fbac28/
+CC0 1.0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Coffee table — Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/coffee-table2.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Round table — Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/round-table.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Toilet geberit selnova — Bruno Bassani
+https://www.blenderkit.com/asset-gallery-detail/4f662f3f-9c41-4f4a-9de2-6d590a70fd88/
+CC0 1.0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Hangers W Clothes — melaamory
+https://sketchfab.com/models/6df08ef8a8504504911ef520cd870aa8
+CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/
+
+Hangers and Pants — dudecon
+https://sketchfab.com/models/37b92fbde5ca45448c50fc2cb6a376d8
+CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/
+
+Freestanding designer bathtub. — Joachim Bornemann
+https://www.blenderkit.com/asset-gallery-detail/afd3a7ea-70aa-4525-b26d-d48db6978d1d/
+CC0 1.0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Vanity — Scopia Visual Interfaces Systems, s.l. (https://www.scopia.es) and Space Mushrooms (info@sweethome3d.com)
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/scopia/bathroom_vanity.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+Upper cabinet — Jay-Artist
+https://www.sweethome3d.com/wp-content/themes/sweet-home-3d/theme/assets/models/blendswap-cc-by/kitchenUpperCabinet.zip
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+
+PROJECT-SPECIFIC FABRICATION
+The measured-layout interpretation, stair, lift, architectural enclosure, circulation, curtain/window fit, integrated joinery, hanging rails, countertop cut-outs, rug surfaces, mirror/lighting and landscaping are not third-party catalogue furniture. The navigable showroom is not an Unreal stream. Gallery images may show previous design iterations.
 
 SOFTWARE
 Three.js and its addons: MIT (../model/vendor/LICENSE). Meshoptimizer: MIT (vendor/meshoptimizer-LICENSE.txt).

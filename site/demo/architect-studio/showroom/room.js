@@ -1,6 +1,6 @@
 import * as T from 'three';
 import {GLTFLoader,MeshoptDecoder} from './vendor/loader.js';
-import {fitDiffusers} from './lighting.js';
+
 import {makeKit} from './open-fittings.js';
 import {wings} from './wings.js';
 import {landscapeFinishes} from './grounds.js';
@@ -58,7 +58,7 @@ async function start(){
  const manager=new T.LoadingManager(),loader=new GLTFLoader(manager).setMeshoptDecoder(MeshoptDecoder);
  const [kit,gltf,lightmap,bg,rug,rugBump,weft,wallIrr,topIrr,...weaves]=await Promise.all([makeKit(loader),loader.loadAsync(asset('house03.glb'),e=>{if(e.total)progress.value=10+65*e.loaded/e.total}),tex('daylight.webp'),tex('hillside-sky.webp',true),tex('wool.webp',true),tex('wool-normal.webp'),tex('plaster.webp'),tex('gallery.webp'),tex('soffit.webp'),...finishes.map(f=>tex(f.id+'.webp',true))]);
  bg.mapping=T.EquirectangularReflectionMapping;scene.background=bg;scene.environment=bg;scene.environmentIntensity=.39;
- const model=gltf.scene;scene.add(model);kit.place("house03",model,scene);fitDiffusers(scene);model.updateWorldMatrix(true,true);
+ const model=gltf.scene;scene.add(model);kit.place("house03",model,scene);model.updateWorldMatrix(true,true);
  rug.wrapS=rug.wrapT=rugBump.wrapS=rugBump.wrapT=T.RepeatWrapping;weft.wrapS=weft.wrapT=T.RepeatWrapping;
  const boxes=[],rayMeshes=[],cloth=[],applied=new Set(),doors=[];
  const glass=new T.MeshPhysicalMaterial({color:0xabbbad,roughness:.17,metalness:.06,opacity:.045,transparent:true,depthWrite:false,side:T.DoubleSide});
@@ -95,7 +95,7 @@ async function start(){
  const hillside=buildHillside(T);scene.add(hillside);
  // Re-use the exact planting layout from the floor model without duplicating its schematic house or slabs.
  const sampleSite=new T.Group(),garden=new T.Group();buildExterior(T,sampleSite);
- for(const o of [...sampleSite.children[0].children]){if(o.isInstancedMesh||/Garden foliage|Woodland planting bed|Poolside mixed border|Terrace furniture|Tea garden gravel/.test(o.name))garden.add(o);
+ for(const o of [...sampleSite.children[0].children]){if(o.isInstancedMesh||/Garden foliage|Woodland planting bed|Poolside mixed border|Tea garden gravel/.test(o.name))garden.add(o);
   else {o.geometry?.dispose();o.material?.dispose()}}
  scene.add(garden);garden.traverse(o=>{if(o.isMesh){rayMeshes.push(o);o.userData.planting=true}});
  window.addEventListener('model-material-ready',()=>{r.shadowMap.needsUpdate=true;dirty()});

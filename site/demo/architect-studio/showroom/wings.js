@@ -27,10 +27,10 @@ export async function wings({scene,loader,kit,glass,rayMeshes,render,updateShado
  oakMap.colorSpace=T.SRGBColorSpace;oakMap.wrapS=oakMap.wrapT=T.RepeatWrapping;
  function load(key){
   if(jobs[key])return jobs[key];
-  jobs[key]=loader.loadAsync(file(key+'.glb')).then(async({scene:group})=>{
-   kit.place(key,group,scene);if(key==='ground')refitGround(group);
+  jobs[key]=Promise.all([loader.loadAsync(file(key+'.glb')),kit.stock.ready(key)]).then(async([{scene:group}])=>{
+   kit.place(key,group,scene);if(key==='ground')refitGround(group,kit.stock);
    group.name='House / '+key;scene.add(group);group.updateWorldMatrix(true,true);
-   dressWing(key,group,scene,render,{stone:new T.MeshStandardMaterial({color:0xbba990,roughness:.6})});group.updateWorldMatrix(true,true);const saved=new Map();
+   dressWing(key,group,scene,render,kit.stock,{stone:new T.MeshStandardMaterial({color:0xbba990,roughness:.6})});group.updateWorldMatrix(true,true);const saved=new Map();
    group.traverse(o=>{
     if(!o.isMesh)return;if(o.isReflector){mirrors.push(o);rayMeshes.push(o);return}
     let f=key==='second'?2:key==='first'?1:0;
@@ -61,7 +61,7 @@ export async function wings({scene,loader,kit,glass,rayMeshes,render,updateShado
     for(const n of ['SM_KG_NewRooms','SM_UP_OpenFoyer']){const o=group.getObjectByName(n);if(o)envelope.attach(o)}
    }
    sets[key]=group;updateShadow();render();return group
-  }).catch(e=>{delete jobs[key];throw e});return jobs[key]
+  }).catch(e=>{console.warn('House wing could not be fitted:',key,e);delete jobs[key];throw e});return jobs[key]
  }
  await Promise.all([load('shell'),load('ground')]);
  // A small fixed light rig follows the occupied room; no dozens of per-fixture point lights on phones.

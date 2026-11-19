@@ -79,6 +79,15 @@ check('Architecture ships only the reviewed public 3D assets and attributions',(
  for(const [name,hash] of Object.entries(manifest))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(folder,name))).digest('hex'),hash,name);
  const arch=path.join(root,'demo/architect-studio');
  for(const f of fs.readdirSync(arch,{recursive:true}))if(/\.(?:glb|gltf|blend|fbx|bin|uasset|zip|obj)$/i.test(f))assert(Object.hasOwn(manifest,path.basename(f))&&path.dirname(path.join(arch,f))===folder,f);
+ const register=JSON.parse(fs.readFileSync(path.join(folder,'../stock-register.json'),'utf8'));
+ const sources=Object.keys(manifest).filter(n=>n.startsWith('fit-')).sort();
+ assert.deepEqual(register.map(a=>'fit-'+a.id+'.glb').sort(),sources);
+ for(const item of register){
+   assert(item.author&&item.title&&/^https:\/\//.test(item.source)&&item.license.startsWith('https://creativecommons.org/'),item.id);
+   const n='fit-'+item.id+'.glb';assert.equal(item.sha256,manifest[n],n);
+   const data=fs.readFileSync(path.join(folder,n)),g=JSON.parse(data.subarray(20,20+data.readUInt32LE(12)));
+   assert(g.asset.copyright.includes(item.author)&&g.asset.copyright.includes(item.license),n);
+ }
  const credit=fs.readFileSync(path.join(folder,'../asset-credits.txt'),'utf8');
  for(const name of ['Eric Chadwick','Fran Calvente','Wayfair','Darmstadt Graphics Group','Poly Haven','CC BY 4.0','CC0'])assert(credit.toLowerCase().includes(name.toLowerCase()));
 });

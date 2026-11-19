@@ -1,0 +1,9 @@
+# House 03 — furniture sourcing rule
+
+For this public, offline-rendered Three.js walkthrough use an existing artist's model for movable furniture, clothing, sanitaryware, appliances, lamps and decorative objects. First look for free stock of architectural-visualisation quality. Being free to download is not the same as being legal to redistribute inside an extractable GLB. Record the original publisher, author, work title, commercial/redistribution terms and modifications. Prefer CC0 and credited CC BY. Do not use ordinary BlendKit royalty-free items by default; individually marked CC0 items are different.
+
+Scale, orient, fit, re-finish or optimise the supplied object; don't substitute a new primitive approximating the product. If no suitable model is cleared, stop on that object and show the options. Purpose-built walls/slabs, stairs, lift and its mechanisms, openings, integrated fit-to-plan panelling, rails, worktops, curtain runs, floor finishes, mirror surfaces and navigation proxies are exceptions. The schematic floor model is intentionally simplified, not a furniture catalogue.
+
+The browser loads the new catalogue by floor. See site/demo/architect-studio/showroom/stock-fittings.js, stock-register.json and stock-notices.txt; the public credits are also available through the visitor guide. Every fit-*.glb is attributed inside the file and fingerprinted in both the register and the release gate. The previous seats/coffee tables included in the base house but superseded at runtime are not new custom products. The studio project's native Unreal stills are distinct from the interactive web fit-out.
+
+Before a release, check the camera from the landing, from behind the cinema seats, at the washbasin and at the level of the flush plate, as well as actual keyboard/touch movement. No production deployment is implied by a request to change the local demo.
