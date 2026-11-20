@@ -8,3 +8,7 @@
 #guide{max-height:88vh;max-height:88dvh;overflow:auto}
 #resolution{font-size:16px;min-height:44px}
 #guide #resolution-hint{font-size:13px;color:#5c6254;margin:6px 0 14px}
+#motion-controls{position:absolute;z-index:1;top:12px;right:clamp(12px,3vw,36px);display:flex;gap:5px}
+#motion-controls button{min-height:44px;padding:0 12px;border:1px solid #ded8c9;background:#f6f3eb;color:#33382c;font-size:13px}
+#motion-toggle[aria-pressed=true]{background:#353e32;color:#fffaf0;border-color:#56614e}
+@media(max-width:650px){#view:has(#motion-controls:not([hidden])) #notice{top:66px}}

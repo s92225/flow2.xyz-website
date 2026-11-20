@@ -13,6 +13,7 @@ import {finishEnvelope} from './envelope.js';
 import {setupResolution,touchDevice} from './resolution.js';
 import {qualityControls,quality} from './arrival.js';
 import {bindLook} from './look.js';
+import {bindMotionLook} from './motion-look.js';
 
 const $=id=>document.getElementById(id), en=new URLSearchParams(location.search).get('lang')==='en', t=(zh,eng)=>en?eng:zh;
 const canvas=$('room'), guide=$('guide'), text=(id,zh,eng)=>$(id).textContent=t(zh,eng);
@@ -26,11 +27,11 @@ if(en){
 }
 function set(el,key,value){if(el[key]!==value)el[key]=value}
 function attr(el,key,value){if(el.getAttribute(key)!==value)el.setAttribute(key,value)}
-let cancelWalk=()=>{},cancelLook=()=>{},keys=new Set();
+let cancelWalk=()=>{},cancelLook=()=>{},releaseMotion=()=>{},keys=new Set();
 if(en){text('lift-guide','','Call the lift in any of the three lobbies. Enter when the doors open, choose a floor, then exit after arrival.');text('bath-guide','','At a bathroom door, tap the door, use the door button or press E. Guided walks open and close it for you.')}
 $('help').onclick=()=>{cancelLook();cancelWalk();keys.clear();guide.showModal()};$('closeGuide').onclick=()=>guide.close();
 const notice=(zh,eng)=>{text('notice',zh,eng);clearTimeout(notice.timer);notice.timer=setTimeout(()=>$('notice').textContent='',2400)};
-function fallback(){cancelLook();$('cover').hidden=false;$('tools').hidden=true;$('progress').hidden=true;$('stillLink').hidden=false;$('arrival-quality').closest('.pref').hidden=true;text('load','未能顯示即時 3D。可以重新載入，或先睇項目圖輯。','Live 3D is unavailable. Reload to retry, or view the project photographs.'); }
+function fallback(){cancelLook();releaseMotion();$('motion-controls').hidden=true;$('cover').hidden=false;$('tools').hidden=true;$('progress').hidden=true;$('stillLink').hidden=false;$('arrival-quality').closest('.pref').hidden=true;text('load','未能顯示即時 3D。可以重新載入，或先睇項目圖輯。','Live 3D is unavailable. Reload to retry, or view the project photographs.'); }
 canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();fallback()});canvas.addEventListener('webglcontextrestored',()=>location.reload());
 const finishes=[
  {id:'linen',label:t('燕麥亞麻','Oat linen'),color:'#eee3d2',rough:.91,sheen:.25},
@@ -127,9 +128,33 @@ async function start(){
  const privacy=privacyRooms(scene,scene.getObjectByName('House / shell'),wing.fit,rayMeshes);
  const nav=makeNavigation(wing.fit,boxes),ray=new T.Raycaster(),pointer=new T.Vector2();let layer=0,poseDirty=false;
  cam.position.set(.64,eye,1.08);let yaw=1.31,pitch=-.115,door=0,doorGoal=0,route=[],destination=null,face=null,requestId=0,loadingWing=false;
- const pose=()=>({x:cam.position.x,z:cam.position.z,l:layer});
+ const pose=()=>({x:cam.position.x,z:cam.position.z,l:layer}),pitchLimits=[-1.18,1.12];
+ const motion=bindMotionLook({reduced,limits:pitchLimits,view:()=>({yaw,pitch}),state(next){
+  if(next==='calibrating'||next==='on')face=null;
+  const active=next==='on',waiting=next==='permission'||next==='calibrating';
+  $('motion-toggle').disabled=next==='permission';
+  attr($('motion-toggle'),'aria-pressed',String(active));
+  $('motion-center').hidden=!active;
+  const labels=next==='permission'?['等候允許…','Waiting for permission…']:waiting?['準備方向感應…','Starting motion…']:['手機轉視角','Device look'];
+  text('motion-toggle',...labels);set(canvas.dataset,'motion',next);
+ },error(reason){
+  const messages={
+   denied:['未獲方向感應權限，可以繼續用手指拖動畫面。','Motion permission was not granted. Drag to look around.'],
+   silent:['未收到方向感應資料，可以繼續用手指拖動畫面。','No orientation data received. Drag to look around.'],
+   unavailable:['呢個瀏覽器未能用方向感應，請用手指拖動畫面。','Device look is unavailable in this browser. Drag to look around.']};
+  notice(...messages[reason])
+ }});
+ releaseMotion=motion.stop;
+ $('motion-toggle').onclick=motion.toggle;$('motion-center').onclick=motion.recenter;
+ $('motion-guide').hidden=!mobile;
+ if(en){text('motion-toggle','','Device look');text('motion-center','','Recenter');
+  text('motion-guide','','On a phone or tablet, tap Device look and allow orientation access. Turn or tilt the device to look; tap the floor to walk. Tap Recenter to use the current device angle as your reference.')}
+ function adjustLook(dy,dp){
+  const next=clamp(pitch+dp,...pitchLimits);motion.nudge(dy,next-pitch);
+  yaw+=dy;pitch=next;poseDirty=true
+ }
  const paintPose=()=>{cam.rotation.set(pitch,-yaw,0,'YXZ');cam.updateMatrixWorld();for(const [k,v] of Object.entries({yaw:yaw.toFixed(3),pitch:pitch.toFixed(3),x:cam.position.x.toFixed(2),z:cam.position.z.toFixed(2),y:cam.position.y.toFixed(3),layer:String(layer)}))set(canvas.dataset,k,v);poseDirty=false;dirty()};
- function turnTo(p,tilt=-.085){const dx=p.x-cam.position.x,dz=p.z-cam.position.z;face={yaw:Math.atan2(dx,-dz),pitch:tilt}}
+ function turnTo(p,tilt=-.085){if(motion.follows)return;const dx=p.x-cam.position.x,dz=p.z-cam.position.z;face={yaw:Math.atan2(dx,-dz),pitch:tilt}}
  let lift;
  function labels(){const p=pose(),id=where(p),r=byId[id],out=['pool','garden','terrace'].includes(id),floor=layer%2?(surface(layer,p.x,p.z)>[0,2.1,0,6.075][layer]?Math.ceil(layer/2):Math.floor(layer/2)):layer/2;
   const next=canvas.dataset.zone!==id;set(canvas.dataset,'zone',id);
@@ -160,14 +185,14 @@ async function start(){
   cancelWalk();keys.clear();panel(false);const serial=requestId;destination=r;
   if($('cover').hidden&&['garden','pool','terrace'].includes(r.id))plant();
   try{if(!wing.readyAt(r)){loadingWing=true;labels();notice('正在準備樓層傢俬…','Preparing the floor…');await wing.ensureAt(r)}if(serial!==requestId)return;loadingWing=false;clearTimeout(notice.timer);$('notice').textContent='';
-   if(jump){place(r);const dx=r.tx-r.x,dz=r.tz-r.z;yaw=Math.atan2(dx,-dz);pitch=r.pitch??-.135;if(r.id==='foyer'&&new URLSearchParams(location.search).get('lift')==='1'){cam.position.set(3.54,eye,6.76);yaw=-Math.PI/2;pitch=-.04}destination=null;paintPose();labels()}
+   if(jump){place(r);const dx=r.tx-r.x,dz=r.tz-r.z;yaw=Math.atan2(dx,-dz);pitch=r.pitch??-.135;if(r.id==='foyer'&&new URLSearchParams(location.search).get('lift')==='1'){cam.position.set(3.54,eye,6.76);yaw=-Math.PI/2;pitch=-.04}destination=null;motion.recenter();paintPose();labels()}
    else if(!go(r,false,true)){destination=null;labels()}else labels();
   }catch(err){if($('cover').hidden){if(serial===requestId){cancelWalk();notice('樓層未能載入；可再選一次。','Floor unavailable. Choose the room to retry.')}}else throw err}
  }
  function warm(p){if(wing.readyAt(p)||loadingWing)return;loadingWing=true;labels();notice('正在準備前面嘅空間…','Preparing the space ahead…');wing.ensureAt(p).catch(()=>{cancelWalk();keys.clear();notice('樓層載入失敗，可在目錄重試。','Floor unavailable. Retry in the index.')}).finally(()=>{loadingWing=false;labels();dirty()})}
  $('route').onclick=()=>visit(byId[['pool','garden','terrace'].includes(where(pose()))?'living':'terrace']);
  directory({en,at:()=>({l:layer,id:where(pose())}),move:visit,stop:()=>{cancelLook();cancelWalk();keys.clear();panel(false)}});
- lift=liftRide({model:liftModel,pose,canvas,reduced,t,notice,prepare:wing.ensure,refresh:()=>{labels();dirty()},halt:()=>{cancelWalk();keys.clear();panel(false)},move:({x,y,z,l})=>{layer=l;cam.position.set(x,y,z);paintPose()},look:angle=>{face={yaw:angle,pitch:0}}});
+ lift=liftRide({model:liftModel,pose,canvas,reduced,t,notice,prepare:wing.ensure,refresh:()=>{labels();dirty()},halt:()=>{cancelWalk();keys.clear();panel(false)},move:({x,y,z,l})=>{layer=l;cam.position.set(x,y,z);paintPose()},look:angle=>{if(!motion.follows)face={yaw:angle,pitch:0}}});
  const keysAllowed=['KeyW','KeyS','KeyA','KeyD','ArrowUp','ArrowDown','ArrowLeft','ArrowRight','KeyE'];
  window.addEventListener('keydown',e=>{if(e.key==='Escape'){cancelLook();keys.clear();panel(false);cancelWalk();return}if(guide.open||$('index').open||!keysAllowed.includes(e.code)||e.altKey||e.ctrlKey||e.metaKey)return;e.preventDefault();
   if(e.code==='KeyE'){if(!e.repeat&&lift.key())return;if(!e.repeat&&(privacy.near(pose())||nearDoor()))toggleDoor();return}if(lift.locked()&&!['ArrowLeft','ArrowRight'].includes(e.code))return;cancelWalk();keys.add(e.code)});window.addEventListener('keyup',e=>keys.delete(e.code));window.addEventListener('blur',()=>keys.clear());
@@ -187,9 +212,7 @@ async function start(){
  const look=bindLook(canvas,{stop:cancelWalk,tap,turn(dx,dy,fps){
   // The mouse-look direction follows either mouse button. The touch gesture
   // instead moves the scene with the hand or pointer.
-  yaw+=(fps?1:-1)*dx*.0042;
-  pitch=clamp(pitch+(fps?-1:1)*dy*.0037,-1.18,1.12);
-  poseDirty=true
+  adjustLook((fps?1:-1)*dx*.0042,(fps?-1:1)*dy*.0037)
  }});
  cancelLook=look.cancel;
  function tick(ms){requestAnimationFrame(tick);const dt=Math.min(.1,(ms-(tick.last??ms))/1000);tick.last=ms;if(document.hidden||!$('cover').hidden)return;
@@ -198,7 +221,7 @@ async function start(){
   if(privacy.tick(dt,pose(),reduced,!!destination)){if(!mobile||!privacy.moving())r.shadowMap.needsUpdate=true;changed=true}
   if(door!==doorGoal){door+=Math.sign(doorGoal-door)*Math.min(Math.abs(doorGoal-door),dt*(reduced?7:1.35));const eased=door*door*(3-2*door);for(const [o,x] of doors)o.position.x=x+1.58*eased;if(!mobile||door===doorGoal)r.shadowMap.needsUpdate=true;changed=true}
   if(keys.size){const h=Number(keys.has('KeyD'))-Number(keys.has('KeyA')),f=Number(keys.has('KeyW')||keys.has('ArrowUp'))-Number(keys.has('KeyS')||keys.has('ArrowDown'));
-   yaw+=(Number(keys.has('ArrowRight'))-Number(keys.has('ArrowLeft')))*dt*1.45;
+   adjustLook((Number(keys.has('ArrowRight'))-Number(keys.has('ArrowLeft')))*dt*1.45,0);
    const k=dt*1.65/Math.max(1,Math.hypot(h,f)),dx=(Math.sin(yaw)*f+Math.cos(yaw)*h)*k,dz=(-Math.cos(yaw)*f+Math.sin(yaw)*h)*k;
    let p=pose();for(const [sx,sz] of [[dx,0],[0,dz]]){const next=nav.manual(p,p.x+sx,p.z+sz,open);if(!privacy.obstruction(p,next))p=next}
    if(!lift.locked()){if(!wing.readyAt(p)){warm(p);paintPose()}else place(p)}else paintPose();changed=true}
@@ -215,9 +238,11 @@ async function start(){
   if(face){const diff=T.MathUtils.euclideanModulo(face.yaw-yaw+Math.PI,TAU)-Math.PI;const mix=reduced?1:1-Math.exp(-dt*5);
    yaw+=diff*mix;pitch+= (face.pitch-pitch)*mix;if(Math.abs(diff)<.005&&Math.abs(face.pitch-pitch)<.005)face=null;paintPose();changed=true}
   if(!route.length&&!destination&&marker.visible){marker.visible=false;changed=true}
+  const tracked=guide.open||$('index').open?null:motion.tick(dt,yaw,pitch);
+  if(tracked){yaw=tracked.yaw;pitch=tracked.pitch;poseDirty=true}
   if(poseDirty)paintPose();
   if(changed){labels();dirty()}if(quality.mode!=='smooth'&&waterFrame(ms,canvas.dataset.zone))dirty();
-  if(redraw){redraw=false;r.render(scene,cam);resolution.observe(ms,performance.now()-started,changed||look.moving)}
+  if(redraw){redraw=false;r.render(scene,cam);resolution.observe(ms,performance.now()-started,changed||look.moving||!!tracked)}
  }
  paintPose();labels();
  if(startRoom&&!wing.readyAt(startRoom)){text('load','準備你揀嘅房間…','Preparing the room you selected…');progress.removeAttribute('value')}
@@ -225,7 +250,7 @@ async function start(){
  if(['garden','pool','terrace'].includes(startRoom?.id))await plant();
  resolution.fit();progress.value=94;
  await new Promise(resolve=>requestAnimationFrame(resolve));
- redraw=false;r.render(scene,cam);$('cover').hidden=true;$('tools').hidden=false;canvas.dataset.ready='true';
+ redraw=false;r.render(scene,cam);$('cover').hidden=true;$('tools').hidden=false;$('motion-controls').hidden=!mobile;canvas.dataset.ready='true';
  requestAnimationFrame(tick);
  const idle=(fn)=>typeof requestIdleCallback==='function'?requestIdleCallback(fn,{timeout:1200}):setTimeout(fn,0);
  // Let the input-ready frame paint, and don't begin background work during the first swipe.
