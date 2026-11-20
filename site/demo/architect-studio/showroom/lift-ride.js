@@ -7,6 +7,7 @@ const smooth=n=>n*n*(3-2*n),mix=(a,b,t)=>a+(b-a)*t;
 export function liftRide({model,pose,move,look,halt,prepare,refresh,notice,t,canvas,reduced}){
  const $=id=>document.getElementById(id),action=$('lift-action'),panel=$('lift-panel');
  const choices=[...panel.querySelectorAll('[data-stop]')],leave=$('lift-exit');
+ const prop=(o,k,v)=>{if(o[k]!==v)o[k]=v};
  let state='idle',dock=0,wanted=0,height=0,opening=0,aboard=false,time=0,origin=0,startPos=null;
  const busy=()=>aboard||state==='boarding'||state==='exiting';
  const near=()=>{const {x,z,l}=pose();return !(l%2)&&x>=1.95&&x<=3.72&&z>=6.39&&z<=7.21};
@@ -14,15 +15,15 @@ export function liftRide({model,pose,move,look,halt,prepare,refresh,notice,t,can
  const setCamera=(x,z)=>move({x,z,y:height+eye,l:dock*2});
  function ui(){
   const local=near(),f=pose().l/2,available=(state==='idle'||state==='open');
-  action.hidden=!local||busy();action.disabled=!available;
-  action.textContent=state==='open'&&dock===f?t('入升降機','Enter lift'):available?t('召喚升降機','Call lift'):t('升降機到站中…','Lift arriving…');
-  panel.hidden=!aboard;const open=state==='open';
-  choices.forEach((b,i)=>{b.disabled=!open||i===dock;b.setAttribute('aria-current',i===dock?'true':'false')});leave.disabled=!open;
-  leave.textContent=t('出升降機','Exit lift');
-  $('lift-status').textContent=state==='preparing'?t('準備樓層…','Preparing floor…'):open?t('已到 ','At ')+floorName(dock):state==='exiting'?t('出升降機','Leaving lift'):t('前往 ','To ')+floorName(wanted);
-  $('index-open').disabled=$('route').disabled=busy();
-  Object.assign(canvas.dataset,{lift:state,dock:String(dock),liftDoor:opening.toFixed(3)});
-  if(busy()){$('location').textContent=t('住戶升降機','Residential lift');$('tip').textContent=aboard&&open?t('揀樓層，或者出升降機。','Choose a floor or exit the lift.'):t('可以拖動視角。','Drag to look around.')}
+  prop(action,'hidden',!local||busy());prop(action,'disabled',!available);
+  prop(action,'textContent',state==='open'&&dock===f?t('入升降機','Enter lift'):available?t('召喚升降機','Call lift'):t('升降機到站中…','Lift arriving…'));
+  prop(panel,'hidden',!aboard);const open=state==='open';
+  choices.forEach((b,i)=>{prop(b,'disabled',!open||i===dock);const current=String(i===dock);if(b.getAttribute('aria-current')!==current)b.setAttribute('aria-current',current)});prop(leave,'disabled',!open);
+  prop(leave,'textContent',t('出升降機','Exit lift'));
+  prop($('lift-status'),'textContent',state==='preparing'?t('準備樓層…','Preparing floor…'):open?t('已到 ','At ')+floorName(dock):state==='exiting'?t('出升降機','Leaving lift'):t('前往 ','To ')+floorName(wanted));
+  prop($('index-open'),'disabled',busy());prop($('route'),'disabled',busy());
+  prop(canvas.dataset,'lift',state);prop(canvas.dataset,'dock',String(dock));prop(canvas.dataset,'liftDoor',opening.toFixed(3));
+  if(busy()){prop($('location'),'textContent',t('住戶升降機','Residential lift'));prop($('tip'),'textContent',aboard&&open?t('揀樓層，或者出升降機。','Choose a floor or exit the lift.'):t('可以拖動視角。','Drag to look around.'))}
  }
  function call(){
   if(!near()||busy()||!['idle','open'].includes(state))return;

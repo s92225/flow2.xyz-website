@@ -15,7 +15,7 @@ const infills=[
 const smooth=t=>t*t*(3-2*t);
 export function privacyRooms(scene,shell,fit,rayMeshes){
   fit.barriers.push(...infills);
-  const materials=new Map();shell.traverse(o=>{if(o.isMesh)materials.set(o.material.name,o.material)});
+  const materials=new Map();shell?.traverse(o=>{if(o.isMesh)materials.set(o.material.name,o.material)});
   const standard=(c,r,m=0)=>new T.MeshStandardMaterial({color:c,roughness:r,metalness:m});
   const wood=materials.get('UP_WalnutJoinery')||standard(0x614735,.54);
   const wall=materials.get('UP_PalePlaster')||standard(0xd8cfc2,.78);
@@ -73,5 +73,5 @@ export function privacyRooms(scene,shell,fit,rayMeshes){
       changed=true;
     }return changed;
   }
-  return {near,obstruction,set,tick};
+  return {near,obstruction,set,tick,moving:()=>doors.some(d=>d.t!==d.goal)};
 }

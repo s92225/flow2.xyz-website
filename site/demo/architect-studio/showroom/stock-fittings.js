@@ -3,7 +3,7 @@ import * as T from 'three';
 // Catalogue assets are oriented locally before placement. Never rotate a clone
 // of an already installed chair: that double-applies the living-room transform.
 const lists={
- house03:'coffee-main coffee-side coffee-round coffee-family place-setting light-floor sputnik chaise bench table-small',
+ house03:'coffee-main coffee-side coffee-round place-setting light-floor sputnik chaise bench table-small',
  ground:'bed-guest nightstand light-desk fridge oven hob pan knife board sink bowl spice knife-block base-cabinet wall-cabinet book coffee-round',
  first:'cinema audio trench shirt trousers salon-bag scent bench chandelier vanity mixer flush toilet-ceramic coffee-family table-library light-floor light-desk',
  second:'bed-primary nightstand sputnik light-desk bench trousers trench shirt salon-bag vanity mixer flush toilet-ceramic tub'

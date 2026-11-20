@@ -1,5 +1,6 @@
 import * as T from 'three';
-import {refitGround} from './joinery.js';
+import {refitGround,trimGroundSoffit} from './joinery.js';
+import {where} from './places.js';
 import {dressWing,correctedFit} from './finishing.js';
 const file=n=>new URL('./assets/'+n,import.meta.url).href;
 function useBounce(m,maps,fixed,textile,oak){
@@ -21,18 +22,26 @@ function useBounce(m,maps,fixed,textile,oak){
  diffuseColor.rgb*=mix(vec3(1.),wingBounce,floorMask);`)};
  m.customProgramCacheKey=()=>'fitroom-v2-'+fixed+':'+textile+':'+oak
 }
-export async function wings({scene,loader,kit,glass,rayMeshes,render,updateShadow,rug,rugBump}){
+export function wings({fit,envelope,scene,loader,kit,glass,quality,mobile,rayMeshes,render,updateShadow,rug,rugBump}){
  const sets={},jobs={},mirrors=[],tex=new T.TextureLoader();
- const [maps,fit,oakMap]=await Promise.all([Promise.all([0,1,2].map(i=>tex.loadAsync(file('bounce-'+i+'.webp')))),fetch(file('floor-fit.json')).then(r=>{if(!r.ok)throw Error('House floor data');return r.json()}),tex.loadAsync(file('upper-oak.webp'))]);
- oakMap.colorSpace=T.SRGBColorSpace;oakMap.wrapS=oakMap.wrapT=T.RepeatWrapping;
+ let lightmaps;
+ function lighting(){
+  if(!lightmaps)lightmaps=Promise.all([Promise.all([0,1,2].map(i=>tex.loadAsync(file('bounce-'+i+'.webp')))),tex.loadAsync(file('upper-oak.webp'))]).then(([maps,oakMap])=>{
+   oakMap.colorSpace=T.SRGBColorSpace;oakMap.wrapS=oakMap.wrapT=T.RepeatWrapping;return {maps,oakMap}
+  }).catch(e=>{lightmaps=null;throw e});
+  return lightmaps
+ }
  function load(key){
   if(jobs[key])return jobs[key];
-  jobs[key]=Promise.all([loader.loadAsync(file(key+'.glb')),kit.stock.ready(key)]).then(async([{scene:group}])=>{
-   kit.place(key,group,scene);if(key==='ground')refitGround(group,kit.stock);
-   group.name='House / '+key;scene.add(group);group.updateWorldMatrix(true,true);
-   dressWing(key,group,scene,render,kit.stock,{stone:new T.MeshStandardMaterial({color:0xbba990,roughness:.6})});group.updateWorldMatrix(true,true);const saved=new Map();
+  const geometry=envelope[key]?Promise.resolve(envelope[key]):loader.loadAsync(file(key+'.glb'));
+  jobs[key]=Promise.all([geometry,kit.stock.ready(key),lighting()]).then(([{scene:group},_,{maps,oakMap}])=>{
+   kit.place(key,group,scene);
+   if(key==='ground')refitGround(group,kit.stock);
+   if(key==='ground-envelope')trimGroundSoffit(group);
+   group.name=key==='ground-envelope'?'Permanent ground-floor shell':'House / '+key;scene.add(group);group.updateWorldMatrix(true,true);
+   dressWing(key,group,scene,render,kit.stock,{stone:new T.MeshStandardMaterial({color:0xbba990,roughness:.6}),mobile});group.updateWorldMatrix(true,true);const saved=new Map();
    group.traverse(o=>{
-    if(!o.isMesh)return;if(o.isReflector){mirrors.push(o);rayMeshes.push(o);return}
+    if(!o.isMesh)return;if(o.userData.mirrorRoom){mirrors.push(o);rayMeshes.push(o);return}
     let f=key==='second'?2:key==='first'?1:0;
     if(key==='shell'){let n=o;while(n){if(n.name==='SM_UP_FirstFloor'){f=1;break}if(n.name==='SM_UP_SecondFloor'){f=2;break}n=n.parent}}
     let mat=o.material;const name=mat.name||'';let textile=false;for(let n=o;n&&n!==group;n=n.parent){if(/rug|runner/i.test(n.name)){textile=true;break}}
@@ -55,15 +64,9 @@ export async function wings({scene,loader,kit,glass,rayMeshes,render,updateShado
     o.material=mat;o.castShadow=mat!==glass;o.receiveShadow=mat!==glass;
     o.userData.wing=key;rayMeshes.push(o)
    });
-   if(key==='ground'){
-    // The envelope remains separately addressable for architectural checks.
-    const envelope=new T.Group();envelope.name='Permanent ground-floor shell';scene.add(envelope);
-    for(const n of ['SM_KG_NewRooms','SM_UP_OpenFoyer']){const o=group.getObjectByName(n);if(o)envelope.attach(o)}
-   }
-   sets[key]=group;updateShadow();render();return group
+   sets[key]=group;syncMirrors();syncUpper();updateShadow();render();return group
   }).catch(e=>{console.warn('House wing could not be fitted:',key,e);delete jobs[key];throw e});return jobs[key]
  }
- await Promise.all([load('shell'),load('ground')]);
  // A small fixed light rig follows the occupied room; no dozens of per-fixture point lights on phones.
  const lights=Array.from({length:3},()=>{const a=new T.PointLight(0xffe4be,0,5,2);scene.add(a);return a});
  const landingLights=[[1.10,6.61,2.64,5,0xffefd9],[3.2,3.99,2.81,4,0xffebd4]];
@@ -76,18 +79,38 @@ export async function wings({scene,loader,kit,glass,rayMeshes,render,updateShado
   kitchen:[[10.37,6.01,1.61,4,0xffcf9b],[12.75,5.22,2.80,10,0xffe6c9],[10.4,3.88,2.84,6,0xffefd8]],
   reading:[[9.12,-1.75,1.4,4,0xffca95],[8.3,.61,2.6,9,0xffe7d1]],family:[[1.28,-1.70,1.22,4,0xffd19c],[3.48,.60,2.68,9,0xffe4c3]]
  };
- let last='';
+ let last='',lastRoom='';
+ const upperOccluded=new Set(['living','sitting','dining','guest','kitchen','gardenStudy']);
+ function syncUpper(){
+  const want=!upperOccluded.has(lastRoom);
+  for(const key of ['first','second'])if(sets[key]&&sets[key].visible!==want){
+   sets[key].visible=want;
+   updateShadow()
+  }
+ }
+ function syncMirrors(){
+  const live=!mobile&&quality.mode==='detail';
+  for(const mirror of mirrors)mirror.visible=mirror.isReflector?live&&mirror.userData.mirrorRoom===lastRoom:!live;
+  render()
+ }
+ quality.onChange(syncMirrors);
  function activate(f,zone,p){
   const signature=f+zone;if(last===signature)return;last=signature;
-  // Start on the approach, before the stairs reveal either storey. Once
-  // loaded the wings stay in the building; the camera frustum still culls meshes.
-  if(zone==='foyer'||zone.startsWith('landing'))ensure(1).catch(()=>{}); // entry gate handles retries
-  for(const mirror of mirrors)mirror.visible=mirror.userData.mirrorRoom===zone;
-  const baseline=[0,4.2,7.95][f],fallback=f||['gardenStudy','foyer'].includes(zone)?[[p.x,p.z,2.62,8,0xffe8cf]]:[];
+  // Upper rooms are requested at the stair boundary, by a room link, or when
+  // a lift passenger chooses a floor. Opening a G/F door should not fetch them.
+  lastRoom=zone;syncUpper();syncMirrors();
+  const baseline=[0,4.2,7.95][f],outside=['pool','terrace','garden'].includes(zone);
+  const fallback=f||['gardenStudy','foyer'].includes(zone)?[[p.x,p.z,2.62,8,0xffe8cf]]:outside?[]:[2.8,7.2,11.8].map(x=>[x,.4,3.06,4,0xffe8cd]);
   const spec=zone.startsWith('stair')?[[6.60,5.60,2.80,13,0xffd6b1],[3,5.6,2.8,6,0xffecd0]]:(looks[zone]||fallback);
-  lights.forEach((o,i)=>{const a=spec[i];o.intensity=a?a[3]:0;if(a){o.position.set(a[0],baseline+a[2],a[1]);o.color.setHex(a[4])}});updateShadow();render()
+  lights.forEach((o,i)=>{const a=spec[i];o.intensity=a?a[3]:0;if(a){o.position.set(a[0],baseline+a[2],a[1]);o.color.setHex(a[4])}});render()
  }
- const ready=l=>l===0||!!(sets.first&&sets.second);
- const ensure=l=>l===0?Promise.resolve():Promise.all([load('first'),load('second')]);
- return {fit:correctedFit(fit),activate,ready,ensure}
+ // Walls, slabs and stair flights are present from the first visible frame.
+ // These keys now control only room furnishings, never the building.
+ const keysFor=l=>!l?[]:['ground','first','second'];
+ function keysAt(p){
+  if(p.l)return keysFor(p.l);
+  return ['foyer','guest','gardenStudy','kitchen'].includes(where(p))?['ground']:[]
+ }
+ const have=keys=>keys.every(k=>!!sets[k]),fetchAll=keys=>Promise.all(keys.map(load)),ensure=l=>fetchAll(keysFor(l));
+ return {fit:correctedFit(fit),prepareEnvelope:()=>fetchAll(['shell','ground-envelope']),activate,ready:l=>have(keysFor(l)),ensure,readyAt:p=>have(keysAt(p)),ensureAt:p=>fetchAll(keysAt(p)),preloadGround:()=>load('ground')}
 }

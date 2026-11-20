@@ -4,21 +4,25 @@ const unit=new T.BoxGeometry(1,1,1),surface=(color,roughness=.65,metalness=0)=>n
 function box(g,n,x,y,z,w,h,d,mat){
  const o=new T.Mesh(unit,mat);o.name=n;o.scale.set(w,h,d);o.position.set(x,y,z);o.castShadow=o.receiveShadow=true;g.add(o);return o;
 }
-export function refitGround(g,stock){
- let walnut,ceiling;const obsolete=[];
- g.traverse(o=>{
-  if(o.material?.name==='Kitchen_Rich_Walnut')walnut=o.material;
-  if(o.material?.name==='Kitchen_Opal_Linear')obsolete.push(o);
- });
+export function trimGroundSoffit(g){
+ let ceiling;const obsolete=[];
  // This material primitive contains the four welded ceiling boxes, including the
  // full deck through the new shaft. Rebuild their measured footprints, rather than
  // concealing the deck from the camera while riding through it.
  g.getObjectByName('SM_UP_OpenFoyer')?.traverse(o=>{if(o.material?.name==='M_CeilingChalk'){ceiling=o.material;obsolete.push(o)}});
- for(const n of ['SM_KG_KitchenWallCabinets','SM_KG_KitchenTallPantry']){const o=g.getObjectByName(n);if(o)obsolete.push(o)}
  for(const o of obsolete)o.removeFromParent();
  const chalk=ceiling||surface(0xd5cbb9);
  for(const [a,b,c,d] of [[.02,4.10,3.055,6.18],[1.86,4.10,6.18,7.4],[-1,.02,5.29,6.32],[-4.16,-.90,3.055,6.28],[2.215,4.015,2.87,3.055]])
   box(g,'Trimmed ground soffit',(a+b)/2,3.425,(c+d)/2,b-a,.15,d-c,chalk);
+}
+export function refitGround(g,stock){
+ let walnut;const obsolete=[];
+ g.traverse(o=>{
+  if(o.material?.name==='Kitchen_Rich_Walnut')walnut=o.material;
+  if(o.material?.name==='Kitchen_Opal_Linear')obsolete.push(o);
+ });
+ for(const n of ['SM_KG_KitchenWallCabinets','SM_KG_KitchenTallPantry']){const o=g.getObjectByName(n);if(o)obsolete.push(o)}
+ for(const o of obsolete)o.removeFromParent();
  const wood=walnut||surface(0x725138),linen=surface(0xb9aa96,.46),steel=surface(0xb3aba0,.34,.65),dark=surface(0x393631,.43,.48),brass=surface(0x9e8059,.38,.68);
  const opal=surface(0xffe0aa);opal.emissive.setHex(0xffc783);opal.emissiveIntensity=.70;
  const k=new T.Group();k.name='Fitted kitchen fittings';g.add(k);

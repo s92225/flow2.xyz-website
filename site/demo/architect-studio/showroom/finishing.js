@@ -55,8 +55,13 @@ export function dressWing(key,g,scene,render,stock,materials){
   slab(g,bx,y+1.27,bz,along?1.02:.063,2.46,along?.06:1.0,materials.stone).name='Wall-bedded vanity panel';
   const mirrorFrame=new T.Group();mirrorFrame.position.set(bx-(along?0:.032),y+1.64,bz-(along?.031:0));mirrorFrame.rotation.y=along?Math.PI:-Math.PI/2;g.add(mirrorFrame);
   const disk=new T.Mesh(new T.CylinderGeometry(1,1,.018,64),brass);disk.rotation.x=Math.PI/2;disk.scale.set(.308,1,.428);disk.position.z=.008;mirrorFrame.add(disk);
-  const mirror=new Reflector(new T.CircleGeometry(1,64),{textureWidth:320,textureHeight:320,color:0xccc8c0,clipBias:.003,multisample:0});mirror.name='Working vanity mirror';mirror.scale.set(.298,.418,1);mirror.position.z=.005;
-  mirror.position.z=.018;mirror.userData.mirrorRoom={SM_UPF_HerVanity:'mainBath',SM_UPF_HisVanity:'bath2',SM_UPF_Suite2Vanity:'westBath',SM_UPF_Suite3Vanity:'eastBath'}[k];mirror.visible=false;mirrorFrame.add(mirror);
+  // Touch devices use the existing environment texture, not another full scene render.
+  const mirrorGeo=new T.CircleGeometry(1,64),zone={SM_UPF_HerVanity:'mainBath',SM_UPF_HisVanity:'bath2',SM_UPF_Suite2Vanity:'westBath',SM_UPF_Suite3Vanity:'eastBath'}[k];
+  const still=new T.Mesh(mirrorGeo,std(0xa2a29a,.22,.98)),live=materials.mobile?null:new Reflector(mirrorGeo,{textureWidth:320,textureHeight:320,color:0xccc8c0,clipBias:.003,multisample:0});
+  for(const [mirror,name] of [[still,'Environment-lit vanity mirror'],[live,'Working vanity mirror']]){
+   if(!mirror)continue;mirror.name=name;mirror.scale.set(.298,.418,1);mirror.position.z=.018;
+   mirror.userData.mirrorRoom=zone;mirror.visible=mirror===still;mirrorFrame.add(mirror)
+  }
   slab(mirrorFrame,0,.59,.019,.38,.031,.040,brass).name='Surface-mounted vanity light';
  }
 }
